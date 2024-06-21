@@ -58,20 +58,20 @@ class EnsembleModelingUtil(BaseUtil):
         #Preloading core and preselected template
         self.gs_template = None
         if params["gs_template_ref"]:
-            self.gs_template = self.get_template(params["gs_template_ref"],None)
+            self.msrecon.gs_template = self.msrecon.get_template(params["gs_template_ref"],None)
         if params["core_template_ref"]:
-            self.core_template = self.get_template(params["core_template_ref"],None)
+            self.msrecon.core_template = self.msrecon.get_template(params["core_template_ref"],None)
         else:
-            self.core_template = self.get_template(self.templates["core"],None)  
+            self.msrecon.core_template = self.msrecon.get_template(self.templates["core"],None)  
         #Initializing classifier
-        genome_classifier = self.get_classifier()
+        genome_classifier = self.msrecon.get_classifier()
         #Initializing output data tables
         current_output = {"Model":None,"Genome":None,"Genes":None,"Class":None,
                           "Model genes":None,"Reactions":None,
                           "Core GF":None,"GS GF":None,"Growth":None,"Comments":[]}
         #Retrieving genomes and building models one by one
         template_type = params["gs_template"]
-        genome = self.get_msgenome(params["genome_ref"])
+        genome = self.msrecon.get_msgenome(params["genome_ref"])
         #Initializing output row
         current_output["Comments"] = []
         gid = genome.id
@@ -97,15 +97,15 @@ class EnsembleModelingUtil(BaseUtil):
                 current_output["Comments"].append("Cyanobacteria not yet supported. Skipping genome.")
             else:
                 current_output["Comments"].append("Unrecognized genome class "+current_output["Class"]+". Skipping genome.")
-        if not self.gs_template:
-            self.gs_template = self.get_template(self.templates[template_type],None)
+        if not self.msrecon.gs_template:
+            self.msrecon.gs_template = self.msrecon.get_template(self.msrecon.templates[template_type],None)
         #Building model            
         base_model = FBAModel({'id':gid+params["suffix"], 'name':genome.scientific_name})
-        builder = MSBuilder(genome, self.gs_template)
+        builder = MSBuilder(genome, self.msrecon.gs_template)
         annoapi = self.msrecon.anno_client(native_python_api=True)
         annoont = AnnotationOntology.from_kbase_data(annoapi.get_annotation_ontology_events({
             "input_ref" : params["genome_ref"]
-        }),params["genome_ref"],self.module_dir+"/data/")
+        }),params["genome_ref"],self.msrecon.module_dir+"/data/")
         gene_term_hash = annoont.get_gene_term_hash(None,params["ontology_events"],True,False)
         
         for gene in gene_term_hash:
@@ -120,14 +120,14 @@ class EnsembleModelingUtil(BaseUtil):
                     builder.search_name_to_genes[f_norm].add(gene.id)
         mdl = builder.build(base_model, '0', False, False)
         mdl.genome = genome
-        mdl.template = self.gs_template
-        mdl.core_template_ref = str(self.core_template.info)
+        mdl.template = self.msrecon.gs_template
+        mdl.core_template_ref = str(self.msrecon.core_template.info)
         mdl.genome_ref = str(genome.info)
-        mdl.template_ref = str(self.gs_template.info)
+        mdl.template_ref = str(self.msrecon.gs_template.info)
         current_output["Core GF"] = "NA" 
         mdlutl = MSModelUtil.get(mdl)
         if params["atp_safe"]:
-            atpcorrection = MSATPCorrection(mdlutl,self.core_template,params["atp_medias"],load_default_medias=params["load_default_medias"],max_gapfilling=params["max_gapfilling"],gapfilling_delta=params["gapfilling_delta"],forced_media=params["forced_atp_list"],default_media_path=self.module_dir+"/data/atp_medias.tsv")
+            atpcorrection = MSATPCorrection(mdlutl,self.msrecon.core_template,params["atp_medias"],load_default_medias=params["load_default_medias"],max_gapfilling=params["max_gapfilling"],gapfilling_delta=params["gapfilling_delta"],forced_media=params["forced_atp_list"],default_media_path=self.msrecon.module_dir+"/data/atp_medias.tsv")
             tests = atpcorrection.run_atp_correction()
             current_output["Core GF"] = len(atpcorrection.cumulative_core_gapfilling)
         #Setting the model ID so the model is saved with the correct name in KBase
@@ -145,7 +145,7 @@ class EnsembleModelingUtil(BaseUtil):
                 "default_objective":"bio1",#
                 "output_data":current_output,#
                 "forced_atp_list":params["forced_atp_list"],
-                "templates":[self.gs_template],
+                "templates":[self.msrecon.gs_template],
                 "internal_call":True,
                 "gapfilling_mode":params["gapfilling_mode"],
                 "base_media":params["base_media"],
@@ -171,11 +171,15 @@ class EnsembleModelingUtil(BaseUtil):
         
     def gapfill_ensemble_model(self,params):
         self.msrecon.initialize_call("gapfill_ensemble_model",params,True)
-        self.msrecon.validate_args(params,["workspace","model"],{
+        self.msrecon.validate_args(params,["workspace","model_ref"],{
+            "change_to_complete":False,
             "atp_safe":True,
             "forced_atp_list":[],
             "suffix":".gf",
             "media_list":["KBaseMedia/Complete"],
+            "limit_medias":[],
+            "limit_thresholds":[],
+            "is_max_limits":[],
             "templates":None,
             "source_models":None,
             "target_reaction":"bio1",
@@ -186,15 +190,26 @@ class EnsembleModelingUtil(BaseUtil):
             "gapfilling_mode":"Cumulative",
             "base_media":None,
             "compound_list":[],
-            "base_media_target_element":"C"
+            "base_media_target_element":"C",
+            "output_data":None,
+            "model_obj":None,
+            "media_objs":None,
+            "core_template_ref":None
+
+
         })
         base_comments = []
+        default_media = "KBaseMedia/AuxoMedia"
         if params["change_to_complete"]:
             base_comments.append("Changing default to complete.")
             default_media = "KBaseMedia/Complete"
         current_output = {"Model":None,"Genome":None,"Genes":None,"Class":None,
             "Model genes":None,"Reactions":None,"Core GF":None,"GS GF":None,"Growth":None,"Comments":[]}
-        mdlutl = self.get_model(params["model"])
+        if params["output_data"]:
+            current_output = params["output_data"]
+        if not params["model_obj"]:
+            params["model_obj"] = self.get_model(params["model_ref"])
+        mdlutl = params["model_obj"]
         #Processing media
         if not params["media_objs"]:
             params["media_objs"] = self.process_media_list(params["media_list"],default_media,params["workspace"])
@@ -270,17 +285,15 @@ class EnsembleModelingUtil(BaseUtil):
         current_output["Model genes"] = len(mdlutl.model.genes)
         #Saving completely gapfilled model
         self.save_model(mdlutl,params["workspace"],None,params["suffix"])
-        if not params["internal_call"]:
-            result_table = result_table.append(current_output, ignore_index = True)
         output = {}
         if not params["internal_call"]:
-            self.build_dataframe_report(result_table,params["model_objs"])
+            self.msrecon.build_report(current_output)
             if params["save_report_to_kbase"]:
-                output = self.save_report_to_kbase()
+                output = self.msrecon.save_report_to_kbase()
             if params["return_data"]:
-                output["data"] = result_table.to_json()
+                output["data"] = current_output
             if params["return_model_objects"]:
-                output["model_objs"] = params["model_objs"]
+                output["model_obj"] = mdlutl
         return output
     
     def run_ensemble_fba(self,params):
@@ -339,6 +352,5 @@ class EnsembleModelingUtil(BaseUtil):
             if params["return_model_objects"]:
                 output["model_objs"] = params["model_objs"]
         return output
-
-
+    
 util = EnsembleModelingUtil()
