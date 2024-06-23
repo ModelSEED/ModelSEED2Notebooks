@@ -41,3 +41,4 @@ class BaseUtil(KBDevUtils):
         self.annoapi = self.anno_client(native_python_api=True)
         self.obs_ec = None
         self.msseedrecon()
+        self.msrecon.util = self
