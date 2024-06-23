@@ -19,12 +19,11 @@ from modelseedpy.helpers import get_template
 class EnsembleModelingUtil(BaseUtil):
     def __init__(self):
         BaseUtil.__init__(self)
-        self.get_kbdevutil("EnsembleModeling")
         self.get_msrecon("EnsembleModeling")
 
     def build_ensemble_model(self,params):
-        self.msrecon.initialize_call("build_ensemble_model",params,True)
-        self.msrecon.validate_args(params,["workspace","genome_ref"],{
+        self.initialize_call("build_ensemble_model",params,True)
+        self.validate_args(params,["workspace","genome_ref"],{
             "ontology_events":[],
             "all_events":True,
             "run_gapfilling":True,
@@ -50,100 +49,45 @@ class EnsembleModelingUtil(BaseUtil):
             "gs_template_ref":None,
             "core_template_ref":None
         })
-        default_media = "KBaseMedia/AuxoMedia"
-        if params["change_to_complete"]:
-            default_media = "KBaseMedia/Complete"
-        #Processing media
-        params["gapfilling_media_objs"] = self.process_media_list(params["gapfilling_media_list"],default_media,params["workspace"])
-        #Preloading core and preselected template
-        self.gs_template = None
-        if params["gs_template_ref"]:
-            self.msrecon.gs_template = self.msrecon.get_template(params["gs_template_ref"],None)
-        if params["core_template_ref"]:
-            self.msrecon.core_template = self.msrecon.get_template(params["core_template_ref"],None)
-        else:
-            self.msrecon.core_template = self.msrecon.get_template(self.templates["core"],None)  
-        #Initializing classifier
-        genome_classifier = self.msrecon.get_classifier()
-        #Initializing output data tables
-        current_output = {"Model":None,"Genome":None,"Genes":None,"Class":None,
-                          "Model genes":None,"Reactions":None,
-                          "Core GF":None,"GS GF":None,"Growth":None,"Comments":[]}
-        #Retrieving genomes and building models one by one
-        template_type = params["gs_template"]
-        genome = self.msrecon.get_msgenome(params["genome_ref"])
-        #Initializing output row
-        current_output["Comments"] = []
-        gid = genome.id
-        current_output["Model"] = gid+params["suffix"]+'<br><a href="'+gid+params["suffix"]+'-recon.html" target="_blank">(see reconstruction report)</a><br><a href="'+gid+params["suffix"]+'-full.html" target="_blank">(see full view)</a>'
-        current_output["Genome"] = genome.info.metadata["Name"]
-        current_output["Genes"] = genome.info.metadata["Number of Protein Encoding Genes"]
-        #Pulling annotation priority
-        current_output["Comments"].append("Other annotation priorities not supported by this app yet. Using RAST.")
-        if template_type == "auto":
-            current_output["Class"] = genome_classifier.classify(genome)
-            if current_output["Class"] == "P":
-                current_output["Class"] = "Gram Positive"
-                template_type = "gp"
-            elif current_output["Class"] == "N" or current_output["Class"] == "--":
-                current_output["Class"] = "Gram Negative"
-                template_type = "gn"
-            elif current_output["Class"] == "A":
-                current_output["Class"] = "Archaea"
-                template_type = "ar"
-            elif current_output["Class"] == "C":
-                current_output["Class"] = "Cyanobacteria"
-                template_type = "cyano"
-                current_output["Comments"].append("Cyanobacteria not yet supported. Skipping genome.")
-            else:
-                current_output["Comments"].append("Unrecognized genome class "+current_output["Class"]+". Skipping genome.")
-        if not self.msrecon.gs_template:
-            self.msrecon.gs_template = self.msrecon.get_template(self.msrecon.templates[template_type],None)
-        #Building model            
-        base_model = FBAModel({'id':gid+params["suffix"], 'name':genome.scientific_name})
-        builder = MSBuilder(genome, self.msrecon.gs_template)
-        annoapi = self.msrecon.anno_client(native_python_api=True)
-        annoont = AnnotationOntology.from_kbase_data(annoapi.get_annotation_ontology_events({
-            "input_ref" : params["genome_ref"]
-        }),params["genome_ref"],self.msrecon.module_dir+"/data/")
-        gene_term_hash = annoont.get_gene_term_hash(None,params["ontology_events"],True,False)
-        
-        for gene in gene_term_hash:
-            for term in gene_term_hash[gene]:
-                if term.ontology.id == "SSO":
-                    name = annoont.get_term_name(term)
-                    f_norm = normalize_role(name)
-                    if f_norm not in builder.search_name_to_genes:
-                        builder.search_name_to_genes[f_norm] = set()
-                        builder.search_name_to_original[f_norm] = set()
-                    builder.search_name_to_original[f_norm].add(name)
-                    builder.search_name_to_genes[f_norm].add(gene.id)
-        mdl = builder.build(base_model, '0', False, False)
-        mdl.genome = genome
-        mdl.template = self.msrecon.gs_template
-        mdl.core_template_ref = str(self.msrecon.core_template.info)
-        mdl.genome_ref = str(genome.info)
-        mdl.template_ref = str(self.msrecon.gs_template.info)
-        current_output["Core GF"] = "NA" 
-        mdlutl = MSModelUtil.get(mdl)
-        if params["atp_safe"]:
-            atpcorrection = MSATPCorrection(mdlutl,self.msrecon.core_template,params["atp_medias"],load_default_medias=params["load_default_medias"],max_gapfilling=params["max_gapfilling"],gapfilling_delta=params["gapfilling_delta"],forced_media=params["forced_atp_list"],default_media_path=self.msrecon.module_dir+"/data/atp_medias.tsv")
-            tests = atpcorrection.run_atp_correction()
-            current_output["Core GF"] = len(atpcorrection.cumulative_core_gapfilling)
-        #Setting the model ID so the model is saved with the correct name in KBase
-        mdlutl.get_attributes()["class"] = current_output["Class"]
-        mdlutl.wsid = gid+params["suffix"]
-        #Running gapfilling
-        current_output["GS GF"] = "NA"
+        msoutput = self.msrecon.build_metabolic_models({
+            "workspace":params["workspace"],
+            "genome_refs":[params["genome_ref"]],
+            "ontology_events":params["ontology_events"],
+            "extend_model_with_ontology":True,
+            "all_events":params["all_events"],
+            "run_gapfilling":False,
+            "atp_safe":params["atp_safe"],
+            "forced_atp_list":params["forced_atp_list"],
+            "base_media":params["base_media"],
+            "gapfilling_media_list":[],
+            "suffix":params["suffix"],
+            "core_template":params["core_template"],
+            "gs_template":params["gs_template"],
+            "template_reactions_only":params["template_reactions_only"],
+            "output_core_models":params["output_core_models"],
+            "save_report_to_kbase":False,
+            "return_data":params["return_data"],
+            "save_models_to_kbase":False,
+            "return_model_objects":True,
+            "change_to_complete":params["change_to_complete"],
+            "gapfilling_mode":params["gapfilling_mode"],
+            "max_gapfilling":params["max_gapfilling"],
+            "gapfilling_delta":params["gapfilling_delta"],
+            "sample_count":params["sample_count"],
+            "gs_template_ref":params["gs_template_ref"],
+            "core_template_ref":params["core_template_ref"]
+        }) 
+        ensemble = MSEnsemble(msoutput["model_obj"])
+        ensemblemdl = ensemble.sample_from_probabilities(from_reaction_probabilities=True,sample_count=1000)
         if params["run_gapfilling"]:
             self.gapfill_ensemble_model({
                 "media_objs":params["gapfilling_media_objs"],#
-                "model_obj":mdlutl,#
+                "gapfilling_media_list":params["gapfilling_media_list"],#
                 "atp_safe":params["atp_safe"],#
                 "workspace":params["workspace"],#
-                "suffix":"",#
+                "suffix":params["suffix"],#
                 "default_objective":"bio1",#
-                "output_data":current_output,#
+                "output_data":msoutput["data"],#
                 "forced_atp_list":params["forced_atp_list"],
                 "templates":[self.msrecon.gs_template],
                 "internal_call":True,
@@ -153,25 +97,19 @@ class EnsembleModelingUtil(BaseUtil):
                 "base_media_target_element":params["base_media_target_element"]
             })
         else:
-            self.msrecon.save_model(mdlutl,params["workspace"],None)
-            mdlutl.model.objective = "bio1"
-            mdlutl.pkgmgr.getpkg("KBaseMediaPkg").build_package(None)
-            current_output["Growth"] = "Complete:"+str(mdlutl.model.slim_optimize())
-        current_output["Reactions"] = mdlutl.nonexchange_reaction_count()
-        current_output["Model genes"] = len(mdlutl.model.genes)
-        output = {}
-        self.msrecon.build_report(current_output)
+            self.msrecon.save_model(ensemblemdl,params["workspace"])
+        self.msrecon.build_report(msoutput["data"])
         if params["save_report_to_kbase"]:
             output = self.msrecon.save_report_to_kbase()
         if params["return_data"]:
-            output["data"] = current_output
+            output["data"] = msoutput["data"]
         if params["return_model_objects"]:
-            output["model_obj"] = mdlutl
+            output["model_obj"] = ensemblemdl
         return output
         
     def gapfill_ensemble_model(self,params):
-        self.msrecon.initialize_call("gapfill_ensemble_model",params,True)
-        self.msrecon.validate_args(params,["workspace","model_ref"],{
+        self.initialize_call("gapfill_ensemble_model",params,True)
+        self.validate_args(params,["workspace","model_ref"],{
             "change_to_complete":False,
             "atp_safe":True,
             "forced_atp_list":[],
@@ -195,8 +133,6 @@ class EnsembleModelingUtil(BaseUtil):
             "model_obj":None,
             "media_objs":None,
             "core_template_ref":None
-
-
         })
         base_comments = []
         default_media = "KBaseMedia/AuxoMedia"
