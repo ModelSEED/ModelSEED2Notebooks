@@ -12,7 +12,7 @@ import hashlib
 import pandas as pd
 from pandas import DataFrame, read_csv, concat, set_option
 from cobrakbase.core.kbasefba import FBAModel
-from cobra.io import write_sbml_model, read_sbml_model
+import cobra
 from modelseedpy import AnnotationOntology, MSPackageManager, MSMedia, MSModelUtil, MSBuilder, MSATPCorrection, MSGapfill, MSGrowthPhenotype, MSGrowthPhenotypes, ModelSEEDBiochem
 from modelseedpy.core.msprobability import MSProbability
 from modelseedpy.core.annotationontology import convert_to_search_role, split_role
@@ -24,7 +24,7 @@ from modelseedpy.helpers import get_template
 
 class ADP1AnalysisUtil(BaseUtil):
     def __init__(self):
-        BaseUtil.__init__(self,"Analysis")
+        BaseUtil.__init__(self,"ADP1")
         self.succinate_media = self.msrecon.get_media("KBaseMedia/Complete")
         self.pyruvate_media = self.msrecon.get_media("KBaseMedia/Carbon-D-Glucose")
     

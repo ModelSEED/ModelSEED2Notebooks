@@ -18,8 +18,7 @@ from modelseedpy.helpers import get_template
 
 class EnsembleModelingUtil(BaseUtil):
     def __init__(self):
-        BaseUtil.__init__(self)
-        self.get_msrecon("EnsembleModeling")
+        BaseUtil.__init__(self,"EnsembleModeling")
 
     def build_ensemble_model(self,params):
         self.initialize_call("build_ensemble_model",params,True)
