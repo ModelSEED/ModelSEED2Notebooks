@@ -41,7 +41,7 @@ class BaseUtil(KBDevUtils):
         self.annoapi = self.anno_client(native_python_api=True)
         self.obs_ec = None
         self.msseedrecon()
-        self.media={"auxo":self.msrecon.get_media("94026/Auxotrophy_media")}
+        #self.media={"auxo":self.msrecon.get_media("94026/Auxotrophy_media")}
         self.msrecon.util = self
 
     def simulate_biolog_phenotypes(
@@ -57,7 +57,8 @@ class BaseUtil(KBDevUtils):
             save_fluxes=False,
             save_reaction_list=False,
             ignore_experimental_data=False,
-            flux_coefficients=None):
+            flux_coefficients=None,
+            recall_phenotypes=True):
         if base_media and type(base_media) == str:
             base_media = self.media[base_media]
         if type(phenotypeset) == str:

@@ -1,0 +1,13 @@
+,one,two,count
+0,nadph_c,nadp_c,109
+1,nadp_c,nadph_c,109
+2,pyr_c,pep_c,27
+3,nad_c,nadh_c,123
+4,nadh_c,nad_c,123
+5,pep_c,pyr_c,27
+6,mqn8_c,mql8_c,23
+7,mql8_c,mqn8_c,23
+8,q8_c,q8h2_c,23
+9,q8h2_c,q8_c,23
+10,fad_c,fadh2_c,25
+11,fadh2_c,fad_c,25

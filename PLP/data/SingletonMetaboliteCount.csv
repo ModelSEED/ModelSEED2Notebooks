@@ -1,0 +1,1878 @@
+,id,name,count
+0,octapb_c,Octanoate (protein bound),3
+1,cysi__L_e,L Cystine C6H12N2O4S2,1
+2,dhap_c,Dihydroxyacetone phosphate,16
+3,prbatp_c,1-(5-Phosphoribosyl)-ATP,2
+4,10fthf_c,10-Formyltetrahydrofolate,8
+5,btal_c,Butanal C4H8O,2
+6,6pgg_c,"6-Phospho-beta-D-glucosyl-(1,4)-D-glucose",2
+7,co2_e,CO2 CO2,2
+8,akg_e,2-Oxoglutarate,2
+9,gsn_e,Guanosine,2
+10,pydx5p_c,Pyridoxal 5'-phosphate,9
+11,3dhgulnp_c,3-keto-L-gulonate-6-phosphate,3
+12,g3ps_c,Glycerophosphoserine,2
+13,adphep_LD_c,ADP-L-glycero-D-manno-heptose,5
+14,lyx__L_c,L-Lyxose,2
+15,din_p,Deoxyinosine,3
+16,2pg_c,D-Glycerate 2-phosphate,3
+17,ptrc_p,Putrescine,4
+18,malt_p,Maltose C12H22O11,3
+19,pppn_p,Phenylpropanoate,2
+20,arbtn_p,Aerobactin minus Fe3,2
+21,hphhlipa_c,Heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA,2
+22,phphhlipa_c,Phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA,2
+23,13dpg_c,3-Phospho-D-glyceroyl phosphate,2
+24,murein3px4p_p,"Two disacharide linked murein units, tripeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)",3
+25,34dhpac_e,"3,4-Dihydroxyphenylacetaldehyde",2
+26,1odec11eg3p_c,1-octadec-11-enoyl-sn-glycerol 3-phosphate,3
+27,12dgr181_p,"1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)",3
+28,anhgm_e,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,2
+29,prbamp_c,1-(5-Phosphoribosyl)-AMP,2
+30,dsbdrd_c,Fused thiol:disulfide interchange protein (reduced),3
+31,cu2_p,Copper,4
+32,sla_c,Sulpholactaldehyde,2
+33,14glucan_p,"1,4-alpha-D-glucan",3
+34,grdp_c,Geranyl diphosphate,2
+35,ribflv_p,Riboflavin C17H20N4O6,1
+36,dms_e,Dimethyl sulfide,2
+37,pgp141_c,"Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)",3
+38,cysi__L_c,L Cystine C6H12N2O4S2,1
+39,fpram_c,2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine,2
+40,f1p_c,D-Fructose 1-phosphate,3
+41,dsbard_p,Periplasmic protein disulfide isomerase I (reduced),2
+42,thr__L_c,L-Threonine,10
+43,dcyt_p,Deoxycytidine,3
+44,2ddglcn_c,2-Dehydro-3-deoxy-D-gluconate,4
+45,fum_p,Fumarate,5
+46,galctn__L_e,L-Galactonate,2
+47,btn_e,Biotin,2
+48,pydxn_p,Pyridoxine,2
+49,ocdcea_e,Octadecenoate (n-C18:1),2
+50,preq0_c,7-cyano-7-carbaguanine,2
+51,tyr__L_p,L-Tyrosine,4
+52,dtdp4d6dg_c,DTDP-4-dehydro-6-deoxy-D-glucose,3
+53,acmum_e,N-Acetylmuramate,2
+54,man_p,D-Mannose,2
+55,adocbl_e,Adenosylcobalamin,2
+56,iscu_2fe2s_c,IscU with bound [2Fe-2S] cluster,4
+57,frulysp_c,Fructoselysine Phosphate,2
+58,dump_p,DUMP C9H11N2O8P,2
+59,novbcn_e,Novobiocin,3
+60,feenter_e,Fe-enterobactin,3
+61,eca4und_p,(enterobacterial common antigen)x4 undecaprenyl-diphosphate,2
+62,gg4abut_c,Gamma-glutamyl-gamma aminobutyric acid,2
+63,flxr_c,Flavodoxin reduced,7
+64,pa160_c,"1,2-dihexadecanoyl-sn-glycerol 3-phosphate",6
+65,lcts_c,Lactose C12H22O11,3
+66,arbtn_e,Aerobactin minus Fe3,3
+67,cdpdhdec9eg_c,"CDP-1,2-dihexadec-9-enoylglycerol",4
+68,aso3_c,Arsenite,2
+69,progly_c,L-Prolinylglycine,2
+70,3ohdcoa_c,3-Oxohexadecanoyl-CoA,2
+71,clpn161_p,"Cardiolipin (tetrahexadec-9-enoyl, n-C16:1)",3
+72,1ddecg3p_p,1-dodecanoyl-sn-glycerol 3-phosphate,2
+73,gln__L_e,L-Glutamine,2
+74,cpgn_un_e,Coprogen unloaded (no Fe(III)),3
+75,ca2_p,Calcium,3
+76,tre_e,Trehalose,2
+77,iscssh_c,IscS with bound sulfur,6
+78,glyald_c,D-Glyceraldehyde,3
+79,alaala_e,D-Alanyl-D-alanine,2
+80,novbcn_p,Novobiocin,2
+81,3ohexACP_c,3-Oxohexanoyl-[acyl-carrier protein],2
+82,g3pg_c,Glycerophosphoglycerol,16
+83,rpntp_c,?-D-ribose-1-methylphosphonate-5-triphosphate,2
+84,adocbl_c,Adenosylcobalamin,4
+85,3ocddec5eACP_c,3-oxo-cis-dodec-5-enoyl-[acyl-carrier protein],2
+86,gmplys_c,GMP-N-?-(N-?-acetyl lysine methyl ester) 5'-phosphoramidate,1
+87,r5p_c,Alpha-D-Ribose 5-phosphate,12
+88,clpn120_p,"Cardiolipin (tetradodecanoyl, n-C12:0)",2
+89,idon__L_e,L-Idonate,2
+90,akg_c,2-Oxoglutarate,28
+91,tcynt_c,Thiocyanate,2
+92,apg141_c,Acyl phosphatidylglycerol (n-C14:1),2
+93,ac_c,Acetate,16
+94,dca_c,Decanoate (n-C10:0),3
+95,pheme_e,Protoheme C34H30FeN4O4,2
+96,citr__L_c,L-Citrulline,2
+97,3hodcoa_c,(S)-3-Hydroxyoctadecanoyl-CoA,2
+98,all__D_e,D-Allose,2
+99,ca2_e,Calcium,2
+100,fe2_p,Fe2+ mitochondria,6
+101,dkdglcn_c,"2,5-Diketo-3-deoxy-D-gluconate",1
+102,chtbs_p,"N,N'-diacetylchitobiose",2
+103,34hpp_c,3-(4-Hydroxyphenyl)pyruvate,2
+104,fusa_p,Fusidic acid,2
+105,metglcur_c,1-O-methyl-Beta-D-glucuronate,2
+106,g1p_e,D-Glucose 1-phosphate,2
+107,duri_c,Deoxyuridine,5
+108,udcpdp_p,Undecaprenyl diphosphate,10
+109,ag_e,Silver,2
+110,pep_c,Phosphoenolpyruvate,34
+111,ala_B_c,Beta-Alanine,3
+112,h_c,H+,1079
+113,pa141_c,"1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate",6
+114,no2_e,Nitrite,2
+115,cdpdddecg_c,"CDP-1,2-didodecanoylglycerol",4
+116,rib__D_c,D-Ribose,8
+117,tag6p__D_c,D-Tagatose 6-phosphate,2
+118,2dr1p_c,2-Deoxy-D-ribose 1-phosphate,6
+119,gthrd_c,Reduced glutathione,18
+120,pe140_p,"Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)",3
+121,2agpg120_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0),4
+122,dhpppn_c,"3-(2,3-Dihydroxyphenyl)propanoate",3
+123,2tdecg3p_p,2-tetradecanoyl-sn-glycerol 3-phosphate,2
+124,ala__L_e,L-Alanine,2
+125,g6p_e,D-Glucose 6-phosphate,2
+126,actACP_c,Acetoacetyl-ACP,3
+127,2odecg3p_c,2-octadecanoyl-sn-glycerol 3-phosphate,2
+128,hdcea_c,Hexadecenoate (n-C16:1),9
+129,hdcoa_c,Hexadecenoyl-CoA (n-C16:1CoA),3
+130,actp_c,Acetyl phosphate,2
+131,2pglyc_c,2-Phosphoglycolate,1
+132,o16a4colipa_e,(O16 antigen)x4 core oligosaccharide lipid A,1
+133,acgam6p_c,N-Acetyl-D-glucosamine 6-phosphate,6
+134,g3pc_c,Sn-Glycero-3-phosphocholine,2
+135,thmpp_c,Thiamine diphosphate,5
+136,dmbzid_c,"5,6-Dimethylbenzimidazole",1
+137,val__L_p,L-Valine,4
+138,xtp_c,XTP,3
+139,udcpgl_c,Undecaprenol-diphosphate-glucose,1
+140,mepn_c,Methylphosphonic acid,2
+141,ppt_p,Phosphonate,2
+142,mepn_p,Methylphosphonic acid,2
+143,cd2_c,Cadmium,3
+144,pyr_p,Pyruvate,2
+145,tcynt_p,Thiocyanate,2
+146,ni2_c,Nickel,6
+147,acanth_c,N-Acetylanthranilate,1
+148,cyst__L_c,L-Cystathionine,2
+149,so2_p,Sulfur dioxide,2
+150,peamn_p,Phenethylamine,2
+151,mso3_e,Methanesulfonate,2
+152,mn2_c,Manganese,6
+153,dutp_c,DUTP C9H11N2O14P3,4
+154,murein5p5p_p,"Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)",6
+155,dmlz_c,"6,7-Dimethyl-8-(1-D-ribityl)lumazine",2
+156,pan4p_c,Pantetheine 4'-phosphate,2
+157,pa181_c,"1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate",6
+158,thrp_e,L-Threonine O-3-phosphate,2
+159,2agpg181_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1),2
+160,adprib_c,ADPribose C15H21N5O14P2,2
+161,octa_c,Octanoate (n-C8:0),4
+162,quln_c,Quinolinate,2
+163,tdecoa_c,Tetradecenoyl-CoA (n-C14:1CoA),3
+164,1odecg3p_p,1-octadecanoyl-sn-glycerol 3-phosphate,2
+165,dxyl_c,1-deoxy-D-xylulose,1
+166,dhptd_c,"4,5-dihydroxy-2,3-pentanedione",3
+167,thym_p,Thymine C5H6N2O2,2
+168,LalaLglu_e,L-alanine-L-glutamate,2
+169,mocogdp_c,Molybdopterin guanine dinucleotide,2
+170,lipa_c,KDO(2)-lipid (A),3
+171,mththf_c,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",4
+172,sheme_c,Siroheme C42H36FeN4O16,3
+173,sufbcd_2fe2s_c,SufBCD with bound [2Fe-2S] cluster,4
+174,all__D_p,D-Allose,2
+175,metsox_R__L_e,L-methionine-R-sulfoxide,2
+176,bwco_c,Tungsten bispterin cofactor,2
+177,pheme_p,Protoheme C34H30FeN4O4,2
+178,h2o_p,H2O H2O,170
+179,f_p,Fluoride,2
+180,hdca_p,Hexadecanoate (n-C16:0),11
+181,fru_c,D-Fructose,4
+182,gal1p_p,Alpha-D-Galactose 1-phosphate,3
+183,g3pe_e,Sn-Glycero-3-phosphoethanolamine,2
+184,dimp_p,DIMP C10H12N4O7P,2
+185,glyc3p_c,Glycerol 3-phosphate,41
+186,ctbt_p,Crotonobetaine,2
+187,anhm3p_c,"1,6-anhydrous-N-Acetylmuramyl-tripeptide",3
+188,2ahbut_c,(S)-2-Aceto-2-hydroxybutanoate,2
+189,clpn140_p,"Cardiolipin (tetratetradecanoyl, n-C14:0)",2
+190,murein5p4p_p,"Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)",3
+191,ser__L_c,L-Serine,22
+192,toct2eACP_c,Trans-Oct-2-enoyl-[acyl-carrier protein],3
+193,clpn141_p,"Cardiolipin (tetratetradec-7-enoyl, n-C14:1)",2
+194,12dgr180_p,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)",2
+195,2agpe140_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0),2
+196,ump_c,UMP C9H11N2O9P,12
+197,5drib_c,5'-deoxyribose,2
+198,2agpe120_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0),4
+199,4c2me_c,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol,2
+200,1agpg181_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1),2
+201,oxalcoa_c,Oxalyl-CoA,3
+202,uracp_c,Ureidoacrylate peracid,2
+203,preq1_c,7-aminomethyl-7-deazaguanine,1
+204,bmoco_c,Bis-molybdenum cofactor,2
+205,hdceap_c,Hexadecanoyl-phosphate (n-C16:1),3
+206,ade_e,Adenine,2
+207,mepn_e,Methylphosphonic acid,2
+208,bmoco1gdp_c,Bis-molybdopterin mono-guanine dinucleotide,2
+209,rmn_e,L-Rhamnose,2
+210,f_e,Fluoride,1
+211,3pg_c,3-Phospho-D-glycerate,4
+212,iprimv_c,Isoprimeverose,1
+213,2dhguln_c,2-Dehydro-L-gulonate,5
+214,psuri_c,Pseudouridine,2
+215,ctp_c,CTP C9H12N3O14P3,19
+216,dadp_c,DADP C10H12N5O9P2,4
+217,2ddglcn_e,2-Dehydro-3-deoxy-D-gluconate,2
+218,xan_c,Xanthine,8
+219,xu5p__D_c,D-Xylulose 5-phosphate,5
+220,aspsa_c,L-Aspartate 4-semialdehyde,3
+221,glyb_e,Glycine betaine,2
+222,xtsn_c,Xanthosine,4
+223,2p4c2me_c,2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol,2
+224,glcr_e,D-Glucarate,2
+225,lgt__S_c,(R)-S-Lactoylglutathione,2
+226,alltn_e,Allantoin,2
+227,cyan_c,Hydrogen cyanide,2
+228,f6p_e,D-Fructose 6-phosphate,2
+229,gam1p_c,D-Glucosamine 1-phosphate,2
+230,cu2_e,Copper,2
+231,zn2_e,Zinc,2
+232,ura_e,Uracil,2
+233,fadh2_c,Flavin adenine dinucleotide reduced,25
+234,dhpmp_c,Dihydroneopterin monophosphate,2
+235,15dap_p,"1,5-Diaminopentane",2
+236,pppi_c,Inorganic triphosphate,7
+237,lys__L_e,L-Lysine,2
+238,cynt_c,Cyanate,2
+239,xu5p__L_c,L-Xylulose 5-phosphate,3
+240,ascb6p_c,L-ascorbate-6-phosphate,2
+241,acmum6p_c,N-acetylmuramate 6-phosphate,3
+242,ocdca_e,Octadecanoate (n-C18:0),2
+243,glyclt_c,Glycolate C2H3O3,9
+244,ppap_c,Propanoyl phosphate,2
+245,hkntd_c,2-hydroxy-6-ketononatrienedioate,2
+246,gp4g_c,"P1,P4-Bis(5'-guanosyl) tetraphosphate",1
+247,all__D_c,D-Allose,2
+248,acnam_p,N-Acetylneuraminate,2
+249,sucr_p,Sucrose C12H22O11,2
+250,g6p_p,D-Glucose 6-phosphate,2
+251,glyb_c,Glycine betaine,5
+252,gmp_e,GMP C10H12N5O8P,2
+253,phaccoa_c,Phenylacetyl-CoA,3
+254,but_e,Butyrate (n-C4:0),2
+255,pnto__R_p,(R)-Pantothenate,2
+256,isetac_p,Isethionic acid,2
+257,amp_p,AMP C10H12N5O7P,2
+258,kdo2lipid4p_c,KDO(2)-lipid IV(A) with palmitoleoyl,2
+259,dhmptp_c,Dihydromonapterin-triphosphate,1
+260,cobalt2_e,Co2+,2
+261,cbl1_c,Cob(I)alamin,2
+262,gal_bD_p,Beta D-Galactose,2
+263,alaala_p,D-Alanyl-D-alanine,6
+264,fald_p,Formaldehyde,2
+265,uri_p,Uridine,5
+266,thex2eACP_c,Trans-Hex-2-enoyl-[acyl-carrier protein],3
+267,ocdcea_p,Octadecenoate (n-C18:1),11
+268,LalaDgluMdapDala_e,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine",2
+269,t3c9palmeACP_c,Trans-3-cis-9-palmitoleoyl-[acyl-carrier protein],3
+270,hlipa_c,Heptosyl-kdo2-lipidA,2
+271,dimp_c,DIMP C10H12N4O7P,2
+272,odecoa_c,Octadecenoyl-CoA (n-C18:1CoA),3
+273,cpe160_c,"Cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)",1
+274,cgly_c,Cys Gly C5H10N2O3S,2
+275,phhlipa_c,Phospho-heptosyl-heptosyl-kdo2-lipidA,2
+276,alpp_p,Applipoprotein,2
+277,lpp_p,Lipoprotein,2
+278,5mtr_p,5-Methylthio-D-ribose,2
+279,1agpe181_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1),2
+280,sf_c,6-deoxy-6-sulphofructose,2
+281,fuc__L_c,L-Fucose,2
+282,ghb_c,Gamma-hydroxybutyrate,1
+283,4abutn_c,4-Aminobutanal,2
+284,accoa_c,Acetyl-CoA,41
+285,arg__L_c,L-Arginine,9
+286,LalaLglu_p,L-alanine-L-glutamate,2
+287,26dap_LL_c,"LL-2,6-Diaminoheptanedioate",2
+288,tma_e,Trimethylamine,2
+289,mdhdhf_c,"(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one",2
+290,occoa_c,Octanoyl-CoA (n-C8:0CoA),4
+291,moadamp_c,MoaD Protein with bound AMP,2
+292,lyx__L_e,L-Lyxose,2
+293,mththf_p,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",3
+294,gtp_e,GTP C10H12N5O14P3,2
+295,3hbz_c,3-Hydroxybenzoate,1
+296,man6p_p,D-Mannose 6-phosphate,2
+297,cellb_e,Cellobiose,3
+298,prpmn_c,?-D-ribose-1-methylphosphonate 5-phosphate,2
+299,uamr_c,UDP-N-acetylmuramate,4
+300,fecrm_un_c,Ferrichrome minus Fe(III),4
+301,asp__L_c,L-Aspartate,23
+302,lipa_cold_p,Cold adapted KDO(2)-lipid (A),2
+303,sbt__D_e,D-Sorbitol,2
+304,acg5sa_c,N-Acetyl-L-glutamate 5-semialdehyde,2
+305,arg__L_e,L-Arginine,2
+306,murein3p3p_p,"Two linked disacharide tripeptide murein units (uncrosslinked, middle of chain)",4
+307,hexACP_c,Hexanoyl-ACP (n-C6:0ACP),3
+308,dgsn_e,Deoxyguanosine,2
+309,spmd_e,Spermidine,2
+310,pg161_c,"Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)",6
+311,skm_c,Shikimate,3
+312,pe120_p,"Phosphatidylethanolamine (didodecanoyl, n-C12:0)",3
+313,sucgsa_c,N2-Succinyl-L-glutamate 5-semialdehyde,2
+314,imp_c,IMP C10H11N4O8P,8
+315,tartr__L_c,L-tartrate,2
+316,ppal_p,Propanal,2
+317,colipap_p,Core oligosaccharide lipid A diphosphate,2
+318,o2_c,O2 O2,41
+319,dhps_p,"2,3-Dihydroxypropane-1-sulfonate",2
+320,ocdcea_c,Octadecenoate (n-C18:1),8
+321,h_p,H+,312
+322,3hbcoa_c,(S)-3-Hydroxybutanoyl-CoA,2
+323,succ_p,Succinate,10
+324,gal_p,D-Galactose,6
+325,2hptcl_c,"2-hydroxycyclohepta-1,4,6-triene-1-carboxylate",1
+326,phpyr_c,Phenylpyruvate,3
+327,s17bp_c,"Sedoheptulose 1,7-bisphosphate",2
+328,4ampm_c,4-Amino-2-methyl-5-phosphomethylpyrimidine,4
+329,maltttr_p,Maltotetraose,2
+330,pydxn_c,Pyridoxine,3
+331,met__D_c,D-Methionine,1
+332,fru_e,D-Fructose,2
+333,sucorn_c,N2-Succinyl-L-ornithine,2
+334,pyr_e,Pyruvate,2
+335,dtmp_p,DTMP C10H13N2O8P,2
+336,dhcinnm_c,"2,3-dihydroxicinnamic acid",3
+337,aso4_c,Arsenate,1
+338,acgal_p,N-Acetyl-D-galactosamine,2
+339,dtdp4addg_c,"DTDP-4-amino-4,6-dideoxy-D-galactose",2
+340,unagamuf_c,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose",2
+341,idon__L_c,L-Idonate,5
+342,malttr_e,Maltotriose C18H32O16,2
+343,cys__D_e,D-Cysteine,2
+344,pac_c,Phenylacetic acid,3
+345,pgp160_p,"Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)",2
+346,cbm_c,Carbamate,2
+347,5mthf_c,5-Methyltetrahydrofolate,3
+348,3hpppn_e,3-(3-hydroxy-phenyl)propionate,2
+349,ppt_e,Phosphonate,2
+350,pmeACP_c,Pimeloyl-[acyl-carrier protein] methyl ester,2
+351,ctbt_c,Crotonobetaine,4
+352,nad_c,Nicotinamide adenine dinucleotide,131
+353,na1_p,Sodium,17
+354,glyald_p,D-Glyceraldehyde,2
+355,r1p_c,Alpha-D-Ribose 1-phosphate,7
+356,tdeACP_c,Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1),8
+357,5mta_c,5-Methylthioadenosine,3
+358,23dhba_c,"(2,3-Dihydroxybenzoyl)adenylate",2
+359,val__L_e,L-Valine,2
+360,ddcacoa_c,Dodecanoyl-CoA (n-C12:0CoA),4
+361,gdpofuc_c,GDP-4-oxo-L-fucose,2
+362,rbl__D_c,D-Ribulose,2
+363,chol_c,Choline C5H14NO,5
+364,his__L_p,L-Histidine,3
+365,malt_c,Maltose C12H22O11,7
+366,hom__L_e,L-Homoserine,2
+367,no2_p,Nitrite,7
+368,dcmp_e,DCMP C9H12N3O7P,2
+369,dgmp_e,DGMP C10H12N5O7P,2
+370,rhcys_c,S-Ribosyl-L-homocysteine,2
+371,cd2_e,Cadmium,2
+372,met__D_e,D-Methionine,2
+373,gbbtn_c,Gamma-butyrobetaine,2
+374,fald_c,Formaldehyde,5
+375,Nmtrp_c,N-Methyltryptophan,1
+376,23ccmp_e,"2',3'-Cyclic CMP",2
+377,dmso_e,Dimethyl sulfoxide,2
+378,udpg_e,UDPglucose,2
+379,icolipa_c,Inner core oligosaccharide lipid A (E coli),2
+380,acgal_e,N-Acetyl-D-galactosamine,2
+381,r15bp_c,"D-Ribose 1,5-bisphosphate",3
+382,g3pe_p,Sn-Glycero-3-phosphoethanolamine,10
+383,crn__D_p,D-Carnitine,4
+384,3ocvac11eACP_c,3-oxo-cis-vacc-11-enoyl-[acyl-carrier protein],2
+385,cd2_p,Cadmium,4
+386,3hoctaACP_c,(R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein],2
+387,2agpe181_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1),2
+388,arab__D_c,D Arabinose C5H10O5,1
+389,2doxg6p_c,2 Deoxy D glucose 6 phosphate C6H11O8P,2
+390,ocdca_c,Octadecanoate (n-C18:0),8
+391,murein4px4p4p_p,"Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala), one uncrosslinked tetrapaptide) (middle of chain)",2
+392,2agpg180_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0),4
+393,2tdec7eg3p_p,2-tetradec-7-enoyl-sn-glycerol 3-phosphate,2
+394,sulfac_c,Sulfoacetate,2
+395,mg2_c,Magnesium,5
+396,dt5hsu_c,4-Deoxy-L-threo-5-hexosulose uronate,1
+397,acmalt_c,Acetyl-maltose,1
+398,malcoame_c,Malonyl-CoA methyl ester,2
+399,slnt_p,Selenite,2
+400,gmeACP_c,Glutaryl-[acyl-carrier protein] methyl ester,2
+401,1hdecg3p_c,1-hexadecanoyl-sn-glycerol 3-phosphate,3
+402,hgmeACP_c,3-Hydroxyglutaryl-[acyl-carrier protein] methyl ester,2
+403,pg141_p,"Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)",6
+404,mpt_c,Molybdopterin,2
+405,ttrcyc_p,Tetracycline,2
+406,4crsol_c,P-Cresol,2
+407,apg181_c,Acyl phosphatidylglycerol (n-C18:1),2
+408,pydx_p,Pyridoxal,2
+409,2sephchc_c,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate,2
+410,cellb_p,Cellobiose,1
+411,adp_c,ADP C10H12N5O10P2,287
+412,dhps_c,"2,3-Dihydroxypropane-1-sulfonate",2
+413,mal__L_c,L-Malate,12
+414,urea_c,Urea CH4N2O,2
+415,gam_c,D-Glucosamine,1
+416,mercpeth_c,Mercaptoethanol,1
+417,psuri_p,Pseudouridine,2
+418,5apru_c,5-Amino-6-(5'-phosphoribosylamino)uracil,2
+419,g3p_c,Glyceraldehyde 3-phosphate,15
+420,puacgam_p,"Poly-?-1,6-N-acetyl-D-glucosamine",1
+421,etoh_c,Ethanol,2
+422,pnto__R_c,(R)-Pantothenate,3
+423,nadphx__S_c,(S)-NADPHX,3
+424,gdptp_c,Guanosine 3'-diphosphate 5'-triphosphate,3
+425,3hddcoa_c,(S)-3-Hydroxydodecanoyl-CoA,2
+426,so3_c,Sulfite,10
+427,met__L_c,L-Methionine,17
+428,aicar_c,5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide,3
+429,altrn_c,D-Altronate,2
+430,thymd_e,Thymidine C10H14N2O5,2
+431,ncam_c,Nicotinamide,4
+432,5aizc_c,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate,2
+433,fruur_c,D-Fructuronate,3
+434,sucbz_c,O-Succinylbenzoate,2
+435,ac_e,Acetate,2
+436,glx_c,Glyoxylate,11
+437,k_e,Potassium,2
+438,lipidX_c,"2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate",2
+439,apg140_c,Acyl phosphatidylglycerol (n-C14:0),2
+440,dhna_c,"1,4-Dihydroxy-2-naphthoate",2
+441,etoh_e,Ethanol,2
+442,galctn__L_c,L-Galactonate,2
+443,mi1p__D_c,1D-myo-Inositol 1-phosphate,1
+444,pro__L_e,L-Proline,2
+445,taur_e,Taurine C2H7NO3S,2
+446,lipa_cold_e,Cold adapted KDO(2)-lipid (A),1
+447,bwcogdp_c,Tungsten bispterin cofactor guanine dinucleotide,1
+448,ppp9_c,Protoporphyrin,3
+449,thptdn_c,"5,6,7,8-tetrahydropteridine",2
+450,glcn_p,D-Gluconate,3
+451,gua_p,Guanine,3
+452,air_c,5-amino-1-(5-phospho-D-ribosyl)imidazole,3
+453,6pgc_c,6-Phospho-D-gluconate,5
+454,6hmhptpp_c,6-hydroxymethyl-dihydropterin pyrophosphate,2
+455,udpgal_c,UDPgalactose,3
+456,nh4_c,Ammonium,54
+457,fe3hox_un_p,"Fe(III)hydoxamate, unloaded",2
+458,xmp_e,Xanthosine 5'-phosphate,2
+459,pydam_c,Pyridoxamine,3
+460,so3_p,Sulfite,2
+461,rml1p_c,L-Rhamnulose 1-phosphate,2
+462,gam6p_e,D-Glucosamine 6-phosphate,2
+463,cytd_c,Cytidine,7
+464,glcur1p_e,D-Glucuronate 1-phosphate,2
+465,nac_e,Nicotinate,2
+466,tdec2eACP_c,Trans-Dec-2-enoyl-[acyl-carrier protein],4
+467,thym_c,Thymine C5H6N2O2,2
+468,galctn__D_c,D-Galactonate,2
+469,sbzcoa_c,O-Succinylbenzoyl-CoA,2
+470,gal_e,D-Galactose,2
+471,3hpp_p,3-Hydroxypropanoate,2
+472,pimACP_c,Pimeloyl-[acyl-carrier protein],2
+473,micit_c,Methylisocitrate,2
+474,dhcholn_c,"3?,12?-dihydroxy-7-oxo-5?-cholan-24-oate",1
+475,acnam_c,N-Acetylneuraminate,2
+476,hdeACP_c,Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1),9
+477,dha_e,Dihydroxyacetone,2
+478,pi_c,Phosphate,324
+479,acmana_p,N-Acetyl-D-mannosamine,2
+480,argsuc_c,N(omega)-(L-Arginino)succinate,2
+481,aacald_c,Aminoacetaldehyde,2
+482,gbbtn_p,Gamma-butyrobetaine,2
+483,nh4_p,Ammonium,9
+484,4abut_p,4-Aminobutanoate,3
+485,chor_c,Chorismate,8
+486,hom__L_c,L-Homoserine,4
+487,cbi_p,Cobinamide,2
+488,thymd_c,Thymidine C10H14N2O5,5
+489,mnl_p,D-Mannitol,2
+490,gal_bD_e,Beta D-Galactose,2
+491,12ppd__R_c,"(R)-Propane-1,2-diol",3
+492,dgdp_c,DGDP C10H12N5O10P2,4
+493,glu1sa_c,L-Glutamate 1-semialdehyde,2
+494,dad_5_c,5'-Deoxyadenosine,5
+495,imp_p,IMP C10H11N4O8P,2
+496,LalaDgluMdap_p,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate",4
+497,cit_e,Citrate,3
+498,glcur1p_p,D-Glucuronate 1-phosphate,3
+499,leu__L_e,L-Leucine,2
+500,hhlipa_c,Heptosyl-heptosyl-kdo2-lipidA,2
+501,skm_p,Shikimate,2
+502,crnDcoa_c,D-carnitinyl-CoA,2
+503,zn2_c,Zinc,6
+504,q8h2_c,Ubiquinol-8,25
+505,ala__D_e,D-Alanine,2
+506,murein5px3p_p,"Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain)",3
+507,fe2_e,Fe2+ mitochondria,2
+508,skm_e,Shikimate,2
+509,2agpe161_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1),2
+510,3odecACP_c,3-Oxodecanoyl-[acyl-carrier protein],2
+511,galt_e,Galactitol,2
+512,5dglcn_e,5-Dehydro-D-gluconate,2
+513,unagamu_c,Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate,2
+514,5prdmbz_c,"N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole",2
+515,1tdecg3p_c,1-tetradecanoyl-sn-glycerol 3-phosphate,3
+516,pa140_c,"1,2-ditetradecanoyl-sn-glycerol 3-phosphate",6
+517,cdpdtdec7eg_c,"CDP-1,2-ditetradec-7-enoylglycerol",4
+518,cynt_e,Cyanate,2
+519,dgslnt_c,Selenodiglutathione,2
+520,cit_p,Citrate,3
+521,xan_p,Xanthine,3
+522,2agpe140_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0),4
+523,teo2_c,Tellurite,1
+524,sufsesh_c,SufSE with bound sulfur,4
+525,tyr__L_c,L-Tyrosine,6
+526,fruur_p,D-Fructuronate,2
+527,ggptrc_c,Gamma-glutamyl-putrescine,2
+528,cys__L_c,L-Cysteine,14
+529,4abzglu_e,4-aminobenzoyl-glutamate,2
+530,2aobut_c,L-2-Amino-3-oxobutanoate,4
+531,sulfac_e,Sulfoacetate,2
+532,lkdr_c,2-dehydro-3-deoxy-L-rhamnonate,2
+533,ps160_c,"Phosphatidylserine (dihexadecanoyl, n-C16:0)",2
+534,4r5au_c,4-(1-D-Ribitylamino)-5-aminouracil,3
+535,3hbzcoa_c,3-hydroxybenzoyl-CoA,1
+536,gam_e,D-Glucosamine,2
+537,pg120_c,"Phosphatidylglycerol (didodecanoyl, n-C12:0)",5
+538,2agpe141_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1),2
+539,met__L_e,L-Methionine,2
+540,xylu__D_c,D-Xylulose,2
+541,4hbz_c,4-Hydroxybenzoate,3
+542,amet_c,S-Adenosyl-L-methionine,23
+543,dscl_c,Dihydrosirohydrochlorin,2
+544,hxa_c,Hexanoate (n-C6:0),3
+545,h2s_c,Hydrogen sulfide,6
+546,phthr_c,O-Phospho-4-hydroxy-L-threonine,3
+547,acmana_e,N-Acetyl-D-mannosamine,2
+548,3oocoa_c,3-Oxooctanoyl-CoA,2
+549,n8aspmd_c,N8-Acetylspermidine,1
+550,acgam1p_c,N-Acetyl-D-glucosamine 1-phosphate,2
+551,ascb__L_e,L-Ascorbate,2
+552,malt_e,Maltose C12H22O11,2
+553,thymd_p,Thymidine C10H14N2O5,4
+554,mn2_e,Manganese,2
+555,ditp_c,DITP(4-),3
+556,u23ga_c,"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine",3
+557,23dappa_e,"2,3-diaminopropionate",2
+558,um4p_c,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine",2
+559,3hppnl_c,3-Hydroxypropanal,2
+560,cs1_e,Cesium ion,2
+561,glyc2p_c,Glycerol 2-phosphate,2
+562,wco_c,Tungsten binding cofactor,2
+563,uLa4fn_c,Undecaprenyl phosphate-4-amino-4-formyl-L-arabinose,2
+564,lipa_p,KDO(2)-lipid (A),4
+565,glc__D_c,D-Glucose,22
+566,zn2_p,Zinc,5
+567,dhmpt_c,Dihydromonapterin,2
+568,e4p_c,D-Erythrose 4-phosphate,6
+569,mincyc_p,Minocycline,2
+570,hg2_c,Mercury  charged 2  Hg,2
+571,man1p_c,D-Mannose 1-phosphate,3
+572,2tpr3dpcoa_c,2'-(5''-triphosphoribosyl)-3'-dephospho-CoA,1
+573,bglycogen_c,Branching glycogen,3
+574,sq_c,Sulphoquinovose,3
+575,sfp_c,6-deoxy-6-sulphofructose 1-phosphate,2
+576,trp__L_c,L-Tryptophan,8
+577,sq_e,Sulphoquinovose,2
+578,dsbdox_c,Fused thiol:disulfide interchange protein (oxidized),3
+579,acser_c,O-Acetyl-L-serine,3
+580,progly_e,L-Prolinylglycine,2
+581,5phdt_c,Phenylhydantoin,1
+582,lys__L_c,L-Lysine,10
+583,adpglc_c,ADPglucose C16H23N5O15P2,2
+584,ogmeACP_c,3-Oxo-glutaryl-[acyl-carrier protein] methyl ester,2
+585,hpmeACP_c,3-Hydroxypimeloyl-[acyl-carrier protein] methyl ester,2
+586,dudp_c,DUDP C9H11N2O11P2,3
+587,2shchc_c,"2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate",2
+588,4ppan_c,D-4'-Phosphopantothenate,2
+589,sufse_c,SufSE sulfur acceptor complex,4
+590,dxyl5p_c,1-deoxy-D-xylulose 5-phosphate,5
+591,cs1_p,Cesium ion,1
+592,23dhb_c,"2,3-Dihydroxybenzoate",3
+593,man_e,D-Mannose,2
+594,2mecdp_c,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate",2
+595,atp_c,ATP C10H12N5O13P3,349
+596,acmana_c,N-Acetyl-D-mannosamine,2
+597,rbl__L_c,L-Ribulose,2
+598,dcyt_e,Deoxycytidine,2
+599,fcl__L_c,L-fuculose,2
+600,orot_e,Orotate C5H3N2O4,2
+601,agdpcbi_c,Adenosine-GDP-cobinamide,2
+602,indole_c,Indole,5
+603,eig3p_c,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate,2
+604,h2_e,Hydrogen,2
+605,26dap__M_c,"Meso-2,6-Diaminoheptanedioate",5
+606,u3aga_c,UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine,2
+607,nmn_e,NMN C11H14N2O8P,2
+608,thm_c,Thiamin,2
+609,thf_c,"5,6,7,8-Tetrahydrofolate",12
+610,man6p_e,D-Mannose 6-phosphate,2
+611,orot5p_c,Orotidine 5'-phosphate,2
+612,feoxam_c,Generic ferrioxamine-Fe-III,4
+613,h_e,H+,6
+614,csn_p,Cytosine,2
+615,aact_c,Aminoacetone,3
+616,gln__L_p,L-Glutamine,3
+617,glyc_p,Glycerol,11
+618,cytd_p,Cytidine,5
+619,thr__L_p,L-Threonine,6
+620,asn__L_e,L-Asparagine,2
+621,fuc__L_p,L-Fucose,2
+622,5caiz_c,5-phosphoribosyl-5-carboxyaminoimidazole,2
+623,dhnpt_c,Dihydroneopterin,3
+624,pyam5p_c,Pyridoxamine 5'-phosphate,5
+625,ttdca_p,Tetradecanoate (n-C14:0),11
+626,acgam_c,N-Acetyl-D-glucosamine,4
+627,metsox_S__L_p,L-Methionine Sulfoxide,2
+628,mal__L_p,L-Malate,5
+629,pacald_p,Phenylacetaldehyde,3
+630,eca4colipa_p,(enterobacterial common antigen)x4 core oligosaccharide lipid A,2
+631,lcts_e,Lactose C12H22O11,2
+632,btcoa_c,Butanoyl-CoA,4
+633,tmao_p,Trimethylamine N-oxide,3
+634,u3hga_c,UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine,2
+635,tdcoa_c,Tetradecanoyl-CoA (n-C14:0CoA),4
+636,udpglcur_e,UDP-D-glucuronate,2
+637,hxa_p,Hexanoate (n-C6:0),3
+638,murein3px3p_p,"Two disacharide linked murein units, tripeptide crosslinked tripeptide (A2pm->A2pm) (middle of chain)",2
+639,3hcpalm9eACP_c,(R)-3-hydroxy-cis-palm-9-eoyl-[acyl-carrier protein],2
+640,dca_e,Decanoate (n-C10:0),2
+641,mobd_p,Molybdate,2
+642,malt6p_c,Maltose 6'-phosphate,1
+643,met__L_p,L-Methionine,3
+644,g1p_p,D-Glucose 1-phosphate,3
+645,ser__L_p,L-Serine,6
+646,3ocpalm9eACP_c,3-oxo-cis-palm-9-eoyl-[acyl-carrier protein],2
+647,2ddecg3p_c,2-dodecanoyl-sn-glycerol 3-phosphate,2
+648,anhgm3p_c,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide,4
+649,1agpe161_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1),2
+650,octa_p,Octanoate (n-C8:0),2
+651,ggagicolipa_c,Glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A,2
+652,chtbs_e,"N,N'-diacetylchitobiose",2
+653,dopa_e,Dopamine,2
+654,ppa_p,Propionate (n-C3:0),2
+655,msa_c,Malonate semialdehyde,2
+656,pser__L_p,O-Phospho-L-serine,2
+657,slnt_c,Selenite,3
+658,isetac_e,Isethionic acid,2
+659,fe3dhbzs_p,"Ferric 2,3-dihydroxybenzoylserine",1
+660,cpgn_c,Coprogen,4
+661,butACP_c,Butyryl-ACP (n-C4:0ACP),3
+662,metglcur_e,1-O-methyl-Beta-D-glucuronate,2
+663,cu_e,Cu+,3
+664,dgsn_c,Deoxyguanosine,4
+665,1hdec9eg3p_c,1-hexadec-9-enoyl-sn-glycerol 3-phosphate,3
+666,cdpdtdecg_c,"CDP-1,2-ditetradecanoylglycerol",4
+667,pe181_c,"Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)",4
+668,dttp_c,DTTP C10H13N2O14P3,6
+669,pe120_c,"Phosphatidylethanolamine (didodecanoyl, n-C12:0)",3
+670,but_c,Butyrate (n-C4:0),3
+671,pe160_p,"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)",6
+672,pg160_p,"Phosphatidylglycerol (dihexadecanoyl, n-C16:0)",8
+673,2agpg160_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0),4
+674,glutrna_c,L-Glutamyl-tRNA(Glu),2
+675,pa120_p,"1,2-didodecanoyl-sn-glycerol 3-phosphate",5
+676,adn_e,Adenosine,2
+677,3otdcoa_c,3-Oxotetradecanoyl-CoA,2
+678,ddcap_c,Dodecanoly-phosphate (n-C12:0),3
+679,3hhdcoa_c,(S)-3-Hydroxyhexadecanoyl-CoA,2
+680,octdp_c,All-trans-Octaprenyl diphosphate,3
+681,hdcap_c,Hexadecanoyl-phosphate (n-C16:0),3
+682,cinnm_c,Trans-Cinnamate,1
+683,hx2coa_c,Trans-Hex-2-enoyl-CoA,2
+684,egmeACP_c,Enoylglutaryl-[acyl-carrier protein] methyl ester,2
+685,uacmam_c,UDP-N-acetyl-D-mannosamine,2
+686,arbt6p_c,Arbutin 6-phosphate,2
+687,cph4_c,"6-carboxy-5,6,7,8-tetrahydropterin",2
+688,ttdca_c,Tetradecanoate (n-C14:0),9
+689,glycogen_c,Glycogen C6H10O5,5
+690,iscu_2fe2s2_c,IscU with two bound [2Fe-2S] clusters,2
+691,ahcys_c,S-Adenosyl-L-homocysteine,14
+692,pydx_c,Pyridoxal,3
+693,tma_p,Trimethylamine,3
+694,fe3dcit_e,Fe(III)dicitrate,3
+695,thmnp_c,Tetrahydromonapterin,1
+696,fe3hox_un_c,"Fe(III)hydoxamate, unloaded",4
+697,lac__D_e,D-Lactate,2
+698,trdox_c,Oxidized thioredoxin,10
+699,2mcacn_c,Cis-2-Methylaconitate,2
+700,damp_e,DAMP C10H12N5O6P,2
+701,5mtr_c,5-Methylthio-D-ribose,2
+702,o16a4und_p,(O16 antigen)x4 undecaprenyl diphosphate,2
+703,aconm_c,E-3-carboxy-2-pentenedioate 6-methyl ester,1
+704,adn_p,Adenosine,5
+705,3ig3p_c,C'-(3-Indolyl)-glycerol 3-phosphate,3
+706,asn__L_p,L-Asparagine,3
+707,n2o_c,Nitrous oxide,3
+708,sl26da_c,"N-Succinyl-LL-2,6-diaminoheptanedioate",2
+709,hg2_e,Mercury  charged 2  Hg,2
+710,dgsn_p,Deoxyguanosine,3
+711,3hoctACP_c,(R)-3-Hydroxyoctanoyl-[acyl-carrier protein],2
+712,dctp_c,DCTP C9H12N3O13P3,6
+713,toctd2eACP_c,Trans-octadec-2-enoyl-[acyl-carrier protein],3
+714,manglyc_p,2(alpha-D-Mannosyl)-D-glycerate,2
+715,dms_p,Dimethyl sulfide,3
+716,din_c,Deoxyinosine,4
+717,h2s_p,Hydrogen sulfide,2
+718,dsbcox_p,Protein disulfide isomerase II (oxidized),2
+719,ichor_c,Isochorismate,4
+720,clpn160_p,"Cardiolipin (tetrahexadecanoyl, n-C16:0)",3
+721,clpn181_p,"Cardiolipin (tetraoctadec-11-enoyl, n-C18:1)",3
+722,feoxam_e,Generic ferrioxamine-Fe-III,3
+723,lipoate_e,Lipoate,2
+724,pacald_c,Phenylacetaldehyde,2
+725,arbt_p,Arbutin C12H16O7,2
+726,cpppg3_c,Coproporphyrinogen III,3
+727,ttdceap_c,Tetradecanoyl-phosphate (n-C14:1),3
+728,cpmp_c,Cyclic pyranopterin monophosphate,2
+729,isetac_c,Isethionic acid,2
+730,anhgm4p_c,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide,4
+731,3ohcoa_c,3-Oxohexanoyl-CoA,2
+732,gggagicolipa_c,Glucosyl-glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A,2
+733,doxrbcn_e,Doxorubicin,3
+734,dxylnt_p,D-Xylonate,2
+735,ser__D_e,D-Serine,2
+736,2hptcoa_c,"2-hydroxycyclohepta-1,4,6-triene-1-carboxyl-CoA",1
+737,grxrd_c,Glutaredoxin (reduced),6
+738,so2_e,Sulfur dioxide,2
+739,ohpb_c,2-Oxo-3-hydroxy-4-phosphobutanoate,2
+740,cys__D_c,D-Cysteine,2
+741,pa161_c,"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate",6
+742,ru5p__D_c,D-Ribulose 5-phosphate,6
+743,23dhmb_c,"(R)-2,3-Dihydroxy-3-methylbutanoate",2
+744,amp_e,AMP C10H12N5O7P,2
+745,galur_c,D-Galacturonate,2
+746,arab__L_e,L-Arabinose,2
+747,pgp140_c,"Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)",3
+748,o2s_c,Superoxide anion,3
+749,pgp161_c,"Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)",3
+750,ps180_c,"Phosphatidylserine (dioctadecanoyl, n-C18:0)",2
+751,lald__L_c,L-Lactaldehyde,7
+752,ugmd_c,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate",4
+753,6hmhpt_c,6-hydroxymethyl dihydropterin,2
+754,ppcoa_c,Propanoyl-CoA,7
+755,pe141_c,"Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)",3
+756,cpg160_c,"Cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)",1
+757,fecrm_c,Ferrichrome,4
+758,adocbi_c,Adenosyl cobinamide,2
+759,ile__L_p,L-Isoleucine,4
+760,acac_c,Acetoacetate,2
+761,crn__D_e,D-Carnitine,2
+762,acmanap_c,N-Acetyl-D-mannosamine 6-phosphate,3
+763,nmn_p,NMN C11H14N2O8P,3
+764,pppn_e,Phenylpropanoate,2
+765,13ppd_c,"1,3-Propanediol",1
+766,hxan_p,Hypoxanthine,2
+767,pran_c,N-(5-Phospho-D-ribosyl)anthranilate,2
+768,3hcinnm_e,3-hydroxycinnamic acid,2
+769,gsn_c,Guanosine,6
+770,metsox_R__L_p,L-methionine-R-sulfoxide,2
+771,ins_c,Inosine,7
+772,tmao_c,Trimethylamine N-oxide,2
+773,tsul_c,Thiosulfate,2
+774,23cgmp_p,"2',3'-Cyclic GMP",2
+775,man6pglyc_c,2(alpha-D-Mannosyl-6-phosphate)-D-glycerate,2
+776,ura_c,Uracil,10
+777,LalaDgluMdap_e,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate",2
+778,chol_e,Choline C5H14NO,2
+779,gly_e,Glycine,2
+780,oxam_c,Oxamate,2
+781,dha_p,Dihydroxyacetone,2
+782,cgly_p,Cys Gly C5H10N2O3S,3
+783,LalaDgluMdapDala_c,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine",5
+784,8aonn_c,8-Amino-7-oxononanoate,2
+785,2hdecg3p_c,2-hexadecanoyl-sn-glycerol 3-phosphate,2
+786,pdx5p_c,Pyridoxine 5'-phosphate,5
+787,colipa_p,Core oligosaccharide lipid A,6
+788,23doguln_c,"2,3-Dioxo-L-gulonate",2
+789,1agpg160_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0),2
+790,tmao_e,Trimethylamine N-oxide,2
+791,colipa_e,Core oligosaccharide lipid A,3
+792,glyc2p_p,Glycerol 2-phosphate,3
+793,4abzglu_p,4-aminobenzoyl-glutamate,2
+794,pe141_p,"Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)",3
+795,acac_p,Acetoacetate,2
+796,34dhpha_c,3-4-Dihydroxyphenylacetate,1
+797,but_p,Butyrate (n-C4:0),2
+798,34dhpac_p,"3,4-Dihydroxyphenylacetaldehyde",2
+799,lipa_e,KDO(2)-lipid (A),2
+800,pe181_p,"Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)",5
+801,12dgr140_p,"1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)",2
+802,2hdecg3p_p,2-hexadecanoyl-sn-glycerol 3-phosphate,2
+803,glcn_c,D-Gluconate,7
+804,oxadpcoa_c,3-Oxoadipyl-CoA,2
+805,enlipa_e,Phosphoethanolamine KDO(2)-lipid (A),2
+806,n2o_e,Nitrous oxide,2
+807,mptamp_c,Adenylated molybdopterin,5
+808,paps_c,3'-Phosphoadenylyl sulfate,3
+809,cobalt2_c,Co2+,5
+810,utp_c,UTP C9H11N2O15P3,9
+811,cobalt2_p,Co2+,4
+812,dhor__S_c,(S)-Dihydroorotate,4
+813,mmet_p,S-Methyl-L-methionine,2
+814,aso3_e,Arsenite,2
+815,glyc_e,Glycerol,2
+816,adn_c,Adenosine,7
+817,4mop_c,4-Methyl-2-oxopentanoate,2
+818,gal1p_c,Alpha-D-Galactose 1-phosphate,2
+819,dsbgox_p,Periplasmic disulfide isomerase/thiol-disulphide oxidase (oxidized),2
+820,2me4p_c,2-C-methyl-D-erythritol 4-phosphate,2
+821,pg140_p,"Phosphatidylglycerol (ditetradecanoyl, n-C14:0)",6
+822,dann_c,"7,8-Diaminononanoate",2
+823,tre_c,Trehalose,2
+824,gdpmann_c,GDP-D-mannose,4
+825,2h3oppan_c,2-Hydroxy-3-oxopropanoate,4
+826,hpyr_c,Hydroxypyruvate,4
+827,2agpg181_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1),4
+828,apg120_c,Acyl phosphatidylglycerol (n-C12:0),2
+829,apg160_c,Acyl phosphatidylglycerol (n-C16:0),2
+830,dad_2_e,Deoxyadenosine,2
+831,mchtbs6p_c,N-monoacetylchitobiose 6'-phosphate,2
+832,fdp_c,"D-Fructose 1,6-bisphosphate",4
+833,mthgxl_c,Methylglyoxal,8
+834,tartr__L_e,L-tartrate,2
+835,cbi_c,Cobinamide,2
+836,octa_e,Octanoate (n-C8:0),2
+837,thym_e,Thymine C5H6N2O2,2
+838,gdp_e,GDP C10H12N5O11P2,2
+839,rmn_c,L-Rhamnose,2
+840,dtmp_c,DTMP C10H13N2O8P,5
+841,dmso_p,Dimethyl sulfoxide,4
+842,fecrm_p,Ferrichrome,2
+843,gdp_p,GDP C10H12N5O11P2,2
+844,gdp_c,GDP C10H12N5O11P2,17
+845,ins_p,Inosine,4
+846,man_c,D-Mannose,3
+847,uaagmda_c,"Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala",3
+848,4hoxpacd_e,4-Hydroxyphenylacetaldehyde,2
+849,acser_p,O-Acetyl-L-serine,2
+850,k_c,Potassium,5
+851,o2_p,O2 O2,8
+852,ala_B_p,Beta-Alanine,2
+853,cbi_e,Cobinamide,2
+854,tungs_p,Tungstate,2
+855,crn_e,L-Carnitine,2
+856,dtmp_e,DTMP C10H13N2O8P,2
+857,fe2_c,Fe2+ mitochondria,36
+858,cdpdodecg_c,"CDP-1,2-dioctadecanoylglycerol",4
+859,ps140_c,"Phosphatidylserine (ditetradecanoyl, n-C14:0)",2
+860,12dgr160_c,"1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)",3
+861,2tdecg3p_c,2-tetradecanoyl-sn-glycerol 3-phosphate,2
+862,thm_e,Thiamin,2
+863,glyald_e,D-Glyceraldehyde,2
+864,12dgr181_c,"1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)",3
+865,indole_e,Indole,2
+866,2tdec7eg3p_c,2-tetradec-7-enoyl-sn-glycerol 3-phosphate,2
+867,dsbcrd_p,Protein disulfide isomerase II (reduced),2
+868,bmocogdp_c,Bis-molybdopterin guanine dinucleotide,1
+869,mg2_e,Magnesium,2
+870,pgp181_p,"Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)",2
+871,mththf_e,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",2
+872,dhptdp_c,"(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione",2
+873,orot_p,Orotate C5H3N2O4,2
+874,LalaDglu_p,L-alanine-D-glutamate,2
+875,cdigmp_c,Cyclic diguanosine monophosphate,2
+876,uri_c,Uridine,8
+877,dad_2_c,Deoxyadenosine,4
+878,datp_c,DATP C10H12N5O12P3,6
+879,cholate_c,Cholate c,2
+880,3hhcoa_c,(S)-3-Hydroxyhexanoyl-CoA,2
+881,34dphacoa_c,"3,4-dihydroxyphenylacetyl-CoA",1
+882,puacgam_c,"Poly-?-1,6-N-acetyl-D-glucosamine",2
+883,ppi_c,Diphosphate,128
+884,nadp_c,Nicotinamide adenine dinucleotide phosphate,113
+885,S2hglut_c,(S)-2-Hydroxyglutarate,2
+886,glyclt_p,Glycolate C2H3O3,3
+887,metglcur_p,1-O-methyl-Beta-D-glucuronate,2
+888,xtsn_p,Xanthosine,3
+889,glu__L_c,L-Glutamate,51
+890,g1p_c,D-Glucose 1-phosphate,11
+891,fum_c,Fumarate,16
+892,akg_p,2-Oxoglutarate,2
+893,acorn_c,N2-Acetyl-L-ornithine,2
+894,frulys_c,Fructoselysine,3
+895,spmd_c,Spermidine,8
+896,glu5sa_c,L-Glutamate 5-semialdehyde,2
+897,ile__L_c,L-Isoleucine,6
+898,g3pg_e,Glycerophosphoglycerol,2
+899,2dhp_c,2-Dehydropantoate,2
+900,ocACP_c,Octanoyl-ACP (n-C8:0ACP),6
+901,ttdcea_p,Tetradecenoate (n-C14:1),11
+902,3dhq_c,3-Dehydroquinate,4
+903,hisp_c,L-Histidinol phosphate,2
+904,aacoa_c,Acetoacetyl-CoA,3
+905,2agpe160_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0),4
+906,so4_e,Sulfate,2
+907,hemeO_c,Heme O C49H56FeN4O5,2
+908,orn_e,Ornithine,2
+909,kdo2lipid4_p,KDO(2)-lipid IV(A),2
+910,4abut_e,4-Aminobutanoate,2
+911,athtp_c,Adenosine thiamine triphosphate,1
+912,galt1p_c,Galactitol 1-phosphate,2
+913,glu__L_e,L-Glutamate,2
+914,ppa_c,Propionate (n-C3:0),5
+915,3ohodcoa_c,3-Oxooctadecanoyl-CoA,2
+916,2oph_c,2-Octaprenylphenol,3
+917,taur_c,Taurine C2H7NO3S,2
+918,ckdo_c,CMP-3-deoxy-D-manno-octulosonate,4
+919,uamag_c,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate,2
+920,23dhbzs3_c,2-3-dihydroxybenzoylserine trimer,1
+921,glcr_c,D-Glucarate,2
+922,dhpt_c,Dihydropteroate,2
+923,sqg_c,1-(?-D-sulfoquinovosyl)glycerol,1
+924,gmhep7p_c,D-Glycero-D-manno-heptose 7-phosphate,2
+925,fad_p,Flavin adenine dinucleotide oxidized,2
+926,manglyc_e,2(alpha-D-Mannosyl)-D-glycerate,2
+927,ascb__L_p,L-Ascorbate,2
+928,od2coa_c,Trans-Octadec-2-enoyl-CoA,3
+929,idon__L_p,L-Idonate,2
+930,urea_p,Urea CH4N2O,2
+931,rhmn_c,L-rhamnonate,1
+932,cbp_c,Carbamoyl phosphate,5
+933,agm_p,Agmatine,3
+934,3mob_c,3-Methyl-2-oxobutanoate,5
+935,suchms_c,O-Succinyl-L-homoserine,2
+936,gicolipa_c,Glucosyl-inner core oligosaccharide lipid A,2
+937,halipa_e,Hepta-acylated KDO(2)-lipid (A),2
+938,chol_p,Choline C5H14NO,5
+939,butso3_c,Butanesulfonate,2
+940,dcyt_c,Deoxycytidine,3
+941,3hpppn_p,3-(3-hydroxy-phenyl)propionate,2
+942,dc2coa_c,Trans-Dec-2-enoyl-CoA,2
+943,lipoate_p,Lipoate,2
+944,minohp_p,Myo-Inositol hexakisphosphate,2
+945,2agpg120_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0),2
+946,dcmp_p,DCMP C9H12N3O7P,2
+947,2agpg180_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0),2
+948,acglc__D_c,6-Acetyl-D-glucose,1
+949,eca3und_p,(enterobacterial common antigen)x3 undecaprenyl-diphosphate,2
+950,r5p_p,Alpha-D-Ribose 5-phosphate,2
+951,1agpe120_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0),2
+952,ragund_c,Rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate,1
+953,oxa_c,Oxalate,2
+954,r5p_e,Alpha-D-Ribose 5-phosphate,2
+955,no_p,Nitric oxide,2
+956,acser_e,O-Acetyl-L-serine,2
+957,dxylnt_e,D-Xylonate,2
+958,murein4p4p_p,"Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)",5
+959,nalme_c,N-?-acetyl lysine methyl ester,1
+960,mn2_p,Manganese,5
+961,tpalm2eACP_c,Trans-Hexadec-2-enoyl-[acyl-carrier protein],3
+962,3hpalmACP_c,R-3-hydroxypalmitoyl-[acyl-carrier protein],2
+963,12dgr140_c,"1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)",3
+964,udpg_c,UDPglucose,12
+965,gln__L_c,L-Glutamine,16
+966,pgp160_c,"Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)",3
+967,3c3hmp_c,3-Carboxy-3-hydroxy-4-methylpentanoate,2
+968,apg161_c,Acyl phosphatidylglycerol (n-C16:1),2
+969,pe160_c,"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)",3
+970,tartr__D_e,D-tartrate,2
+971,anth_c,Anthranilate,3
+972,enlipa_p,Phosphoethanolamine KDO(2)-lipid (A),3
+973,pap_c,"Adenosine 3',5'-bisphosphate",4
+974,pg181_p,"Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)",7
+975,xmp_c,Xanthosine 5'-phosphate,6
+976,r2hglut_c,(R)-2-Hydroxyglutarate,1
+977,thcur_c,Tetrahydrocurcumin,1
+978,5phua_c,Phenylureidoacetic acid,1
+979,ile__L_e,L-Isoleucine,2
+980,nadhx__R_c,(R)-NADHX,2
+981,2omhmbl_c,"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol",3
+982,uppg3_c,Uroporphyrinogen III,3
+983,3hocoa_c,(S)-3-Hydroxyoctanoyl-CoA,2
+984,2cpr5p_c,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate,2
+985,uagmda_c,"Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine",2
+986,5dh4dglc_c,5-Dehydro-4-deoxy-D-glucarate,3
+987,dcmp_c,DCMP C9H12N3O7P,3
+988,cechddd_c,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol",2
+989,25dkglcn_c,"2,5-diketo-D-gluconate",3
+990,his__L_e,L-Histidine,2
+991,dgmp_c,DGMP C10H12N5O7P,3
+992,hxan_e,Hypoxanthine,2
+993,adphep_DD_c,ADP-D-glycero-D-manno-heptose,2
+994,4mhetz_c,4-Methyl-5-(2-hydroxyethyl)-thiazole,1
+995,h2s_e,Hydrogen sulfide,2
+996,na1_e,Sodium,2
+997,tyr__L_e,L-Tyrosine,2
+998,acac_e,Acetoacetate,2
+999,2dmmq8_c,2-Demethylmenaquinone 8,11
+1000,4adcho_c,4-amino-4-deoxychorismate,2
+1001,fmn_e,FMN C17H19N4O9P,2
+1002,cys__L_e,L-Cysteine,2
+1003,glyc3p_e,Glycerol 3-phosphate,2
+1004,rib__D_p,D-Ribose,3
+1005,26dap__M_e,"Meso-2,6-Diaminoheptanedioate",2
+1006,xyl__D_p,D-Xylose,3
+1007,3hcinnm_c,3-hydroxycinnamic acid,2
+1008,inost_p,Myo-Inositol,4
+1009,pppn_c,Phenylpropanoate,2
+1010,ocdca_p,Octadecanoate (n-C18:0),11
+1011,dtdp4aaddg_c,"DTDP-4-acetamido-4,6-dideoxy-D-galactose",2
+1012,malthx_c,Maltohexaose,8
+1013,maltpt_c,Maltopentaose,7
+1014,g3ps_e,Glycerophosphoserine,2
+1015,acon_T_c,Trans-Aconitate,2
+1016,3gmp_p,Guanosine 3  phosphate C10H12N5O8P,3
+1017,maltttr_c,Maltotetraose,6
+1018,bbtcoa_c,Gamma-butyrobetainyl-CoA,1
+1019,duri_p,Deoxyuridine,3
+1020,anhgm4p_p,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide,6
+1021,ddca_e,Dodecanoate (n-C12:0),2
+1022,udpLa4n_c,Uridine 5''-diphospho-{beta}-4-deoxy-4-amino-L-arabinose,2
+1023,tartr__L_p,L-tartrate,2
+1024,octeACP_c,Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1),6
+1025,26dap__M_p,"Meso-2,6-Diaminoheptanedioate",2
+1026,hacolipa_e,Hepta-acylated core oligosaccharide lipid A (E. coli),2
+1027,gtspmd_c,Glutathionylspermidine,2
+1028,o16aund_c,O16 antigen undecaprenyl diphosphate,2
+1029,o16aund_p,O16 antigen undecaprenyl diphosphate,4
+1030,3hhexACP_c,(R)-3-Hydroxyhexanoyl-[acyl-carrier protein],2
+1031,adocbl_p,Adenosylcobalamin,2
+1032,acolipa_p,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A,2
+1033,butso3_p,Butanesulfonate,2
+1034,cys__L_p,L-Cysteine,4
+1035,cpgn_un_c,Coprogen unloaded (no Fe(III)),4
+1036,ps161_c,"Phosphatidylserine (dihexadec-9-enoyl, n-C16:1)",2
+1037,t3c5ddeceACP_c,Trans-3-cis-5-dodecenoyl-[acyl-carrier protein],3
+1038,ps120_c,"Phosphatidylserine (didodecanoyl, n-C12:0)",2
+1039,arbtn_fe3_p,Aerobactin,2
+1040,12dgr161_p,"1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)",3
+1041,progly_p,L-Prolinylglycine,2
+1042,orn_p,Ornithine,4
+1043,pa181_p,"1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate",5
+1044,12dgr120_p,"1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)",2
+1045,asp__L_p,L-Aspartate,8
+1046,pydam_p,Pyridoxamine,2
+1047,2agpe160_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0),3
+1048,crn_p,L-Carnitine,5
+1049,2agpg140_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0),4
+1050,1hdecg3p_p,1-hexadecanoyl-sn-glycerol 3-phosphate,2
+1051,btn_p,Biotin,2
+1052,pro__L_p,L-Proline,4
+1053,ttdcap_c,Tetradecanoyl-phosphate (n-C14:0),3
+1054,mal__D_p,D-Malate,2
+1055,co2_p,CO2 CO2,5
+1056,5dglcn_p,5-Dehydro-D-gluconate,2
+1057,fe3_c,Iron (Fe3+),7
+1058,arbt_e,Arbutin C12H16O7,2
+1059,ch4_p,Methane,2
+1060,fad_e,Flavin adenine dinucleotide oxidized,2
+1061,fmn_p,FMN C17H19N4O9P,3
+1062,dhptdd_c,"3-hydroxy-5-phosphonooxypentane-2,4-dione",2
+1063,quin_c,Quinate,3
+1064,sel_p,Selenate,2
+1065,epmeACP_c,Enoylpimeloyl-[acyl-carrier protein] methyl ester,2
+1066,dtgcl_c,2-hydroxyethyldisulfide,1
+1067,23dappa_c,"2,3-diaminopropionate",2
+1068,cholate_p,Cholate c,1
+1069,mococdp_c,Molybdopterin cytosine dinucleotide,2
+1070,doxrbcn_p,Doxorubicin,2
+1071,dopa_p,Dopamine,2
+1072,ala__L_c,L-Alanine,16
+1073,g3pc_p,Sn-Glycero-3-phosphocholine,3
+1074,hco3_c,Bicarbonate,5
+1075,alaala_c,D-Alanyl-D-alanine,4
+1076,anhgm3p_p,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide,5
+1077,spmd_p,Spermidine,3
+1078,phe__L_c,L-Phenylalanine,5
+1079,anhm4p_c,"1,6-anhydrous-N-Acetylmuramyl-tetrapeptide",3
+1080,15dap_c,"1,5-Diaminopentane",3
+1081,ni2_p,Nickel,5
+1082,ser__D_c,D-Serine,3
+1083,udcpp_p,Undecaprenyl phosphate,4
+1084,mlthf_c,"5,10-Methylenetetrahydrofolate",8
+1085,xmp_p,Xanthosine 5'-phosphate,2
+1086,mg2_p,Magnesium,4
+1087,pacald_e,Phenylacetaldehyde,2
+1088,anhgm_c,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,4
+1089,frdp_c,Farnesyl diphosphate,4
+1090,cyan_p,Hydrogen cyanide,2
+1091,pant__R_c,(R)-Pantoate,2
+1092,LalaDgluMdapDala_p,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine",4
+1093,mercppyr_c,Mercaptopyruvate,2
+1094,garagund_c,Glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate,2
+1095,glcur_c,D-Glucuronate,4
+1096,udpg_p,UDPglucose,2
+1097,inost_e,Myo-Inositol,2
+1098,fe3dhbzs_e,"Ferric 2,3-dihydroxybenzoylserine",2
+1099,cytd_e,Cytidine,2
+1100,o16a3und_p,(O16 antigen)x3 undecaprenyl diphosphate,2
+1101,sulfac_p,Sulfoacetate,2
+1102,2dmmql8_c,2-Demethylmenaquinol 8,14
+1103,t3c7mrseACP_c,Trans-3-cis-7-myristoleoyl-[acyl-carrier protein],3
+1104,g3pe_c,Sn-Glycero-3-phosphoethanolamine,16
+1105,cu2_c,Copper,9
+1106,t3c11vaceACP_c,Trans-3-cis-11-vacceoyl-[acyl-carrier protein],3
+1107,tcynt_e,Thiocyanate,2
+1108,glyclt_e,Glycolate C2H3O3,2
+1109,pg180_c,"Phosphatidylglycerol (dioctadecanoyl, n-C18:0)",5
+1110,12ppd__S_e,"(S)-Propane-1,2-diol",2
+1111,14glucan_c,"1,4-alpha-D-glucan",2
+1112,cdpdodec11eg_c,"CDP-1,2-dioctadec-11-enoylglycerol",4
+1113,1pyr5c_c,1-Pyrroline-5-carboxylate,4
+1114,1agpe160_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0),2
+1115,ppa_e,Propionate (n-C3:0),2
+1116,pgp120_p,"Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)",2
+1117,chtbs6p_c,Diacetylchitobiose-6-phosphate,2
+1118,1agpg180_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0),2
+1119,acmum_p,N-Acetylmuramate,2
+1120,quin_p,Quinate,2
+1121,malttr_p,Maltotriose C18H32O16,2
+1122,psclys_c,Psicoselysine,2
+1123,slnt_e,Selenite,2
+1124,colipap_e,Core oligosaccharide lipid A diphosphate,1
+1125,acald_p,Acetaldehyde,2
+1126,moadcoo_c,MoaD Protein with carboxylate,2
+1127,gly_p,Glycine,4
+1128,dhgly_c,Dehydroglycine,3
+1129,lipopb_c,Lipoate (protein bound),3
+1130,2ippm_c,2-Isopropylmaleate,2
+1131,ser__D_p,D-Serine,2
+1132,f_c,Fluoride,1
+1133,o2s_p,Superoxide anion,2
+1134,23cump_p,"2',3'-Cyclic UMP",2
+1135,3psme_c,5-O-(1-Carboxyvinyl)-3-phosphoshikimate,2
+1136,imacp_c,3-(Imidazol-4-yl)-2-oxopropyl phosphate,2
+1137,3c2hmp_c,3-Carboxy-2-hydroxy-4-methylpentanoate,2
+1138,xan_e,Xanthine,2
+1139,udpLa4fn_c,Uridine 5''-diphospho-{beta}-4-deoxy-4-formamido-L-arabinose,2
+1140,pser__L_c,O-Phospho-L-serine,2
+1141,uacgam_e,UDP-N-acetyl-D-glucosamine,2
+1142,ttdcea_e,Tetradecenoate (n-C14:1),2
+1143,4abut_c,4-Aminobutanoate,6
+1144,tma_c,Trimethylamine,2
+1145,ocdcaACP_c,Octadecanoyl-ACP (n-C18:0ACP),6
+1146,pg160_c,"Phosphatidylglycerol (dihexadecanoyl, n-C16:0)",5
+1147,gmp_c,GMP C10H12N5O8P,14
+1148,12dgr120_c,"1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)",3
+1149,uama_c,UDP-N-acetylmuramoyl-L-alanine,2
+1150,trp__L_p,L-Tryptophan,3
+1151,gua_c,Guanine,6
+1152,lcts_p,Lactose C12H22O11,4
+1153,pa160_p,"1,2-dihexadecanoyl-sn-glycerol 3-phosphate",5
+1154,udcpdp_c,Undecaprenyl diphosphate,6
+1155,2odec11eg3p_c,2-octadec-11-enoyl-sn-glycerol 3-phosphate,2
+1156,fruur_e,D-Fructuronate,2
+1157,glu__D_c,D-Glutamate,2
+1158,frulys_p,Fructoselysine,2
+1159,12ppd__R_p,"(R)-Propane-1,2-diol",2
+1160,f6p_p,D-Fructose 6-phosphate,2
+1161,3ophb_c,3-Octaprenyl-4-hydroxybenzoate,2
+1162,kdo2lipid4_e,KDO(2)-lipid IV(A),2
+1163,pmtcoa_c,Palmitoyl-CoA (n-C16:0CoA),4
+1164,dump_e,DUMP C9H11N2O8P,2
+1165,3dhsk_c,3-Dehydroshikimate,2
+1166,3amp_p,3  AMP C10H12N5O7P,3
+1167,acACP_c,Acetyl-ACP,3
+1168,kphphhlipa_c,Kdo-phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA,2
+1169,5pg35pg_c,5-Phosphoguanylyl(3->5)guanosine,2
+1170,urate_p,Urate C5H4N4O3,2
+1171,udpgalfur_c,"UDP-D-galacto-1,4-furanose",2
+1172,h2o_c,H2O H2O,616
+1173,gagicolipa_c,Galactosyl-glucosyl-inner core oligosaccharide lipid A,2
+1174,feenter_p,Fe-enterobactin,2
+1175,hg2_p,Mercury  charged 2  Hg,3
+1176,ala__D_c,D-Alanine,10
+1177,glcr_p,D-Glucarate,2
+1178,alac__S_c,(S)-2-Acetolactate,2
+1179,2amsa_c,2-Aminomalonate semialdehyde,2
+1180,dsbaox_p,Periplasmic protein disulfide isomerase I (oxidized),2
+1181,tre_p,Trehalose,3
+1182,pa161_p,"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate",5
+1183,dcdp_c,DCDP C9H12N3O10P2,4
+1184,imp_e,IMP C10H11N4O8P,2
+1185,db4p_c,"3,4-dihydroxy-2-butanone 4-phosphate",2
+1186,ca2_c,Calcium,4
+1187,feoxam_un_p,Ferroxamine minus Fe(3),2
+1188,galctn__L_p,L-Galactonate,2
+1189,nmn_c,NMN C11H14N2O8P,5
+1190,gal1p_e,Alpha-D-Galactose 1-phosphate,2
+1191,gly_c,Glycine,16
+1192,2fe1s_c,[2Fe-1S] desulfurated iron-sulfur cluster,3
+1193,LalaDglu_c,L-alanine-D-glutamate,3
+1194,flxso_c,Flavodoxin semi oxidized,7
+1195,h2o2_c,Hydrogen peroxide,18
+1196,malcoa_c,Malonyl CoA C24H33N7O19P3S,4
+1197,fru_p,D-Fructose,3
+1198,xyl__D_e,D-Xylose,2
+1199,galctn__D_e,D-Galactonate,2
+1200,gal_c,D-Galactose,5
+1201,phom_c,O-Phospho-L-homoserine,2
+1202,glc__D_e,D-Glucose,3
+1203,indole_p,Indole,3
+1204,3odcoa_c,3-Oxodecanoyl-CoA,2
+1205,fmnh2_c,Reduced FMN,13
+1206,ppal_c,Propanal,2
+1207,ugmda_c,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine",2
+1208,12dgr161_c,"1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)",3
+1209,mobd_e,Molybdate,2
+1210,g3pi_e,Sn-Glycero-3-phospho-1-inositol,2
+1211,nh4_e,Ammonium,2
+1212,tartr__D_c,D-tartrate,3
+1213,g3pc_e,Sn-Glycero-3-phosphocholine,2
+1214,3oxdhscoa_c,"3-oxo-5,6-dehydrosuberyl-CoA",2
+1215,23camp_p,"2',3'-Cyclic AMP",2
+1216,idp_c,IDP C10H11N4O11P2,2
+1217,gslnt_c,Glutathiolselenolate,2
+1218,ahdt_c,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate",4
+1219,uLa4n_c,Undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose,2
+1220,hdca_e,Hexadecanoate (n-C16:0),4
+1221,ampnt_c,Aminomethylphosphonate,1
+1222,cenchddd_c,"Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol",2
+1223,tyrp_p,Phosphotyrosine,2
+1224,ps181_c,"Phosphatidylserine (dioctadec-11-enoyl, n-C18:1)",2
+1225,f6p_c,D-Fructose 6-phosphate,16
+1226,pgp140_p,"Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)",2
+1227,uacmamu_c,UDP-N-acetyl-D-mannosaminouronate,2
+1228,ametam_c,S-Adenosylmethioninamine,3
+1229,hxcoa_c,Hexanoyl-CoA (n-C6:0CoA),5
+1230,2agpg141_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1),4
+1231,cynt_p,Cyanate,2
+1232,3hcinnm_p,3-hydroxycinnamic acid,2
+1233,2agpg161_c,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1),4
+1234,pphn_c,Prephenate,4
+1235,cysi__L_p,L Cystine C6H12N2O4S2,2
+1236,ura_p,Uracil,3
+1237,fald_e,Formaldehyde,2
+1238,prlp_c,5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide,2
+1239,uacgam_p,UDP-N-acetyl-D-glucosamine,2
+1240,2ddara_c,2-dehydro-3-deoxy-D-arabinonate,2
+1241,2mahmp_c,2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate,3
+1242,s7p_c,Sedoheptulose 7-phosphate,4
+1243,prfp_c,1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide,2
+1244,murein5p5p5p_p,"Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)",2
+1245,nicrnt_c,Nicotinate D-ribonucleotide,5
+1246,murein4px4p_p,"Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain)",4
+1247,csn_e,Cytosine,2
+1248,tmrs2eACP_c,Trans-Tetradec-2-enoyl-[acyl-carrier protein],3
+1249,o2_e,O2 O2,2
+1250,pe180_c,"Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)",3
+1251,kdo8p_c,3-Deoxy-D-manno-octulosonate 8-phosphate,2
+1252,succ_e,Succinate,2
+1253,ser__L_e,L-Serine,2
+1254,cpg180_c,"Cyclopropane phosphatidylglycerol (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)",1
+1255,mql8_c,Menaquinol 8,25
+1256,pg120_p,"Phosphatidylglycerol (didodecanoyl, n-C12:0)",6
+1257,amob_c,S-Adenosyl-4-methylthio-2-oxobutanoate,2
+1258,xtsn_e,Xanthosine,2
+1259,ttdca_e,Tetradecanoate (n-C14:0),2
+1260,2hdec9eg3p_c,2-hexadec-9-enoyl-sn-glycerol 3-phosphate,2
+1261,5dglcn_c,5-Dehydro-D-gluconate,7
+1262,cl_c,Chloride,4
+1263,2oxpaccoa_c,2-oxepin-2(3H)-ylideneacetyl-CoA,2
+1264,mmcoa__S_c,(S)-Methylmalonyl-CoA,2
+1265,glyc__R_c,(R)-Glycerate,7
+1266,mmet_e,S-Methyl-L-methionine,2
+1267,dms_c,Dimethyl sulfide,2
+1268,g6p_c,D-Glucose 6-phosphate,12
+1269,N1aspmd_c,N1-Acetylspermidine,1
+1270,trdrd_c,Reduced thioredoxin,10
+1271,2dh3dgal_c,2-Dehydro-3-deoxy-D-galactonate,2
+1272,methf_c,"5,10-Methenyltetrahydrofolate",4
+1273,ddcaACP_c,Dodecanoyl-ACP (n-C12:0ACP),9
+1274,mnl1p_c,D-Mannitol 1-phosphate,2
+1275,agm_c,Agmatine,3
+1276,ala__L_p,L-Alanine,5
+1277,prpp_c,5-Phospho-alpha-D-ribose 1-diphosphate,13
+1278,hkndd_c,"2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate",2
+1279,galur_p,D-Galacturonate,2
+1280,all6p_c,D-Allose 6-phosphate,2
+1281,allul6p_c,Allulose 6-phosphate,2
+1282,histd_c,L-Histidinol,2
+1283,for_p,Formate,5
+1284,orot_c,Orotate C5H3N2O4,5
+1285,galt_p,Galactitol,2
+1286,fecrm_e,Ferrichrome,3
+1287,glc__D_p,D-Glucose,9
+1288,damp_c,DAMP C10H12N5O6P,3
+1289,fmn_c,FMN C17H19N4O9P,17
+1290,mal__D_e,D-Malate,2
+1291,3oddcoa_c,3-Oxododecanoyl-CoA,2
+1292,phe__L_p,L-Phenylalanine,3
+1293,g3pg_p,Glycerophosphoglycerol,10
+1294,tsul_p,Thiosulfate,3
+1295,trnaglu_c,TRNA (Glu),2
+1296,ppgpp_c,"Guanosine 3',5'-bis(diphosphate)",3
+1297,ins_e,Inosine,2
+1298,thm_p,Thiamin,2
+1299,ethso3_c,Ethanesulfonate,2
+1300,arbtn_fe3_e,Aerobactin,3
+1301,q8_c,Ubiquinone-8,23
+1302,acgam1p_p,N-Acetyl-D-glucosamine 1-phosphate,3
+1303,orn_c,Ornithine,6
+1304,cl_e,Chloride,2
+1305,stcoa_c,Stearoyl-CoA (n-C18:0CoA),3
+1306,2ombzl_c,"2-Octaprenyl-6-methoxy-1,4-benzoquinol",2
+1307,murein5px4p_p,"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)",5
+1308,gthox_e,Oxidized glutathione,2
+1309,damp_p,DAMP C10H12N5O6P,2
+1310,dcaACP_c,Decanoyl-ACP (n-C10:0ACP),5
+1311,3gmp_e,Guanosine 3  phosphate C10H12N5O8P,2
+1312,etha_c,Ethanolamine,3
+1313,3hcddec5eACP_c,(R)-3-hydroxy-cis-dodec-5-enoyl-[acyl-carrier protein],2
+1314,betald_c,Betaine aldehyde,3
+1315,udpglcur_p,UDP-D-glucuronate,2
+1316,2agpg140_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0),2
+1317,tddec2eACP_c,Trans-Dodec-2-enoyl-[acyl-carrier protein],3
+1318,hdca_c,Hexadecanoate (n-C16:0),9
+1319,1agpe180_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0),2
+1320,fgam_c,N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide,3
+1321,pe180_p,"Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)",3
+1322,1agpg141_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1),2
+1323,2agpe181_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1),4
+1324,dd2coa_c,Trans-Dodec-2-enoyl-CoA,2
+1325,sufbcd_c,SufBCD scaffold complex,4
+1326,iasp_c,Iminoaspartate,5
+1327,3hpp_e,3-Hydroxypropanoate,2
+1328,nadphx__R_c,(R)-NADPHX,2
+1329,opmeACP_c,3-Oxo-pimeloyl-[acyl-carrier protein] methyl ester,2
+1330,meoh_p,Methanol,2
+1331,bwco1gdp_c,Tungsten bispterin cofactor mono-guanine dinucleotide,2
+1332,cit_c,Citrate,7
+1333,skm5p_c,Shikimate 5-phosphate,2
+1334,oaa_c,Oxaloacetate,13
+1335,td2coa_c,Trans-Tetradec-2-enoyl-CoA,3
+1336,acmet_c,N-Acetylmethionine,1
+1337,nadhx__S_c,"Adenosine 5'-(3-{5-[(2S)-5-carbamoyl-2-hydroxy-3,4-dihydropyridin-1-yl]-5-deoxy-?-D-ribofuranosyl} dihydrogen diphosphate)",3
+1338,tre6p_c,"Alpha,alpha'-Trehalose 6-phosphate",4
+1339,23dhmp_c,"(R)-2,3-Dihydroxy-3-methylpentanoate",2
+1340,tagur_c,D-Tagaturonate,3
+1341,man6p_c,D-Mannose 6-phosphate,7
+1342,acgam_e,N-Acetyl-D-glucosamine,2
+1343,hmbil_c,Hydroxymethylbilane,2
+1344,no3_e,Nitrate,2
+1345,fprica_c,5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide,2
+1346,ara5p_c,D-Arabinose 5-phosphate,2
+1347,pnto__R_e,(R)-Pantothenate,2
+1348,dtdprmn_c,DTDP-L-rhamnose,2
+1349,mana_c,D-Mannonate,2
+1350,3dhguln_c,3-Dehydro-L-gulonate,2
+1351,kdo_c,3-Deoxy-D-manno-2-octulosonate,2
+1352,glcn_e,D-Gluconate,2
+1353,duri_e,Deoxyuridine,2
+1354,hqn_c,Hydroquinone,1
+1355,lipidA_c,"2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate",2
+1356,glucys_c,Gamma-L-Glutamyl-L-cysteine,2
+1357,2omph_c,2-Octaprenyl-6-methoxyphenol,2
+1358,sbt6p_c,D-Sorbitol 6-phosphate,2
+1359,scl_c,Sirohydrochlorin,2
+1360,minohp_e,Myo-Inositol hexakisphosphate,2
+1361,pppg9_c,Protoporphyrinogen IX,4
+1362,csn_c,Cytosine,4
+1363,acnam_e,N-Acetylneuraminate,2
+1364,ac_p,Acetate,3
+1365,ap5a_c,"P1,P5-Bis(5'-adenosyl) pentaphosphate",1
+1366,malthx_p,Maltohexaose,3
+1367,cgly_e,Cys Gly C5H10N2O3S,2
+1368,inost_c,Myo-Inositol,4
+1369,seln_c,Selenide,2
+1370,gmhep1p_c,D-Glycero-D-manno-heptose 1-phosphate,2
+1371,fecrm_un_p,Ferrichrome minus Fe(III),2
+1372,apoACP_c,Apoprotein [acyl carrier protein],1
+1373,o16a4colipa_p,(O16 antigen)x4 core oligosaccharide lipid A,2
+1374,ttdcea_c,Tetradecenoate (n-C14:1),9
+1375,ump_e,UMP C9H11N2O9P,2
+1376,ni2_e,Nickel,2
+1377,aso3_p,Arsenite,2
+1378,enter_p,Enterochelin,2
+1379,thrp_p,L-Threonine O-3-phosphate,2
+1380,cys__D_p,D-Cysteine,2
+1381,ch4_e,Methane,2
+1382,o2s_e,Superoxide anion,2
+1383,murein5px4px4p_p,Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain),2
+1384,ag_c,Silver,1
+1385,3cmp_p,3  CMP C9H12N3O8P,3
+1386,1ddecg3p_c,1-dodecanoyl-sn-glycerol 3-phosphate,3
+1387,pg141_c,"Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)",5
+1388,crn__D_c,D-Carnitine,4
+1389,pa120_c,"1,2-didodecanoyl-sn-glycerol 3-phosphate",6
+1390,pe161_p,"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)",6
+1391,gthox_p,Oxidized glutathione,3
+1392,udpgal_e,UDPgalactose,2
+1393,2agpe161_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1),4
+1394,pg180_p,"Phosphatidylglycerol (dioctadecanoyl, n-C18:0)",6
+1395,udpacgal_p,UDP-N-acetyl-D-galactosamine,2
+1396,2odec11eg3p_p,2-octadec-11-enoyl-sn-glycerol 3-phosphate,2
+1397,12ppd__R_e,"(R)-Propane-1,2-diol",2
+1398,forcoa_c,Formyl-CoA(4-),2
+1399,glyc2p_e,Glycerol 2-phosphate,2
+1400,moadcosh_c,MoaD Protein with thiocarboxylate,2
+1401,1agpe140_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0),2
+1402,murein5p3p_p,"Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)",3
+1403,rephaccoa_c,"Ring 1,2-epoxyphenylacetyl-CoA",2
+1404,ttrcyc_e,Tetracycline,3
+1405,pa180_c,"1,2-dioctadecanoyl-sn-glycerol 3-phosphate",6
+1406,his__L_c,L-Histidine,5
+1407,2fe2s_c,[2Fe-2S] iron-sulfur cluster,6
+1408,didp_c,DIDP; 2'-deoxyinosine-5'-diphosphate(3-),1
+1409,23doguln_p,"2,3-Dioxo-L-gulonate",1
+1410,ribflv_c,Riboflavin C17H20N4O6,13
+1411,pg161_p,"Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)",7
+1412,lac__L_e,L-Lactate,2
+1413,so4_c,Sulfate,6
+1414,6pgl_c,"6-phospho-D-glucono-1,5-lactone",2
+1415,2agpg141_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1),2
+1416,ptrc_c,Putrescine,9
+1417,2dda7p_c,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,2
+1418,itp_c,ITP C10H11N4O14P3,4
+1419,1hdec9eg3p_p,1-hexadec-9-enoyl-sn-glycerol 3-phosphate,2
+1420,2mcit_c,2-Methylcitrate,2
+1421,sl2a6o_c,N-Succinyl-2-L-amino-6-oxoheptanedioate,2
+1422,iscu_4fe4s_c,IscU with bound [4Fe-4S] cluster,2
+1423,cmp_c,CMP C9H12N3O8P,33
+1424,dtdpglu_c,DTDPglucose,2
+1425,cm_p,Chloramphenicol,2
+1426,g3pi_c,Sn-Glycero-3-phospho-1-inositol,2
+1427,gtp_c,GTP C10H12N5O14P3,27
+1428,cur_c,Curcumin,1
+1429,uacgam_c,UDP-N-acetyl-D-glucosamine,7
+1430,uaccg_c,UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine,2
+1431,lipidAds_c,Lipid A Disaccharide,2
+1432,h2mb4p_c,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate,3
+1433,galct__D_p,D-Galactarate,2
+1434,glcur_p,D-Glucuronate,3
+1435,prcp_c,"5-phospho-?-D-ribose 1,2-cyclic phosphate",2
+1436,maltpt_p,Maltopentaose,2
+1437,fc1p_c,L-Fuculose 1-phosphate,2
+1438,btn_c,Biotin,6
+1439,so4_p,Sulfate,3
+1440,succ_c,Succinate,26
+1441,feoxam_un_c,Ferroxamine minus Fe(3),4
+1442,cbl1_e,Cob(I)alamin,2
+1443,gam6p_c,D-Glucosamine 6-phosphate,6
+1444,xylu__L_c,L-Xylulose,3
+1445,mso3_c,Methanesulfonate,2
+1446,aps_c,Adenosine 5'-phosphosulfate,2
+1447,Sfglutth_c,S-Formylglutathione,2
+1448,xylu__L_e,L-Xylulose,2
+1449,arg__L_p,L-Arginine,6
+1450,thdp_c,"2,3,4,5-Tetrahydrodipicolinate",2
+1451,gam_p,D-Glucosamine,2
+1452,pe140_c,"Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)",3
+1453,pgp120_c,"Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)",3
+1454,cdp_c,CDP C9H12N3O11P2,7
+1455,clpn180_p,"Cardiolipin (tetraoctadecanoyl, n-C18:0)",2
+1456,glyb_p,Glycine betaine,4
+1457,ipdp_c,Isopentenyl diphosphate,6
+1458,lac__L_p,L-Lactate,2
+1459,2agpe180_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0),2
+1460,ppbng_c,Porphobilinogen,2
+1461,gam6p_p,D-Glucosamine 6-phosphate,2
+1462,meoh_c,Methanol,3
+1463,pydx_e,Pyridoxal,2
+1464,metsox_R__L_c,L-methionine-R-sulfoxide,3
+1465,pheme_c,Protoheme C34H30FeN4O4,5
+1466,hmgth_c,Hydroxymethylglutathione,2
+1467,fe3dcit_c,Fe(III)dicitrate,1
+1468,gua_e,Guanine,2
+1469,4hthr_c,4-Hydroxy-L-threonine,2
+1470,sel_e,Selenate,2
+1471,12ppd__S_c,"(S)-Propane-1,2-diol",3
+1472,glyc__R_e,(R)-Glycerate,2
+1473,2ohph_c,2-Octaprenyl-6-hydroxyphenol,4
+1474,eca4colipa_e,(enterobacterial common antigen)x4 core oligosaccharide lipid A,2
+1475,2dglc_p,2 Deoxy D glucose C6H12O5,2
+1476,sucglu_c,N2-Succinyl-L-glutamate,2
+1477,no_c,Nitric oxide,5
+1478,cyan_e,Hydrogen cyanide,2
+1479,op4en_c,2-Oxopent-4-enoate,3
+1480,hom__L_p,L-Homoserine,2
+1481,nadph_c,Nicotinamide adenine dinucleotide phosphate - reduced,113
+1482,dmso_c,Dimethyl sulfoxide,3
+1483,acglu_c,N-Acetyl-L-glutamate,2
+1484,3hddecACP_c,(R)-3-Hydroxydodecanoyl-[acyl-carrier protein],2
+1485,2obut_c,2-Oxobutanoate,3
+1486,dtdp4d6dm_c,DTDP-4-dehydro-6-deoxy-L-mannose,2
+1487,dmpp_c,Dimethylallyl diphosphate,3
+1488,cddec5eACP_c,Cis-dodec-5-enoyl-[acyl-carrier protein] (n-C12:1),3
+1489,gthrd_p,Reduced glutathione,6
+1490,malttr_c,Maltotriose C18H32O16,4
+1491,1odec11eg3p_p,1-octadec-11-enoyl-sn-glycerol 3-phosphate,2
+1492,rbflvrd_c,Reduced riboflavin,8
+1493,sucarg_c,N2-Succinyl-L-arginine,2
+1494,tagdp__D_c,"D-Tagatose 1,6-biphosphate",2
+1495,iscu_c,IscU scaffold protein,4
+1496,arab__L_p,L-Arabinose,4
+1497,cxsam_c,Carboxy-S-adenosyl-L-methionine,1
+1498,crn_c,L-Carnitine,7
+1499,gsn_p,Guanosine,5
+1500,dnad_c,Deamino-NAD+,2
+1501,mteo2_c,Methanetelluronate,1
+1502,glyc_c,Glycerol,8
+1503,no3_p,Nitrate,4
+1504,val__L_c,L-Valine,7
+1505,pro__L_c,L-Proline,8
+1506,ddca_p,Dodecanoate (n-C12:0),11
+1507,ala_B_e,Beta-Alanine,2
+1508,cbasp_c,N-Carbamoyl-L-aspartate,2
+1509,mobd_c,Molybdate,4
+1510,mqn8_c,Menaquinone 8,23
+1511,lac__D_p,D-Lactate,2
+1512,fecrm_un_e,Ferrichrome minus Fe(III),3
+1513,ala__D_p,D-Alanine,13
+1514,fuc__L_e,L-Fucose,2
+1515,malACP_c,Malonyl-[acyl-carrier protein],17
+1516,malthp_c,Maltoheptaose,3
+1517,tsul_e,Thiosulfate,2
+1518,lipa_cold_c,Cold adapted KDO(2)-lipid (A),2
+1519,3cmp_e,3  CMP C9H12N3O8P,2
+1520,sarcs_c,Sarcosine C3H7NO2,1
+1521,butso3_e,Butanesulfonate,2
+1522,ptrc_e,Putrescine,2
+1523,acgal1p_p,N-Acetyl-D-galactosamine 1-phosphate,3
+1524,hxa_e,Hexanoate (n-C6:0),2
+1525,3hpppn_c,3-(3-hydroxy-phenyl)propionate,2
+1526,fe3hox_c,Fe(III)hydroxamate,4
+1527,acgal1p_e,N-Acetyl-D-galactosamine 1-phosphate,2
+1528,leu__L_p,L-Leucine,4
+1529,malthx_e,Maltohexaose,2
+1530,lyx__L_p,L-Lyxose,2
+1531,3sala_c,3-Sulfino-L-alanine,1
+1532,feoxam_p,Generic ferrioxamine-Fe-III,2
+1533,3hdecACP_c,(R)-3-Hydroxydecanoyl-[acyl-carrier protein],2
+1534,taur_p,Taurine C2H7NO3S,2
+1535,cdec3eACP_c,Cis-dec-3-enoyl-[acyl-carrier protein] (n-C10:1),2
+1536,3hcmrs7eACP_c,(R)-3-hydroxy-cis-myristol-7-eoyl-[acyl-carrier protein],2
+1537,h2o2_p,Hydrogen peroxide,5
+1538,glu__L_p,L-Glutamate,7
+1539,dimp_e,DIMP C10H12N4O7P,2
+1540,3ump_e,3  UMP C9H11N2O9P,2
+1541,pe161_c,"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)",4
+1542,2odecg3p_p,2-octadecanoyl-sn-glycerol 3-phosphate,2
+1543,nac_p,Nicotinate,2
+1544,1tdecg3p_p,1-tetradecanoyl-sn-glycerol 3-phosphate,2
+1545,anhgm_p,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,4
+1546,udpLa4o_c,UDP-4-keto-pyranose,2
+1547,ethso3_e,Ethanesulfonate,2
+1548,psclys_e,Psicoselysine,2
+1549,unagamuf_p,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose",4
+1550,tartr__D_p,D-tartrate,3
+1551,n2o_p,Nitrous oxide,2
+1552,udpgal_p,UDPgalactose,2
+1553,gfgaragund_c,Galactofuranosyl-glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate,2
+1554,3oddecACP_c,3-Oxododecanoyl-[acyl-carrier protein],2
+1555,na15dap_c,"N-3-aminopropyl-1,5-diaminopentane",1
+1556,quin_e,Quinate,2
+1557,glyc__R_p,(R)-Glycerate,2
+1558,3amac_c,3-Aminoacrylate,2
+1559,pg181_c,"Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)",6
+1560,ethso3_p,Ethanesulfonate,2
+1561,12dgr141_c,"1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)",3
+1562,lipoate_c,Lipoate,2
+1563,3ooctdACP_c,3-Oxooctadecanoyl-[acyl-carrier protein],2
+1564,but2eACP_c,But-2-enoyl-[acyl-carrier protein],3
+1565,pgp161_p,"Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)",2
+1566,fe3dhbzs3_c,2-3-dihydroxybenzoylserine trimer-Fe-III,3
+1567,12dgr180_c,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)",3
+1568,psuri_e,Pseudouridine,1
+1569,ddca_c,Dodecanoate (n-C12:0),9
+1570,pyr_c,Pyruvate,70
+1571,xdp_c,XDP,1
+1572,dump_c,DUMP C9H11N2O8P,4
+1573,acon_C_c,Cis-Aconitate,3
+1574,dsbgrd_p,Periplasmic disulfide isomerase/thiol-disulphide oxidase (reduced),2
+1575,23dhacoa_c,"2,3-dehydroadipyl-CoA",2
+1576,4mpetz_c,4-Methyl-5-(2-phosphoethyl)-thiazole,3
+1577,ppal_e,Propanal,2
+1578,ru5p__L_c,L-Ribulose 5-phosphate,3
+1579,sucr_e,Sucrose C12H22O11,2
+1580,3hadpcoa_c,(3S)-3-Hydroxyadipyl-CoA,2
+1581,ocdcap_c,Octadecanoyl-phosphate (n-C18:0),3
+1582,lac__L_c,L-Lactate,4
+1583,mal__D_c,D-Malate,2
+1584,acolipa_e,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A,1
+1585,anhm_c,"1,6-anhydrous-N-Acetylmuramate",4
+1586,urea_e,Urea CH4N2O,2
+1587,4fe4s_c,[4Fe-4S] iron-sulfur cluster,8
+1588,gcald_c,Glycolaldehyde,5
+1589,fe3_p,Iron (Fe3+),3
+1590,fusa_e,Fusidic acid,3
+1591,tyrp_e,Phosphotyrosine,2
+1592,hdcea_e,Hexadecenoate (n-C16:1),2
+1593,gdpddman_c,GDP-4-dehydro-6-deoxy-D-mannose,2
+1594,dhptdn_c,"6,7-Dihydropteridine",2
+1595,galct__D_c,D-Galactarate,2
+1596,grxox_c,Glutaredoxin (oxidized),6
+1597,4hbz_p,4-Hydroxybenzoate,1
+1598,1tdec7eg3p_c,1-tetradec-7-enoyl-sn-glycerol 3-phosphate,3
+1599,pgp180_c,"Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)",3
+1600,2ddecg3p_p,2-dodecanoyl-sn-glycerol 3-phosphate,2
+1601,dha_c,Dihydroxyacetone,5
+1602,gthrd_e,Reduced glutathione,2
+1603,urdglyc_c,(-)-Ureidoglycolate,3
+1604,prpncoa_c,Propenoyl-CoA,1
+1605,dcacoa_c,Decanoyl-CoA (n-C10:0CoA),4
+1606,so3_e,Sulfite,2
+1607,acgam_p,N-Acetyl-D-glucosamine,3
+1608,2hdec9eg3p_p,2-hexadec-9-enoyl-sn-glycerol 3-phosphate,2
+1609,sel_c,Selenate,2
+1610,3fe4s_c,[3Fe-4S] damaged iron-sulfur cluster,3
+1611,lipoamp_c,Lipoyl-AMP,2
+1612,icit_c,Isocitrate,3
+1613,2dglc_e,2 Deoxy D glucose C6H12O5,2
+1614,melib_p,Melibiose C12H22O11,3
+1615,rmn_p,L-Rhamnose,2
+1616,galctn__D_p,D-Galactonate,2
+1617,lac__D_c,D-Lactate,6
+1618,frulys_e,Fructoselysine,2
+1619,nadh_c,Nicotinamide adenine dinucleotide - reduced,127
+1620,2dr5p_c,2-Deoxy-D-ribose 5-phosphate,2
+1621,amp_c,AMP C10H12N5O7P,74
+1622,cmp_e,CMP C9H12N3O8P,2
+1623,pydam_e,Pyridoxamine,2
+1624,3php_c,3-Phosphohydroxypyruvate,3
+1625,dtdp_c,DTDP C10H13N2O11P2,5
+1626,dhf_c,"7,8-Dihydrofolate",3
+1627,gmp_p,GMP C10H12N5O8P,2
+1628,56dura_c,"5,6-dihydrouracil",1
+1629,4hoxpacd_p,4-Hydroxyphenylacetaldehyde,2
+1630,for_c,Formate,15
+1631,urate_c,Urate C5H4N4O3,3
+1632,pi_e,Phosphate,2
+1633,3amp_e,3  AMP C10H12N5O7P,2
+1634,h2_c,Hydrogen,5
+1635,14glucan_e,"1,4-alpha-D-glucan",2
+1636,thmmp_c,Thiamin monophosphate,4
+1637,psd5p_c,Pseudouridine 5  phosphate C9H11N2O9P,2
+1638,b2coa_c,Crotonoyl-CoA,3
+1639,fe3_e,Iron (Fe3+),9
+1640,asp__L_e,L-Aspartate,2
+1641,athr__L_c,L-Allo-threonine,2
+1642,3opalmACP_c,3-Oxohexadecanoyl-[acyl-carrier protein],2
+1643,3hcvac11eACP_c,(R)-3-hydroxy-cis-vacc-11-enoyl-[acyl-carrier protein],2
+1644,sq_p,Sulphoquinovose,2
+1645,thr__L_e,L-Threonine,2
+1646,maltpt_e,Maltopentaose,2
+1647,metsox_S__L_e,L-Methionine Sulfoxide,2
+1648,acampnt_c,2-N-acetamidomethylphosphonate,1
+1649,coa_c,Coenzyme A,80
+1650,kdo2lipid4L_c,KDO(2)-lipid IV(A) with laurate,2
+1651,asn__L_c,L-Asparagine,6
+1652,nac_c,Nicotinate,4
+1653,4per_c,4-Phospho-D-erythronate,2
+1654,no2_c,Nitrite,5
+1655,15dap_e,"1,5-Diaminopentane",2
+1656,udp_c,UDP C9H11N2O12P2,19
+1657,hdd2coa_c,Trans-Hexadec-2-enoyl-CoA,3
+1658,hxan_c,Hypoxanthine,7
+1659,2dh3dgal6p_c,2-Dehydro-3-deoxy-D-galactonate 6-phosphate,2
+1660,no_e,Nitric oxide,2
+1661,ap4a_c,"P1,P4-Bis(5'-adenosyl) tetraphosphate",2
+1662,leu__L_c,L-Leucine,6
+1663,25aics_c,(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate,2
+1664,meoh_e,Methanol,2
+1665,melib_e,Melibiose C12H22O11,2
+1666,35cgmp_c,"3',5'-Cyclic GMP",2
+1667,2ddglcn_p,2-Dehydro-3-deoxy-D-gluconate,2
+1668,adocbip_c,Adenosyl cobinamide phosphate,2
+1669,etha_e,Ethanolamine,2
+1670,gdpfuc_c,GDP-L-fucose,1
+1671,glyc3p_p,Glycerol 3-phosphate,15
+1672,unaga_c,Undecaprenyl diphospho N-acetyl-glucosamine,2
+1673,k_p,Potassium,4
+1674,gtp_p,GTP C10H12N5O14P3,2
+1675,xylu__L_p,L-Xylulose,2
+1676,maltttr_e,Maltotetraose,2
+1677,glcur_e,D-Glucuronate,2
+1678,metsox_S__L_c,L-Methionine Sulfoxide,3
+1679,crncoa_c,L-Carnitinyl-CoA,5
+1680,fe3hox_e,Fe(III)hydroxamate,3
+1681,3ump_p,3  UMP C9H11N2O9P,3
+1682,g3ps_p,Glycerophosphoserine,3
+1683,ggbutal_c,Gamma-glutamyl-gamma-butyraldehyde,2
+1684,gbbtn_e,Gamma-butyrobetaine,2
+1685,pg140_c,"Phosphatidylglycerol (ditetradecanoyl, n-C14:0)",5
+1686,4abz_c,4-Aminobenzoate,3
+1687,mso3_p,Methanesulfonate,2
+1688,pa140_p,"1,2-ditetradecanoyl-sn-glycerol 3-phosphate",5
+1689,LalaDgluMdap_c,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate",6
+1690,cbl1_p,Cob(I)alamin,2
+1691,enter_e,Enterochelin,3
+1692,apg180_c,Acyl phosphatidylglycerol (n-C18:0),2
+1693,colipa_c,Core oligosaccharide lipid A,2
+1694,LalaLglu_c,L-alanine-L-glutamate,3
+1695,appl_c,1-Aminopropan-2-ol,1
+1696,aragund_c,O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate,2
+1697,2dglc_c,2 Deoxy D glucose C6H12O5,1
+1698,14dhncoa_c,"1,4-dihydroxy-2-napthoyl-CoA",2
+1699,3omrsACP_c,3-Oxotetradecanoyl-[acyl-carrier protein],2
+1700,o16a2und_p,(O16 antigen)x2 undecaprenyl diphosphate,2
+1701,mmet_c,S-Methyl-L-methionine,2
+1702,pgp181_c,"Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)",3
+1703,acald_c,Acetaldehyde,11
+1704,cpe180_c,"Cyclopropane phosphatidylethanolamine (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)",1
+1705,acgam1p_e,N-Acetyl-D-glucosamine 1-phosphate,2
+1706,5aprbu_c,5-Amino-6-(5'-phosphoribitylamino)uracil,2
+1707,pa141_p,"1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate",5
+1708,5aop_c,5-Amino-4-oxopentanoate,2
+1709,12dgr141_p,"1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)",2
+1710,pa180_p,"1,2-dioctadecanoyl-sn-glycerol 3-phosphate",5
+1711,oc2coa_c,Trans-Oct-2-enoyl-CoA,2
+1712,2agpe141_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1),4
+1713,rdmbzi_c,"N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole",2
+1714,1agpe141_p,1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1),2
+1715,ctbtcoa_c,Crotonobetainyl-CoA,3
+1716,1agpg161_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1),2
+1717,3hmrsACP_c,(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein],4
+1718,LalaDglu_e,L-alanine-D-glutamate,2
+1719,pram_c,5-Phospho-beta-D-ribosylamine,2
+1720,sufbcd_2fe2s2_c,SufBCD with two bound [2Fe-2S] clusters,2
+1721,urate_e,Urate C5H4N4O3,2
+1722,oxur_c,Oxalureate,2
+1723,ocdceap_c,Octadecanoyl-phosphate (n-C18:1),3
+1724,cm_e,Chloramphenicol,3
+1725,agm_e,Agmatine,2
+1726,cdg_c,7-deaza-7-carboxyguanine,2
+1727,feenter_c,Fe-enterobactin,6
+1728,iscs_c,IscS sulfur acceptor protein,6
+1729,fe3dhbzs3_p,2-3-dihydroxybenzoylserine trimer-Fe-III,1
+1730,na1_c,Sodium,16
+1731,3c4mop_c,3-Carboxy-4-methyl-2-oxopentanoate,2
+1732,dxylnt_c,D-Xylonate,2
+1733,lys__L_p,L-Lysine,5
+1734,urdgci_c,S-ureidoglycine,2
+1735,hcys__L_c,L-Homocysteine,5
+1736,no3_c,Nitrate,5
+1737,mal__L_e,L-Malate,2
+1738,co2_c,CO2 CO2,80
+1739,4ppcys_c,N-((R)-4-Phosphopantothenoyl)-L-cysteine,2
+1740,phe__L_e,L-Phenylalanine,2
+1741,cpgn_e,Coprogen,3
+1742,pi_p,Phosphate,54
+1743,alltt_c,Allantoate,2
+1744,fum_e,Fumarate,2
+1745,cpgn_p,Coprogen,2
+1746,acald_e,Acetaldehyde,2
+1747,h2_p,Hydrogen,3
+1748,tym_p,Tyramine,2
+1749,etoh_p,Ethanol,2
+1750,25drapp_c,"2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate",2
+1751,gthox_c,Oxidized glutathione,6
+1752,peamn_e,Phenethylamine,2
+1753,gar_c,N1-(5-Phospho-D-ribosyl)glycinamide,3
+1754,tungs_c,Tungstate,2
+1755,23ccmp_p,"2',3'-Cyclic CMP",2
+1756,arbtn_c,Aerobactin minus Fe3,4
+1757,enter_c,Enterochelin,8
+1758,cu_p,Cu+,4
+1759,fe3hox_p,Fe(III)hydroxamate,2
+1760,feoxam_un_e,Ferroxamine minus Fe(3),3
+1761,udpacgal_e,UDP-N-acetyl-D-galactosamine,2
+1762,ump_p,UMP C9H11N2O9P,7
+1763,lald__D_c,D-Lactaldehyde,2
+1764,cmp_p,CMP C9H12N3O8P,2
+1765,fe3hox_un_e,"Fe(III)hydoxamate, unloaded",3
+1766,acetol_c,Acetol cytosol,3
+1767,pydxn_e,Pyridoxine,2
+1768,23cgmp_e,"2',3'-Cyclic GMP",2
+1769,murein4px4px4p_p,Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain),3
+1770,23dhbzs_c,"2,3-dihydroxybenzoylserine",2
+1771,tym_e,Tyramine,2
+1772,3haACP_c,(3R)-3-Hydroxyacyl-[acyl-carrier protein],2
+1773,3ooctACP_c,3-Oxooctanoyl-[acyl-carrier protein],2
+1774,pser__L_e,O-Phospho-L-serine,2
+1775,3ocmrs7eACP_c,3-oxo-cis-myristol-7-eoyl-[acyl-carrier protein],2
+1776,so2_c,Sulfur dioxide,2
+1777,1odecg3p_c,1-octadecanoyl-sn-glycerol 3-phosphate,3
+1778,poaac_c,Peroxyaminoacrylate,2
+1779,2agpe120_p,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0),2
+1780,cdpdhdecg_c,"CDP-1,2-dihexadecanoylglycerol",4
+1781,5mtr_e,5-Methylthio-D-ribose,2
+1782,hdcea_p,Hexadecenoate (n-C16:1),11
+1783,2agpg160_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0),3
+1784,2agpe180_c,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0),4
+1785,2agpg161_p,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1),2
+1786,moco_c,Molybdenum cofactor,4
+1787,1tdec7eg3p_p,1-tetradec-7-enoyl-sn-glycerol 3-phosphate,2
+1788,3hpp_c,3-Hydroxypropanoate,3
+1789,2ddg6p_c,2-Dehydro-3-deoxy-D-gluconate 6-phosphate,3
+1790,mincyc_e,Minocycline,3
+1791,1agpg140_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0),2
+1792,arab__L_c,L-Arabinose,4
+1793,sufbcd_4fe4s_c,SufBCD with bound [4Fe-4S] cluster,2
+1794,dhcur_c,Dihydrocurcumin,2
+1795,ade_c,Adenine,12
+1796,rml_c,L-Rhamnulose,2
+1797,rfamp_e,Rifampin,3
+1798,acg5p_c,N-Acetyl-L-glutamyl 5-phosphate,2
+1799,rfamp_p,Rifampin,2
+1800,4pasp_c,4-Phospho-L-aspartate,2
+1801,glu5p_c,L-Glutamate 5-phosphate,2
+1802,h2o_e,H2O H2O,4
+1803,ch4_c,Methane,2
+1804,23dhdp_c,"2,3-Dihydrodipicolinate",2
+1805,3mop_c,(S)-3-Methyl-2-oxopentanoate,2
+1806,3htdcoa_c,(S)-3-Hydroxytetradecanoyl-CoA,2
+1807,dgtp_c,DGTP C10H12N5O13P3,6
+1808,rib__D_e,D-Ribose,2
+1809,fad_c,Flavin adenine dinucleotide oxidized,29
+1810,uri_e,Uridine,2
+1811,4ahmmp_c,4-Amino-5-hydroxymethyl-2-methylpyrimidine,1
+1812,trp__L_e,L-Tryptophan,2
+1813,dpcoa_c,Dephospho-CoA,3
+1814,2ommbl_c,"2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol",3
+1815,23ddhb_c,"2,3-Dihydro-2,3-dihydroxybenzoate",2
+1816,din_e,Deoxyinosine,2
+1817,36dahx_c,"(3S)-3,6-Diaminohexanoate",1
+1818,melib_c,Melibiose C12H22O11,3
+1819,udcpp_c,Undecaprenyl phosphate,6
+1820,dcamp_c,"N6-(1,2-Dicarboxyethyl)-AMP",2
+1821,kdo2lipid4_c,KDO(2)-lipid IV(A),4
+1822,galct__D_e,D-Galactarate,2
+1823,udpglcur_c,UDP-D-glucuronate,2
+1824,4h2opntn_c,4-Hydroxy-2-oxopentanoate,2
+1825,btnso_c,D-biotin d-sulfoxide,2
+1826,myrsACP_c,Myristoyl-ACP (n-C14:0ACP),10
+1827,selnp_c,Selenophosphate,1
+1828,camp_c,CAMP C10H11N5O6P,2
+1829,dtbt_c,Dethiobiotin,2
+1830,galur_e,D-Galacturonate,2
+1831,gmhep17bp_c,"D-Glycero-D-manno-heptose 1,7-bisphosphate",2
+1832,ACP_c,Acyl carrier protein,61
+1833,met__D_p,D-Methionine,2
+1834,palmACP_c,Palmitoyl-ACP (n-C16:0ACP),8
+1835,alltn_p,Allantoin,2
+1836,dad_2_p,Deoxyadenosine,3
+1837,suc6p_c,Sucrose 6-phosphate,1
+1838,etha_p,Ethanolamine,3
+1839,dgmp_p,DGMP C10H12N5O7P,2
+1840,23dappa_p,"2,3-diaminopropionate",2
+1841,g3pi_p,Sn-Glycero-3-phospho-1-inositol,3
+1842,23camp_e,"2',3'-Cyclic AMP",2
+1843,uLa4n_p,Undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose,2
+1844,cu_c,Cu+,3
+1845,cpgn_un_p,Coprogen unloaded (no Fe(III)),2
+1846,ps141_c,"Phosphatidylserine (ditetradec-7-enoyl, n-C14:1)",2
+1847,pgp141_p,"Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)",2
+1848,pgp180_p,"Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)",2
+1849,psclys_p,Psicoselysine,2
+1850,4abzglu_c,4-aminobenzoyl-glutamate,2
+1851,dhps_e,"2,3-Dihydroxypropane-1-sulfonate",2
+1852,erthrs_c,D-erythrose,1
+1853,succoa_c,Succinyl-CoA,10
+1854,xyl__D_c,D-Xylose,4
+1855,sucsal_c,Succinic semialdehyde,4
+1856,alltn_c,Allantoin,3
+1857,3hdcoa_c,(S)-3-Hydroxydecanoyl-CoA,2
+1858,mnl_e,D-Mannitol,2
+1859,for_e,Formate,2
+1860,kdolipid4_c,KDO-lipid IV(A),2
+1861,seramp_c,L-seryl-AMP,2
+1862,ade_p,Adenine,2
+1863,sbt__D_p,D-Sorbitol,2
+1864,12ppd__S_p,"(S)-Propane-1,2-diol",2
+1865,dca_p,Decanoate (n-C10:0),2
+1866,fe3dcit_p,Fe(III)dicitrate,2
+1867,h2o2_e,Hydrogen peroxide,2
+1868,23cump_e,"2',3'-Cyclic UMP",2
+1869,eca2und_p,(enterobacterial common antigen)x2 undecaprenyl-diphosphate,2
+1870,cl_p,Chloride,3
+1871,murein4p3p_p,"Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)",5
+1872,12dgr160_p,"1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)",2
+1873,1agpg120_p,1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0),2
+1874,tungs_e,Tungstate,2
+1875,5fthf_c,5-Formyltetrahydrofolate,2
+1876,arbtn_fe3_c,Aerobactin,4
