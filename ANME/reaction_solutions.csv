@@ -1,0 +1,706 @@
+,id,name,equation,CH4 + AQDS rep 1
+0,ATPM_c0,ATPM ANME,H2O [c0] + ATP [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0],0.0
+1,EX_cpd00001_e0,Exchange for H2O [e0],H2O [e0] <=> ,-1.93783539590373
+2,EX_cpd00007_e0,Exchange for O2 [e0],O2 [e0] --> ,0.0
+3,EX_cpd00009_e0,Exchange for Phosphate [e0],Phosphate [e0] <=> ,-0.006220679268991572
+4,EX_cpd00011_e0,Exchange for CO2 [e0],CO2 [e0] <=> ,0.9648025139162838
+5,EX_cpd00012_e0,Exchange for PPi [e0],PPi [e0] --> ,0.0027299031751071273
+6,EX_cpd00013_e0,Exchange for NH3 [e0],NH3 [e0] <=> ,-0.009332752017323576
+7,EX_cpd00020_e0,Exchange for Pyruvate [e0],Pyruvate [e0] --> ,-0.0
+8,EX_cpd00028_e0,Exchange for Heme [e0],Heme [e0] --> ,0.0
+9,EX_cpd00029_e0,Exchange for Acetate [e0],Acetate [e0] --> ,0.0008520875141334251
+10,EX_cpd00034_e0,Exchange for Zn2+ [e0],Zn2+ [e0] <=> ,-0.0
+11,EX_cpd00047_e0,Exchange for Formate [e0],Formate [e0] --> ,1.0968450470157792e-05
+12,EX_cpd00048_e0,Exchange for Sulfate [e0],Sulfate [e0] <=> ,-5.484225235052875e-06
+13,EX_cpd00058_e0,Exchange for Cu2+ [e0],Cu2+ [e0] <=> ,-0.0
+14,EX_cpd00063_e0,Exchange for Ca2+ [e0],Ca2+ [e0] <=> ,-0.0
+15,EX_cpd00067_e0,Exchange for H+ [e0],H+ [e0] <=> ,-0.8354250386626594
+16,EX_cpd00071_e0,Exchange for Acetaldehyde [e0],Acetaldehyde [e0] --> ,-0.0
+17,EX_cpd00081_e0,Exchange for Sulfite [e0],Sulfite [e0] --> ,-0.0
+18,EX_cpd00099_e0,Exchange for Cl- [e0],Cl- [e0] <=> ,-0.0
+19,EX_cpd00104_e0,Exchange for BIOT [e0],BIOT [e0] --> ,0.0
+20,EX_cpd00166_e0,Exchange for Calomide [e0],Calomide [e0] --> ,0.0
+21,EX_cpd00205_e0,Exchange for K+ [e0],K+ [e0] <=> ,-0.0
+22,EX_cpd00221_e0,Exchange for D-Lactate [e0],D-Lactate [e0] --> ,-0.0
+23,EX_cpd00239_e0,Exchange for H2S [e0],H2S [e0] <=> ,-0.0002599755284686056
+24,EX_cpd00268_e0,Exchange for H2S2O3 [e0],H2S2O3 [e0] --> ,-0.0
+25,EX_cpd00528_e0,Exchange for N2 [e0],N2 [e0] <=> ,-0.0
+26,EX_cpd00531_e0,Exchange for Hg2+ [e0],Hg2+ [e0] --> ,0.0
+27,EX_cpd00635_e0,Exchange for Cbl [e0],Cbl [e0] --> ,0.0
+28,EX_cpd00731_e0,Exchange for Ala-Ala [e0],Ala-Ala [e0] --> ,0.0
+29,EX_cpd00971_e0,Exchange for Na+ [e0],Na+ [e0] <=> ,-0.0
+30,EX_cpd01012_e0,Exchange for Cd2+ [e0],Cd2+ [e0] --> ,-0.0
+31,EX_cpd01017_e0,Exchange for Cys-Gly [e0],Cys-Gly [e0] --> ,0.0
+32,EX_cpd01024_e0,Exchange for Methane [e0],Methane [e0] <=> ,-1.0
+33,EX_cpd01414_e0,Exchange for Tetrathionate [e0],Tetrathionate [e0] --> ,-0.0
+34,EX_cpd01861_e0,"Exchange for (R)-1,2-Propanediol [e0]","(R)-1,2-Propanediol [e0] --> ",-0.0
+35,EX_cpd03424_e0,Exchange for Vitamin B12 [e0],Vitamin B12 [e0] --> ,0.0
+36,EX_cpd03453_e0,Exchange for Enterobactin [e0],Enterobactin [e0] --> ,-0.0
+37,EX_cpd03726_e0,Exchange for Fe-enterochlin [e0],Fe-enterochlin [e0] --> ,-0.0
+38,EX_cpd04097_e0,Exchange for Pb [e0],Pb [e0] --> ,0.0
+39,EX_cpd10515_e0,Exchange for Fe2+ [e0],Fe2+ [e0] <=> ,-0.0
+40,EX_cpd10516_e0,Exchange for fe3 [e0],fe3 [e0] <=> ,-0.0
+41,EX_cpd11580_e0,Exchange for Gly-Gln [e0],Gly-Gln [e0] --> ,0.0
+42,EX_cpd11581_e0,Exchange for gly-asn-L [e0],gly-asn-L [e0] --> ,0.0
+43,EX_cpd11582_e0,Exchange for ala-L-Thr-L [e0],ala-L-Thr-L [e0] --> ,0.0
+44,EX_cpd11583_e0,Exchange for Ala-Leu [e0],Ala-Leu [e0] --> ,0.0
+45,EX_cpd11584_e0,Exchange for Ala-His [e0],Ala-His [e0] --> ,0.0
+46,EX_cpd11585_e0,Exchange for L-alanylglycine [e0],L-alanylglycine [e0] --> ,0.0
+47,EX_cpd11586_e0,Exchange for ala-L-glu-L [e0],ala-L-glu-L [e0] --> ,0.0
+48,EX_cpd11587_e0,Exchange for Ala-Gln [e0],Ala-Gln [e0] --> ,0.0
+49,EX_cpd11588_e0,Exchange for gly-pro-L [e0],gly-pro-L [e0] --> ,0.0
+50,EX_cpd11589_e0,Exchange for gly-asp-L [e0],gly-asp-L [e0] --> ,0.0
+51,EX_cpd11590_e0,Exchange for met-L-ala-L [e0],met-L-ala-L [e0] --> ,0.0
+52,EX_cpd11591_e0,Exchange for Gly-Met [e0],Gly-Met [e0] --> ,0.0
+53,EX_cpd11592_e0,Exchange for gly-glu-L [e0],gly-glu-L [e0] --> ,0.0
+54,EX_cpd11593_e0,Exchange for ala-L-asp-L [e0],ala-L-asp-L [e0] --> ,0.0
+55,EX_cpd11640_e0,Exchange for H2 [e0],H2 [e0] <=> ,-0.0
+56,EX_cpd15574_e0,Exchange for tungstate [e0],tungstate [e0] --> ,0.0
+57,EX_cpd15603_e0,Exchange for Gly-Cys [e0],Gly-Cys [e0] --> ,0.0
+58,EX_cpd15604_e0,Exchange for Gly-Leu [e0],Gly-Leu [e0] --> ,0.0
+59,EX_cpd15605_e0,Exchange for Gly-Phe [e0],Gly-Phe [e0] --> ,0.0
+60,EX_cpd15606_e0,Exchange for Gly-Tyr [e0],Gly-Tyr [e0] --> ,0.0
+61,EX_cpdAQDS_e0,Exchange for AQDS [e0],AQDS [e0] <=> ,-3.9279315341449754
+62,EX_cpdAQH2DS_e0,Exchange for AQH2DS [e0],AQH2DS [e0] --> ,3.9279315341449754
+63,EX_cpdETCM_e0,Exchange for ETC matrix (uncharged) [e0],ETC matrix (uncharged) [e0] --> ,0.0
+64,EX_cpdETCMe_e0,Exchange for ETC matrix (charged) [e0],ETC matrix (charged) [e0] --> ,0.0
+65,SK_cpd03091_c0,Sink for 5'-Deoxyadenosine [c0],5'-Deoxyadenosine [c0] --> ,-0.0
+66,SK_cpd11416_c0,Sink for Biomass [c0],Biomass [c0] --> ,0.001
+67,bio1,GramNegativeBiomass,"40.0 H2O [c0] + 40.0 ATP [c0] + 0.005484225235078905 NAD [c0] + 0.005484225235078905 NADH [c0] + 0.005484225235078905 NADPH [c0] + 0.005484225235078905 NADP [c0] + 0.005484225235078905 CoA [c0] + 0.005484225235078905 Acetyl-CoA [c0] + 0.004326810752083873 UDP-glucose [c0] + 0.004326810752083873 UDP-galactose [c0] + 0.005484225235078905 Succinyl-CoA [c0] + 0.005484225235078905 Tetrahydrofolate [c0] + 0.005484225235078905 Putrescine [c0] + 0.004326810752083873 UDPglucuronate [c0] + 0.005484225235078905 Calomide [c0] + 0.004326810752083873 UDP-N-acetyl-D-galactosamine [c0] + 0.005484225235078905 Spermidine [c0] + 0.005484225235078905 CoM [c0] + 0.005484225235078905 HTP [c0] + 0.0332 DNA [c0] + 0.2202 mRNA [c0] + 0.6256 Protein [c0] + 0.005484225235078905 ACP [c0] + 0.005484225235078905 methanofuran b [c0] + 0.005484225235078905 Coenzyme F420-3 [c0] + 0.01060681508083583 archaetidylserine [c0] + 0.01060681508083583 archaetidylethanolamine [c0] + 0.01060681508083583 2,3-O-diphytanyl-sn-glycero-1-phospho-myo-inositol [c0] + 0.01060681508083583 1-saturated archaetidyl-1D-myo-inositol 3-phosphate [c0] + 0.01060681508083583 2,3-O-phytanyl-sn-glycero-1-phosphoethanolamine [c0] + 0.01060681508083583 2,3-O-phytanyl-sn-glycero-1-phosphoserine [c0] --> 39.99451577476492 ADP [c0] + 39.99451577476492 Phosphate [c0] + 40.0 H+ [c0] + 0.005484225235078905 Dimethylbenzimidazole [c0] + 0.005484225235078905 Cobinamide [c0] + Biomass [c0] + 0.005484225235078905 apo-ACP [c0]",0.001
+68,rxa09272_c0,TrfAB [c0],Fumarate [c0] + CoM [c0] + HTP [c0] --> Succinate [c0] + H+ [c0] + CoM-S-S-CoB [c0],0.0
+69,rxa40330_c0,Fqo [c0],F420 [c0] + MPH2 [c0] <-- F420H2 [c0] + MP [c0],-4.723267631744239
+70,rxa45615_c0,Rnf [c0],2.0 H+ [c0] + 3.0 Na+ [c0] + MP [c0] + 2.0 FD (red) [c0] <=> 2.0 H+ [e0] + 3.0 Na+ [e0] + MPH2 [c0] + 2.0 FD (ox) [c0],-0.42063129819757705
+71,rxn00011_c0,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating) [c0],CO2 [c0] + 2-Hydroxyethyl-ThPP [c0] <-- Pyruvate [c0] + TPP [c0] + H+ [c0],0.0
+72,rxn00014_c0,ferrocytochrome-c:hydrogen-peroxide oxidoreductase [c0],H2O2 [c0] + 2 H+ [c0] + 2 Cytochrome c2+ [c0] <=> 2 H2O [c0] + 2 Cytochrome c3+ [c0],-5.484225235078905e-06
+73,rxn00018_c0,"3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming) [c0]","H2O [c0] + CO2 [c0] + D-Ribulose 1,5-bisphosphate [c0] <=> 2 H+ [c0] + 2 3-Phosphoglycerate [c0]",0.0
+74,rxn00029_c0,5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming) [c0],2 5-Aminolevulinate [c0] --> 2 H2O [c0] + H+ [c0] + Porphobilinogen [c0],0.0
+75,rxn00048_c0,"6,7-Dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumazine 2,3-butanediyltransferase [c0]",H+ [c0] + 2 6-7-Dimethyl-8--1-D-ribityllumazine [c0] --> Riboflavin [c0] + 4--1-D-Ribitylamino-5-aminouracil [c0],0.0
+76,rxn00060_c0,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing) [c0],H2O [c0] + 4 Porphobilinogen [c0] --> 4 NH3 [c0] + Hydroxymethylbilane [c0],0.0
+77,rxn00062_c0,ATP phosphohydrolase [c0],H2O [c0] + ATP [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0],0.0
+78,rxn00064_c0,ATP aminohydrolase [c0],H2O [c0] + ATP [c0] + H+ [c0] --> NH3 [c0] + ITP [c0],0.0
+79,rxn00077_c0,ATP:NAD+ 2'-phosphotransferase [c0],ATP [c0] + NAD [c0] <=> NADP [c0] + ADP [c0] + H+ [c0],1.0968450510517869e-05
+80,rxn00085_c0,L-Glutamate:NADP+ oxidoreductase (transaminating) [c0],NADP [c0] + 2 L-Glutamate [c0] <-- NADPH [c0] + 2-Oxoglutarate [c0] + L-Glutamine [c0] + H+ [c0],0.0
+81,rxn00097_c0,ATP:AMP phosphotransferase [c0],ATP [c0] + AMP [c0] + H+ [c0] <=> 2 ADP [c0],0.0017410669179748729
+82,rxn00100_c0,ATP:dephospho-CoA 3'-phosphotransferase [c0],ATP [c0] + Dephospho-CoA [c0] --> ADP [c0] + CoA [c0] + H+ [c0],2.1936900940315585e-05
+83,rxn00102_c0,carbonate hydro-lyase (carbon-dioxide-forming) [c0],H+ [c0] + H2CO3 [c0] <=> H2O [c0] + CO2 [c0],-0.003013141768493881
+84,rxn00105_c0,ATP:nicotinamide-nucleotide adenylyltransferase [c0],ATP [c0] + Nicotinamide ribonucleotide [c0] --> NAD [c0] + PPi [c0],2.1936901021035737e-05
+85,rxn00107_c0,ATP:2'-deoxy-5-hydroxymethylcytidine-5'-diphosphate phosphotransferase [c0],ATP [c0] + 2'-Deoxy-5-hydroxymethylcytidine-5'-diphosphate [c0] --> ADP [c0] + 2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate [c0],0.0
+86,rxn00113_c0,"Carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating) [c0]",H2O [c0] + 2 ATP [c0] + CO2 [c0] + NH3 [c0] --> 2 ADP [c0] + Phosphate [c0] + 3 H+ [c0] + Carbamoylphosphate [c0],0.0005087983481085411
+87,rxn00117_c0,ATP:UDP phosphotransferase [c0],ATP [c0] + UDP [c0] <=> ADP [c0] + UTP [c0],0.00023494263956443104
+88,rxn00119_c0,ATP:UMP phosphotransferase [c0],ATP [c0] + H+ [c0] + UMP [c0] <=> ADP [c0] + UDP [c0],0.00023494263956443104
+89,rxn00122_c0,ATP:FMN adenylyltransferase [c0],ATP [c0] + FMN [c0] --> PPi [c0] + FAD [c0],0.0
+90,rxn00126_c0,ATP:L-methionine S-adenosyltransferase [c0],H2O [c0] + ATP [c0] + L-Methionine [c0] --> Phosphate [c0] + PPi [c0] + S-Adenosyl-L-methionine [c0] + H+ [c0],0.0
+91,rxn00127_c0,S-adenosyl-L-methionine carboxy-lyase [(5-deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium-forming] [c0],S-Adenosyl-L-methionine [c0] + H+ [c0] --> CO2 [c0] + S-Adenosylmethioninamine [c0],5.484225235078905e-06
+92,rxn00128_c0,S-adenosyl-L-methionine methylthioadenosine-lyase (1-aminocyclopropane-1-carboxylate-forming) [c0],S-Adenosyl-L-methionine [c0] <-- H+ [c0] + 5-Methylthioadenosine [c0] + 1-Aminocyclopropane-1-carboxylate [c0],-5.484225235078905e-06
+93,rxn00132_c0,Adenosine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + AMP [c0] --> Phosphate [c0] + Adenosine [c0],0.0
+94,rxn00137_c0,"Adenosine 3',5'-bisphosphate 3'-phosphohydrolase [c0]",H2O [c0] + Adenosine 3-5-bisphosphate [c0] --> Phosphate [c0] + AMP [c0],5.484225235078905e-06
+95,rxn00138_c0,deamido-NAD+:ammonia ligase (AMP-forming) [c0],ATP [c0] + NH3 [c0] + Deamido-NAD [c0] --> NAD [c0] + PPi [c0] + AMP [c0] + 2 H+ [c0],0.0
+96,rxn00139_c0,AMP:diphosphate phospho-D-ribosyltransferase [c0],PPi [c0] + AMP [c0] + H+ [c0] <-- PRPP [c0] + Adenine [c0],0.0
+97,rxn00141_c0,S-Adenosyl-L-homocysteine hydrolase [c0],H2O [c0] + S-Adenosyl-homocysteine [c0] --> Homocysteine [c0] + Adenosine [c0],0.0
+98,rxn00145_c0,(S)-Lactate:ferricytochrome-c 2-oxidoreductase [c0],2 Cytochrome c3+ [c0] + L-Lactate [c0] <=> Pyruvate [c0] + 2 H+ [c0] + 2 Cytochrome c2+ [c0],-5.484225235078905e-06
+99,rxn00146_c0,(R)-Lactate:ferricytochrome-c 2-oxidoreductase [c0],2 Cytochrome c3+ [c0] + D-Lactate [c0] --> Pyruvate [c0] + 2 H+ [c0] + 2 Cytochrome c2+ [c0],0.0
+100,rxn00148_c0,ATP:pyruvate 2-O-phosphotransferase [c0],ATP [c0] + Pyruvate [c0] <-- ADP [c0] + Phosphoenolpyruvate [c0] + H+ [c0],0.0
+101,rxn00151_c0,"ATP:pyruvate,phosphate phosphotransferase [c0]",ATP [c0] + Phosphate [c0] + Pyruvate [c0] --> PPi [c0] + AMP [c0] + Phosphoenolpyruvate [c0] + 2 H+ [c0],0.0
+102,rxn00161_c0,(S)-Malate:NADP+ oxidoreductase(oxaloacetate-decarboxylating) [c0],NADP [c0] + L-Malate [c0] --> NADPH [c0] + CO2 [c0] + Pyruvate [c0],0.0
+103,rxn00172_c0,Acetate:CoA ligase (ADP-forming) [c0],ATP [c0] + CoA [c0] + Acetate [c0] <-- ADP [c0] + Phosphate [c0] + Acetyl-CoA [c0],0.0
+104,rxn00175_c0,Acetate:CoA ligase (AMP-forming) [c0],ATP [c0] + CoA [c0] + Acetate [c0] --> PPi [c0] + AMP [c0] + Acetyl-CoA [c0] + H+ [c0],0.0
+105,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase [c0],2 Acetyl-CoA [c0] <=> CoA [c0] + Acetoacetyl-CoA [c0],0.0005091271238801198
+106,rxn00182_c0,L-glutamate:NAD+ oxidoreductase (deaminating) [c0],H2O [c0] + NAD [c0] + L-Glutamate [c0] <=> NADH [c0] + NH3 [c0] + 2-Oxoglutarate [c0] + H+ [c0],-0.007695389679049727
+107,rxn00184_c0,L-Glutamate:NADP+ oxidoreductase (deaminating) [c0],H2O [c0] + NADP [c0] + L-Glutamate [c0] <=> NADPH [c0] + NH3 [c0] + 2-Oxoglutarate [c0] + H+ [c0],0.0
+108,rxn00187_c0,L-Glutamate:ammonia ligase (ADP-forming) [c0],ATP [c0] + NH3 [c0] + L-Glutamate [c0] --> ADP [c0] + Phosphate [c0] + L-Glutamine [c0] + H+ [c0],0.001438755815485554
+109,rxn00189_c0,L-Glutamine amidohydrolase [c0],H2O [c0] + L-Glutamine [c0] --> NH3 [c0] + L-Glutamate [c0],0.0
+110,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase [c0],Acetyl-CoA [c0] + L-Glutamate [c0] --> CoA [c0] + H+ [c0] + N-Acetyl-L-glutamate [c0],0.0
+111,rxn00199_c0,oxalosuccinate carboxy-lyase (2-oxoglutarate-forming) [c0],H+ [c0] + Oxalosuccinate [c0] --> CO2 [c0] + 2-Oxoglutarate [c0],0.00102065339299712
+112,rxn00202_c0,"acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming) [c0]",CoA [c0] + H+ [c0] + Homocitrate [c0] <-- H2O [c0] + Acetyl-CoA [c0] + 2-Oxoglutarate [c0],-5.484225235052875e-06
+113,rxn00211_c0,UDP-glucose:NAD+ 6-oxidoreductase [c0],H2O [c0] + 2 NAD [c0] + UDP-glucose [c0] <=> 2 NADH [c0] + 3 H+ [c0] + UDPglucuronate [c0],4.326810752083873e-06
+114,rxn00213_c0,UTP:alpha-D-glucose-1-phosphate uridylyltransferase [c0],UTP [c0] + Glucose-1-phosphate [c0] --> PPi [c0] + UDP-glucose [c0],1.298043225625162e-05
+115,rxn00214_c0,UDP-glucose 4-epimerase [c0],UDP-glucose [c0] <=> UDP-galactose [c0],4.326810752083873e-06
+116,rxn00227_c0,Acetyl phosphate phosphohydrolase [c0],H2O [c0] + Acetylphosphate [c0] --> Phosphate [c0] + Acetate [c0] + H+ [c0],0.0
+117,rxn00237_c0,ATP:GDP phosphotransferase [c0],ATP [c0] + GDP [c0] <=> ADP [c0] + GTP [c0],0.004777980061908253
+118,rxn00239_c0,ATP:GMP phosphotransferase [c0],ATP [c0] + H+ [c0] + GMP [c0] <=> ADP [c0] + GDP [c0],0.0001811256032026817
+119,rxn00241_c0,GTP phosphohydrolase [c0],H2O [c0] + GTP [c0] --> Phosphate [c0] + GDP [c0] + H+ [c0],0.0
+120,rxn00245_c0,"(R,R)-tartrate hydro-lyase (oxaloacetate-forming) [c0]",Tartrate [c0] --> H2O [c0] + Oxaloacetate [c0],0.0
+121,rxn00248_c0,MDH NAD [c0],NAD [c0] + L-Malate [c0] <=> NADH [c0] + Oxaloacetate [c0] + H+ [c0],0.0008901704221603384
+122,rxn00250_c0,PC [c0],ATP [c0] + Pyruvate [c0] + H2CO3 [c0] <=> ADP [c0] + Phosphate [c0] + Oxaloacetate [c0] + H+ [c0],0.0026610298166504696
+123,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing) [c0],CoA [c0] + H+ [c0] + Citrate [c0] <-- H2O [c0] + Acetyl-CoA [c0] + Oxaloacetate [c0],-0.00102065339299712
+124,rxn00260_c0,L-Aspartate:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Aspartate [c0] <=> L-Glutamate [c0] + Oxaloacetate [c0],-0.002530546845813688
+125,rxn00272_c0,L-Alanine:glyoxylate aminotransferase [c0],L-Alanine [c0] + Glyoxalate [c0] --> Pyruvate [c0] + Glycine [c0],1.0968450470157792e-05
+126,rxn00274_c0,Acetyl-CoA:glycine C-acetyltransferase [c0],Acetyl-CoA [c0] + Glycine [c0] --> CoA [c0] + L-2-Amino-acetoacetate [c0],6.503214158622823e-05
+127,rxn00285_c0,SucCD [c0],ATP [c0] + CoA [c0] + Succinate [c0] <=> ADP [c0] + Phosphate [c0] + Succinyl-CoA [c0],5.484225235078888e-06
+128,rxn00288_c0,Succinate:(acceptor) oxidoreductase [c0],FAD [c0] + Succinate [c0] + H+ [c0] --> Fumarate [c0] + FADH2 [c0],0.0
+129,rxn00293_c0,UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase [c0],UTP [c0] + N-Acetyl-D-glucosamine1-phosphate [c0] --> PPi [c0] + UDP-N-acetylglucosamine [c0],4.326810752083873e-06
+130,rxn00295_c0,UDP-N-acetyl-D-glucosamine 4-epimerase [c0],UDP-N-acetylglucosamine [c0] --> UDP-N-acetyl-D-galactosamine [c0],4.326810752083873e-06
+131,rxn00299_c0,"GTP 7,8-8,9-dihydrolase [c0]","H2O [c0] + GTP [c0] --> Formate [c0] + H+ [c0] + 7,8-Dihydroneopterin 3'-triphosphate [c0]",5.484225235078888e-06
+132,rxn00300_c0,"GTP 7,8-8,9-dihydrolase (diphosphate-forming) [c0]","3 H2O [c0] + GTP [c0] --> PPi [c0] + Formate [c0] + 3 H+ [c0] + 2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone [c0]",5.484225235078905e-06
+133,rxn00304_c0,GTP:pyruvate 2-O-phosphotransferase [c0],Pyruvate [c0] + GTP [c0] --> GDP [c0] + Phosphoenolpyruvate [c0] + H+ [c0],0.004322382940953089
+134,rxn00305_c0,GTP:oxaloacetate carboxy-lyase (adding GTP;phosphoenolpyruvate-forming) [c0],Oxaloacetate [c0] + GTP [c0] --> CO2 [c0] + GDP [c0] + Phosphoenolpyruvate [c0],0.0
+135,rxn00313_c0,"meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming) [c0]","H+ [c0] + meso-2,6-Diaminopimelate [c0] --> CO2 [c0] + L-Lysine [c0]",0.0003176789294068704
+136,rxn00321_c0,"L-Lysine 2,3-aminomutase [c0]",L-Lysine [c0] <=> L-beta-Lysine [c0],0.0
+137,rxn00337_c0,ATP:L-aspartate 4-phosphotransferase [c0],ATP [c0] + L-Aspartate [c0] <=> ADP [c0] + 4-Phospho-L-aspartate [c0],0.0009097171265575785
+138,rxn00346_c0,L-aspartate 1-carboxy-lyase (beta-alanine-forming) [c0],L-Aspartate [c0] + H+ [c0] --> CO2 [c0] + beta-Alanine [c0],2.1936900940315585e-05
+139,rxn00363_c0,Cytidine-5'-monophosphate phosphohydrolase [c0],H2O [c0] + CMP [c0] --> Phosphate [c0] + Cytidine [c0],0.0
+140,rxn00364_c0,ATP:CMP phosphotransferase [c0],ATP [c0] + CMP [c0] + H+ [c0] <=> ADP [c0] + CDP [c0],6.364089048501497e-05
+141,rxn00379_c0,ATP:sulfate adenylyltransferase [c0],ATP [c0] + Sulfate [c0] <=> PPi [c0] + APS [c0],5.484225235052875e-06
+142,rxn00405_c0,L-arginine carboxy-lyase (agmatine-forming) [c0],L-Arginine [c0] + H+ [c0] --> CO2 [c0] + Agmatine [c0],0.0
+143,rxn00409_c0,ATP:CDP phosphotransferase [c0],ATP [c0] + CDP [c0] <=> ADP [c0] + CTP [c0],6.364089048501497e-05
+144,rxn00410_c0,UTP:ammonia ligase (ADP-forming) [c0],ATP [c0] + NH3 [c0] + UTP [c0] --> ADP [c0] + Phosphate [c0] + CTP [c0] + 2 H+ [c0],0.00012245432080937264
+145,rxn00411_c0,CTP:pyruvate 2-O-phosphotransferase [c0],Pyruvate [c0] + CTP [c0] --> Phosphoenolpyruvate [c0] + H+ [c0] + CDP [c0],0.0
+146,rxn00412_c0,UTP:L-glutamine amido-ligase (ADP-forming) [c0],H2O [c0] + ATP [c0] + L-Glutamine [c0] + UTP [c0] --> ADP [c0] + Phosphate [c0] + L-Glutamate [c0] + CTP [c0] + 2 H+ [c0],0.0
+147,rxn00414_c0,"hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating) [c0]",H2O [c0] + 2 ATP [c0] + L-Glutamine [c0] + H2CO3 [c0] --> 2 ADP [c0] + Phosphate [c0] + L-Glutamate [c0] + 2 H+ [c0] + Carbamoylphosphate [c0],0.0
+148,rxn00416_c0,L-aspartate:L-glutamine amido-ligase (AMP-forming) [c0],H2O [c0] + ATP [c0] + L-Aspartate [c0] + L-Glutamine [c0] --> PPi [c0] + AMP [c0] + L-Glutamate [c0] + 2 H+ [c0] + L-Asparagine [c0],0.0002231793151674549
+149,rxn00420_c0,O-phospho-L-serine phosphohydrolase [c0],H2O [c0] + phosphoserine [c0] --> Phosphate [c0] + L-Serine [c0],0.0013803298626748554
+150,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase [c0],Acetyl-CoA [c0] + L-Serine [c0] --> CoA [c0] + O-Acetyl-L-serine [c0],0.00011767609025577382
+151,rxn00424_c0,L-Serine:glyoxylate aminotransferase [c0],Glyoxalate [c0] + L-Serine [c0] <=> Glycine [c0] + Hydroxypyruvate [c0],0.0
+152,rxn00438_c0,ATP:thiamin-phosphate phosphotransferase [c0],ATP [c0] + H+ [c0] + Thiamine phosphate [c0] --> ADP [c0] + TPP [c0],0.0
+153,rxn00459_c0,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming) [c0],2-Phospho-D-glycerate [c0] <=> H2O [c0] + Phosphoenolpyruvate [c0],-0.003568778649864183
+154,rxn00460_c0,UTP:pyruvate 2-O-phosphotransferase [c0],Pyruvate [c0] + UTP [c0] --> UDP [c0] + Phosphoenolpyruvate [c0] + H+ [c0],0.0
+155,rxn00470_c0,L-ornithine carboxy-lyase (putrescine-forming) [c0],Ornithine [c0] + H+ [c0] --> CO2 [c0] + Putrescine [c0],1.096845047015781e-05
+156,rxn00471_c0,L-ornithine ammonia-lyase (cyclizing; L-proline-forming) [c0],Ornithine [c0] --> NH3 [c0] + L-Proline [c0],0.000204650992073084
+157,rxn00474_c0,L-serine hydro-lyase (adding indole; L-tryptophan-forming) [c0],L-Serine [c0] + indol [c0] --> H2O [c0] + L-Tryptophan [c0],0.0
+158,rxn00479_c0,L-tryptophan:oxygen 2-oxidoreductase (decarboxylating) [c0],O2 [c0] + L-Tryptophan [c0] --> H2O [c0] + CO2 [c0] + Indole-3-acetamide [c0],0.0
+159,rxn00493_c0,L-Phenylalanine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Phenylalanine [c0] <=> L-Glutamate [c0] + Phenylpyruvate [c0],-0.00017148777268335982
+160,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + Acetaldehyde [c0] --> NADH [c0] + Acetate [c0] + 2 H+ [c0],0.0
+161,rxn00515_c0,ATP:IDP phosphotransferase [c0],ATP [c0] + IDP [c0] <=> ADP [c0] + ITP [c0],0.0
+162,rxn00527_c0,L-tyrosine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Tyrosine [c0] <=> L-Glutamate [c0] + p-hydroxyphenylpyruvate [c0],-0.00013314791548416825
+163,rxn00529_c0,L-tyrosine carboxy-lyase (tyramine-forming) [c0],H+ [c0] + L-Tyrosine [c0] --> CO2 [c0] + Tyramine [c0],5.484225235078905e-06
+164,rxn00549_c0,"D-Fructose-1,6-bisphosphate 1-phosphohydrolase [c0]","H2O [c0] + D-fructose-1,6-bisphosphate [c0] --> Phosphate [c0] + D-fructose-6-phosphate [c0]",0.000977463580800506
+165,rxn00555_c0,L-glutamine:D-fructose-6-phosphate isomerase (deaminating) [c0],L-Glutamine [c0] + D-fructose-6-phosphate [c0] <=> L-Glutamate [c0] + D-Glucosamine phosphate [c0],4.326810752083873e-06
+166,rxn00558_c0,D-glucose-6-phosphate aldose-ketose-isomerase [c0],D-glucose-6-phosphate [c0] <=> D-fructose-6-phosphate [c0],-3.419406241792328e-05
+167,rxn00568_c0,NIRBD-RXN.c [c0],2 H2O [c0] + 3 NAD [c0] + NH3 [c0] <-- 3 NADH [c0] + 5 H+ [c0] + Nitrite [c0],0.0
+168,rxn00569_c0,Nitrite reductase (NAD(P)H) [c0],2 H2O [c0] + 3 NADP [c0] + NH3 [c0] <-- 3 NADPH [c0] + 5 H+ [c0] + Nitrite [c0],0.0
+169,rxn00609_c0,myo-Inositol-1-phosphate synthase [c0],Inositol 1-phosphate [c0] <=> D-glucose-6-phosphate [c0],0.0
+170,rxn00634_c0,D-Glucitol:NAD+ 2-oxidoreductase [c0],NAD [c0] + Sorbitol [c0] <=> NADH [c0] + H+ [c0] + D-Fructose [c0],0.0
+171,rxn00647_c0,L-Cysteine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Cysteine [c0] <=> L-Glutamate [c0] + Mercaptopyruvate [c0],0.0
+172,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase [c0],H2S [c0] + O-Acetyl-L-serine [c0] --> Acetate [c0] + L-Cysteine [c0],0.00011767609025577382
+173,rxn00650_c0,L-cysteinylglycine dipeptidase [c0],H2O [c0] + Cys-Gly [c0] <=> Glycine [c0] + L-Cysteine [c0],0.0
+174,rxn00653_c0,3-aminopropanal:NAD+ oxidoreductase [c0],NADH [c0] + 2 H+ [c0] + beta-Alanine [c0] <=> H2O [c0] + NAD [c0] + 3-Aminopropanal [c0],0.0
+175,rxn00675_c0,Propionyladenylate:CoA propionyltransferase [c0],CoA [c0] + Propionyladenylate [c0] --> AMP [c0] + H+ [c0] + Propionyl-CoA [c0],0.0
+176,rxn00686_c0,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase [c0]",NADP [c0] + Tetrahydrofolate [c0] <=> NADPH [c0] + H+ [c0] + Dihydrofolate [c0],-2.263659543080797e-05
+177,rxn00692_c0,"5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase [c0]",H2O [c0] + Glycine [c0] + 5-10-Methylenetetrahydrofolate [c0] <=> L-Serine [c0] + Tetrahydrofolate [c0],-0.0009733448009327074
+178,rxn00693_c0,5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase [c0],Homocysteine [c0] + 5-Methyltetrahydrofolate [c0] --> L-Methionine [c0] + Tetrahydrofolate [c0],0.00014229943821283177
+179,rxn00704_c0,"alpha-D-Glucose 1-phosphate 1,6-phosphomutase [c0]",Glucose-1-phosphate [c0] <=> D-glucose-6-phosphate [c0],-1.298043225625162e-05
+180,rxn00708_c0,Uridine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + UMP [c0] --> Phosphate [c0] + Uridine [c0],0.0
+181,rxn00710_c0,orotidine-5'-phosphate carboxy-lyase (UMP-forming) [c0],H+ [c0] + Orotidylic acid [c0] --> CO2 [c0] + UMP [c0],0.00023494263956443104
+182,rxn00714_c0,"P1,P4-bis(5'-uridyl)-tetraphosphate uridylohydrolase [c0]",H2O [c0] + UppppU [c0] --> UTP [c0] + H+ [c0] + UMP [c0],0.0
+183,rxn00726_c0,chorismate pyruvate-lyase (amino-accepting; anthranilate-forming) [c0],NH3 [c0] + Chorismate [c0] --> H2O [c0] + Pyruvate [c0] + H+ [c0] + Anthranilate [c0],5.2621821846239544e-05
+184,rxn00727_c0,Chorismate pyruvate-lyase (amino-accepting) [c0],L-Glutamine [c0] + Chorismate [c0] --> Pyruvate [c0] + L-Glutamate [c0] + H+ [c0] + Anthranilate [c0],0.0
+185,rxn00735_c0,"(2R,3S)-3-methylmalate:NAD+ oxidoreductase [c0]",NADH [c0] + CO2 [c0] + 2-Oxobutyrate [c0] <=> NAD [c0] + D-erythro-3-Methylmalate [c0],0.0
+186,rxn00738_c0,1-aminocyclopropane-1-carboxylate aminohydrolase (isomerizing) [c0],H2O [c0] + 1-Aminocyclopropane-1-carboxylate [c0] <-- NH3 [c0] + 2-Oxobutyrate [c0],-5.484225235078905e-06
+187,rxn00740_c0,O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming) [c0],H2O [c0] + O-Succinyl-L-homoserine [c0] --> NH3 [c0] + Succinate [c0] + H+ [c0] + 2-Oxobutyrate [c0],0.0002744330562579492
+188,rxn00747_c0,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase [c0],Glyceraldehyde3-phosphate [c0] <=> Glycerone-phosphate [c0],0.0010630413723065567
+189,rxn00762_c0,glycerol:NAD+ 2-oxidoreductase [c0],NAD [c0] + Glycerol [c0] <=> NADH [c0] + H+ [c0] + Glycerone [c0],0.0
+190,rxn00770_c0,ATP:D-ribose-5-phosphate diphosphotransferase [c0],ATP [c0] + ribose-5-phosphate [c0] <=> AMP [c0] + H+ [c0] + PRPP [c0],0.0007548297274072046
+191,rxn00775_c0,ADP-ribose ribophosphohydrolase [c0],H2O [c0] + ADPribose [c0] --> AMP [c0] + 2 H+ [c0] + ribose-5-phosphate [c0],0.0
+192,rxn00777_c0,D-ribose-5-phosphate aldose-ketose-isomerase [c0],ribose-5-phosphate [c0] <=> D-Ribulose5-phosphate [c0],-0.0009389427076304988
+193,rxn00781_c0,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating) [c0],"NAD [c0] + Phosphate [c0] + Glyceraldehyde3-phosphate [c0] <=> NADH [c0] + H+ [c0] + 1,3-Bisphospho-D-glycerate [c0]",-0.002182964561954275
+194,rxn00782_c0,D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating) [c0],"NADP [c0] + Phosphate [c0] + Glyceraldehyde3-phosphate [c0] <-- NADPH [c0] + H+ [c0] + 1,3-Bisphospho-D-glycerate [c0]",0.0
+195,rxn00785_c0,D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase [c0],D-fructose-6-phosphate [c0] + Glyceraldehyde3-phosphate [c0] <=> D-Xylulose5-phosphate [c0] + D-Erythrose4-phosphate [c0],0.00018411298022329416
+196,rxn00786_c0,"D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming) [c0]","D-fructose-1,6-bisphosphate [c0] <=> Glycerone-phosphate [c0] + Glyceraldehyde3-phosphate [c0]",-0.000977463580800506
+197,rxn00789_c0,1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase [c0],PPi [c0] + H+ [c0] + Phosphoribosyl-ATP [c0] <-- ATP [c0] + PRPP [c0],-8.773218789700776e-05
+198,rxn00790_c0,5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating) [c0],PPi [c0] + L-Glutamate [c0] + H+ [c0] + 5-Phosphoribosylamine [c0] <-- H2O [c0] + L-Glutamine [c0] + PRPP [c0],-0.0003521119518434116
+199,rxn00791_c0,N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase [c0],PPi [c0] + H+ [c0] + N-5-phosphoribosyl-anthranilate [c0] <-- Anthranilate [c0] + PRPP [c0],-5.2621821846239544e-05
+200,rxn00792_c0,biotin:CoA ligase (AMP-forming) [c0],ATP [c0] + BIOT [c0] --> PPi [c0] + Biotinyl-5-AMP [c0],0.0
+201,rxn00799_c0,FH [c0],L-Malate [c0] <=> H2O [c0] + Fumarate [c0],-0.0008901704221603384
+202,rxn00800_c0,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) [c0]",Adenylosuccinate [c0] <=> AMP [c0] + Fumarate [c0],0.0002696869870078955
+203,rxn00802_c0,2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming) [c0],L-Argininosuccinate [c0] <=> L-Arginine [c0] + Fumarate [c0],0.00027385570854411003
+204,rxn00806_c0,L-Leucine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Leucine [c0] <=> L-Glutamate [c0] + 4MOP [c0],-0.0004170854211675258
+205,rxn00829_c0,ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming) [c0],ATP [c0] + 5-diphosphomevalonate [c0] --> ADP [c0] + Phosphate [c0] + CO2 [c0] + Isopentenyldiphosphate [c0],0.0005091271238801198
+206,rxn00830_c0,Isopentenyl-diphosphate delta3-delta2-isomerase [c0],Isopentenyldiphosphate [c0] <=> DMAPP [c0],0.00012728178097002994
+207,rxn00831_c0,Inosine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + IMP [c0] --> Phosphate [c0] + Inosine [c0],0.0
+208,rxn00832_c0,"IMP 1,2-hydrolase (decyclizing) [c0]",H2O [c0] + IMP [c0] <=> FAICAR [c0],-0.0004398441397404194
+209,rxn00834_c0,IMP:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + IMP [c0] <=> NADH [c0] + H+ [c0] + XMP [c0],0.00017015715273252388
+210,rxn00835_c0,ATP:inosine 5'-phosphotransferase [c0],ATP [c0] + Inosine [c0] --> ADP [c0] + H+ [c0] + IMP [c0],0.0
+211,rxn00838_c0,IMP:L-aspartate ligase (GDP-forming) [c0],GTP [c0] + L-Aspartate [c0] + IMP [c0] --> Phosphate [c0] + GDP [c0] + 2 H+ [c0] + Adenylosuccinate [c0],0.0002696869870078955
+212,rxn00839_c0,ATP:dADP phosphotransferase [c0],ATP [c0] + dADP [c0] <=> ADP [c0] + dATP [c0],0.0
+213,rxn00840_c0,dATP:pyruvate 2-O-phosphotransferase [c0],Pyruvate [c0] + dATP [c0] <=> Phosphoenolpyruvate [c0] + H+ [c0] + dADP [c0],0.0
+214,rxn00858_c0,Agmatine amidinohydrolase [c0],H2O [c0] + Agmatine [c0] --> Urea [c0] + Putrescine [c0],0.0
+215,rxn00863_c0,L-histidinal:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + L-Histidinal [c0] --> NADH [c0] + 2 H+ [c0] + L-Histidine [c0],8.773218789700776e-05
+216,rxn00867_c0,L-histidine ammonia-lyase (urocanate-forming) [c0],L-Histidine [c0] --> NH3 [c0] + Urocanate [c0],0.0
+217,rxn00881_c0,1D-myo-Inositol 1-phosphate phosphohydrolase [c0],H2O [c0] + Inositol 1-phosphate [c0] --> Phosphate [c0] + L-Inositol [c0],0.0
+218,rxn00882_c0,1D-myo-Inositol 4-phosphate phosphohydrolase [c0],H2O [c0] + Inositol 4-phosphate [c0] --> Phosphate [c0] + L-Inositol [c0],0.0
+219,rxn00883_c0,1D-myo-Inositol 3-phosphate phosphohydrolase [c0],H2O [c0] + Inositol 3-phosphate [c0] --> Phosphate [c0] + L-Inositol [c0],0.0
+220,rxn00898_c0,"2,3-Dihydroxy-3-methylbutanoate hydro-lyase [c0]","2,3-Dihydroxy-isovalerate [c0] --> H2O [c0] + 3-Methyl-2-oxobutanoate [c0]",0.0
+221,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming) [c0]",CoA [c0] + H+ [c0] + 2-Isopropylmalate [c0] <-- H2O [c0] + Acetyl-CoA [c0] + 3-Methyl-2-oxobutanoate [c0],-0.00041708542119067715
+222,rxn00903_c0,L-Valine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Valine [c0] <=> L-Glutamate [c0] + 3-Methyl-2-oxobutanoate [c0],-0.000883787594049962
+223,rxn00904_c0,L-Valine:pyruvate aminotransferase [c0],Pyruvate [c0] + L-Valine [c0] <=> L-Alanine [c0] + 3-Methyl-2-oxobutanoate [c0],0.0004919979272707754
+224,rxn00907_c0,"5,10-methylenetetrahydrofolate:NADP+ oxidoreductase [c0]",NADP [c0] + 5-10-Methylenetetrahydrofolate [c0] <=> NADPH [c0] + 5-10-Methenyltetrahydrofolate [c0],0.0007919560915838309
+225,rxn00910_c0,5-methyltetrahydrofolate:NADP+ oxidoreductase [c0],NADP [c0] + 5-Methyltetrahydrofolate [c0] <=> NADPH [c0] + H+ [c0] + 5-10-Methylenetetrahydrofolate [c0],0.0022606161393241564
+226,rxn00912_c0,"5,10-Methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase [c0]",H2O [c0] + 3-Methyl-2-oxobutanoate [c0] + 5-10-Methylenetetrahydrofolate [c0] --> Tetrahydrofolate [c0] + 2-Dehydropantoate [c0],2.1936900940315585e-05
+227,rxn00913_c0,Guanosine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + GMP [c0] --> Phosphate [c0] + Guanosine [c0],0.0
+228,rxn00914_c0,ATP:guanosine 5'-phosphotransferase [c0],ATP [c0] + Guanosine [c0] --> ADP [c0] + H+ [c0] + GMP [c0],0.0
+229,rxn00917_c0,Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming) [c0],H2O [c0] + ATP [c0] + L-Glutamine [c0] + XMP [c0] --> PPi [c0] + AMP [c0] + L-Glutamate [c0] + 3 H+ [c0] + GMP [c0],0.00017015715273252388
+230,rxn00926_c0,Adenine aminohydrolase [c0],H2O [c0] + H+ [c0] + Adenine [c0] --> NH3 [c0] + HYXN [c0],0.0
+231,rxn00929_c0,L-Proline:NAD+ 5-oxidoreductase [c0],NAD [c0] + L-Proline [c0] <-- NADH [c0] + 2 H+ [c0] + 1-Pyrroline-5-carboxylate [c0],0.0
+232,rxn00931_c0,L-Proline:NADP+ 5-oxidoreductase [c0],NADP [c0] + L-Proline [c0] <-- NADPH [c0] + 2 H+ [c0] + 1-Pyrroline-5-carboxylate [c0],0.0
+233,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase [c0],H2S [c0] + O-Acetyl-L-homoserine [c0] --> Acetate [c0] + Homocysteine [c0],0.00014229943821283177
+234,rxn00974_c0,citrate hydro-lyase (cis-aconitate-forming) [c0],Citrate [c0] <=> H2O [c0] + cis-Aconitate [c0],0.00102065339299712
+235,rxn00979_c0,glycolaldehyde:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + Glycolaldehyde [c0] --> NADH [c0] + 2 H+ [c0] + Glycolate [c0],5.484225235078888e-06
+236,rxn00980_c0,2-Phosphoglycolate phosphohydrolase [c0],H2O [c0] + 2-Phosphoglycolate [c0] --> Phosphate [c0] + Glycolate [c0],0.0
+237,rxn00993_c0,4-fumarylacetoacetate fumarylhydrolase [c0],H+ [c0] + Fumarate [c0] + Acetoacetate [c0] <=> H2O [c0] + Fumarylacetoacetate [c0],0.0
+238,rxn01000_c0,prephenate hydro-lyase (decarboxylating; phenylpyruvate-forming) [c0],H+ [c0] + Prephenate [c0] --> H2O [c0] + CO2 [c0] + Phenylpyruvate [c0],0.00017148777268335982
+239,rxn01018_c0,carbamoyl-phosphate:L-aspartate carbamoyltransferase [c0],L-Aspartate [c0] + Carbamoylphosphate [c0] --> Phosphate [c0] + H+ [c0] + N-Carbamoyl-L-aspartate [c0],0.00023494263956443104
+240,rxn01019_c0,Carbamoyl-phosphate:L-ornithine carbamoyltransferase [c0],Ornithine [c0] + Carbamoylphosphate [c0] --> Phosphate [c0] + H+ [c0] + Citrulline [c0],0.00027385570854411003
+241,rxn01022_c0,S-methyl-5'-thioadenosine:phosphate S-methyl-5-thio-alpha-D-ribosyl-transferase [c0],Phosphate [c0] + 5-Methylthioadenosine [c0] <=> Adenine [c0] + methylthioribose-1-phosphate [c0],0.0
+242,rxn01068_c0,L-threonine:NAD+ oxidoreductase [c0],NAD [c0] + L-Threonine [c0] <=> NADH [c0] + H+ [c0] + L-2-Amino-acetoacetate [c0],-6.503214158622823e-05
+243,rxn01069_c0,O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming) [c0],H2O [c0] + O-Phospho-L-homoserine [c0] --> Phosphate [c0] + L-Threonine [c0],0.00017530570267992716
+244,rxn01100_c0,ATP:3-phospho-D-glycerate 1-phosphotransferase [c0],"ATP [c0] + 3-Phosphoglycerate [c0] --> ADP [c0] + 1,3-Bisphospho-D-glycerate [c0]",0.002182964561954275
+245,rxn01101_c0,3-Phospho-D-glycerate:NAD+ 2-oxidoreductase [c0],NAD [c0] + 3-Phosphoglycerate [c0] <=> NADH [c0] + H+ [c0] + 3-Phosphonooxypyruvate [c0],0.0013858140879099083
+246,rxn01103_c0,3-Phospho-D-glyceroyl phosphate phosphohydrolase [c0],"H2O [c0] + 1,3-Bisphospho-D-glycerate [c0] --> Phosphate [c0] + H+ [c0] + 3-Phosphoglycerate [c0]",0.0
+247,rxn01106_c0,"2-Phospho-D-glycerate 2,3-phosphomutase [c0]",2-Phospho-D-glycerate [c0] <=> 3-Phosphoglycerate [c0],0.003568778649864183
+248,rxn01127_c0,ATP:dAMP phosphotransferase [c0],ATP [c0] + H+ [c0] + dAMP [c0] <=> ADP [c0] + dADP [c0],0.0
+249,rxn01145_c0,Thymidylate 5'-phosphohydrolase [c0],H2O [c0] + dTMP [c0] --> Phosphate [c0] + Thymidine [c0],0.0
+250,rxn01200_c0,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase [c0],Glyceraldehyde3-phosphate [c0] + Sedoheptulose7-phosphate [c0] <=> ribose-5-phosphate [c0] + D-Xylulose5-phosphate [c0],-0.00018411298022329416
+251,rxn01208_c0,R01652 [c0],CO2 [c0] + 4MOP [c0] <-- H+ [c0] + 2-isopropyl-3-oxosuccinate [c0],-0.0004170854211675258
+252,rxn01211_c0,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing) [c0]",H2O [c0] + 5-10-Methenyltetrahydrofolate [c0] <=> H+ [c0] + 10-Formyltetrahydrofolate [c0],0.0
+253,rxn01213_c0,GPPSYN-RXN [c0],Isopentenyldiphosphate [c0] + DMAPP [c0] --> PPi [c0] + H+ [c0] + Geranyldiphosphate [c0],0.00012728178097002994
+254,rxn01217_c0,dCMP aminohydrolase [c0],H2O [c0] + H+ [c0] + dCMP [c0] --> NH3 [c0] + dUMP [c0],1.7152370195729083e-05
+255,rxn01218_c0,2'-Deoxycytidine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + dCMP [c0] --> Phosphate [c0] + Deoxycytidine [c0],0.0
+256,rxn01219_c0,ATP:dCMP phosphotransferase [c0],ATP [c0] + H+ [c0] + dCMP [c0] <=> ADP [c0] + dCDP [c0],-1.7152370195729083e-05
+257,rxn01255_c0,5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming) [c0],5-O--1-Carboxyvinyl-3-phosphoshikimate [c0] --> Phosphate [c0] + Chorismate [c0],0.00036822596044658833
+258,rxn01256_c0,Chorismate pyruvatemutase [c0],Chorismate [c0] --> Prephenate [c0],0.0003101199133652699
+259,rxn01257_c0,chorismate:L-glutamine aminotransferase [c0],L-Glutamine [c0] + Chorismate [c0] <=> L-Glutamate [c0] + ADC [c0],5.484225235078888e-06
+260,rxn01265_c0,Nicotinate D-ribonucleotide:diphosphate phosphoribosyltransferase [c0],PPi [c0] + Nicotinate ribonucleotide [c0] <=> PRPP [c0] + Niacin [c0],-5.484225235078905e-06
+261,rxn01268_c0,Prephenate:NAD+ oxidoreductase(decarboxylating) [c0],NAD [c0] + Prephenate [c0] --> NADH [c0] + CO2 [c0] + p-hydroxyphenylpyruvate [c0],0.00013863214064713247
+262,rxn01269_c0,Prephenate:NADP+ oxidoreductase(decarboxylating) [c0],NADP [c0] + Prephenate [c0] --> NADPH [c0] + CO2 [c0] + p-hydroxyphenylpyruvate [c0],0.0
+263,rxn01286_c0,D-Glyceraldehyde:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + D-Glyceraldehyde [c0] --> NADH [c0] + 2 H+ [c0] + Glycerate [c0],0.0
+264,rxn01300_c0,ATP:L-homoserine O-phosphotransferase [c0],ATP [c0] + L-Homoserine [c0] --> ADP [c0] + H+ [c0] + O-Phospho-L-homoserine [c0],0.00017530570267992716
+265,rxn01301_c0,L-Homoserine:NAD+ oxidoreductase [c0],NAD [c0] + L-Homoserine [c0] <=> NADH [c0] + H+ [c0] + L-Aspartate4-semialdehyde [c0],-0.0005920381971507081
+266,rxn01302_c0,L-homoserine:NADP+ oxidoreductase [c0],NADP [c0] + L-Homoserine [c0] <=> NADPH [c0] + H+ [c0] + L-Aspartate4-semialdehyde [c0],0.0
+267,rxn01303_c0,Acetyl-CoA:L-homoserine O-acetyltransferase [c0],Acetyl-CoA [c0] + L-Homoserine [c0] --> CoA [c0] + O-Acetyl-L-homoserine [c0],0.00041673249447078095
+268,rxn01332_c0,"Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming) [c0]",H2O [c0] + Phosphoenolpyruvate [c0] + D-Erythrose4-phosphate [c0] --> Phosphate [c0] + DAHP [c0],0.00036822596044658833
+269,rxn01333_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase [c0],Glyceraldehyde3-phosphate [c0] + Sedoheptulose7-phosphate [c0] <=> D-fructose-6-phosphate [c0] + D-Erythrose4-phosphate [c0],0.00018411298022329416
+270,rxn01353_c0,ATP:dGDP phosphotransferase [c0],ATP [c0] + dGDP [c0] <=> ADP [c0] + dGTP [c0],0.0
+271,rxn01354_c0,dGTP:pyruvate 2-O-phosphotransferase [c0],Pyruvate [c0] + dGTP [c0] <=> Phosphoenolpyruvate [c0] + H+ [c0] + dGDP [c0],-1.7152370195729083e-05
+272,rxn01361_c0,(S)-dihydroorotate:NAD+ oxidoreductase [c0],NAD [c0] + S-Dihydroorotate [c0] <=> NADH [c0] + H+ [c0] + Orotate [c0],0.00023494263956443104
+273,rxn01362_c0,Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase [c0],PPi [c0] + H+ [c0] + Orotidylic acid [c0] <-- PRPP [c0] + Orotate [c0],-0.00023494263956443104
+274,rxn01387_c0,Isocitrate:NADP+ oxidoreductase [c0],NADP [c0] + Isocitrate [c0] <=> NADPH [c0] + H+ [c0] + Oxalosuccinate [c0],0.00102065339299712
+275,rxn01388_c0,isocitrate hydro-lyase (cis-aconitate-forming) [c0],Isocitrate [c0] <=> H2O [c0] + cis-Aconitate [c0],-0.00102065339299712
+276,rxn01406_c0,S-adenosylmethioninamine:putrescine 3-aminopropyltransferase [c0],Putrescine [c0] + S-Adenosylmethioninamine [c0] --> H+ [c0] + 5-Methylthioadenosine [c0] + Spermidine [c0],5.484225235078905e-06
+277,rxn01419_c0,"(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating) [c0]",NAD [c0] + Homoisocitrate [c0] --> NADH [c0] + CO2 [c0] + 2-Oxoadipate [c0],5.484225235052875e-06
+278,rxn01434_c0,L-Citrulline:L-aspartate ligase (AMP-forming) [c0],ATP [c0] + L-Aspartate [c0] + Citrulline [c0] --> PPi [c0] + AMP [c0] + 2 H+ [c0] + L-Argininosuccinate [c0],0.00027385570854411003
+279,rxn01445_c0,2'-Deoxyguanosine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + dGMP [c0] --> Phosphate [c0] + Deoxyguanosine [c0],0.0
+280,rxn01454_c0,"acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming) [c0]",CoA [c0] + H+ [c0] + HMG-CoA [c0] <-- H2O [c0] + Acetyl-CoA [c0] + Acetoacetyl-CoA [c0],-0.0005091271238801198
+281,rxn01459_c0,4-Aminobutyraldehyde:NAD+ oxidoreductase [c0],H2O [c0] + NADP [c0] + 4-Aminobutanal [c0] --> NADPH [c0] + 2 H+ [c0] + GABA [c0],0.0
+282,rxn01465_c0,(S)-dihydroorotate amidohydrolase [c0],H2O [c0] + S-Dihydroorotate [c0] <=> H+ [c0] + N-Carbamoyl-L-aspartate [c0],-0.00023494263956443104
+283,rxn01466_c0,Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase [c0],Isopentenyldiphosphate [c0] + Geranyldiphosphate [c0] --> PPi [c0] + H+ [c0] + Farnesyldiphosphate [c0],0.00012728178097002994
+284,rxn01485_c0,"D-Glucosamine 1-phosphate 1,6-phosphomutase [c0]",D-Glucosamine1-phosphate [c0] <=> D-Glucosamine phosphate [c0],-4.326810752083873e-06
+285,rxn01486_c0,"trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase [c0]",Isopentenyldiphosphate [c0] + Farnesyldiphosphate [c0] --> PPi [c0] + H+ [c0] + Geranylgeranyl diphosphate [c0],0.00012728178097002994
+286,rxn01501_c0,(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating) [c0],2 NADP [c0] + CoA [c0] + Mevalonic acid [c0] <-- 2 NADPH [c0] + 2 H+ [c0] + HMG-CoA [c0],-0.0005091271238801198
+287,rxn01507_c0,2'-Deoxyadenosine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + dAMP [c0] --> Phosphate [c0] + Deoxyadenosine [c0],0.0
+288,rxn01512_c0,ATP:dTDP phosphotransferase [c0],ATP [c0] + dTDP [c0] <=> ADP [c0] + TTP [c0],1.7152370195729083e-05
+289,rxn01513_c0,ATP:dTMP phosphotransferase [c0],ATP [c0] + H+ [c0] + dTMP [c0] <=> ADP [c0] + dTDP [c0],1.7152370195729083e-05
+290,rxn01517_c0,ATP:dUMP phosphotransferase [c0],ATP [c0] + H+ [c0] + dUMP [c0] <=> ADP [c0] + dUDP [c0],0.0
+291,rxn01520_c0,"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase [c0]",5-10-Methylenetetrahydrofolate [c0] + dUMP [c0] --> dTMP [c0] + Dihydrofolate [c0],1.7152370195729083e-05
+292,rxn01521_c0,2'-Deoxyuridine 5'-monophosphate phosphohydrolase [c0],H2O [c0] + dUMP [c0] --> Phosphate [c0] + Deoxyuridine [c0],0.0
+293,rxn01575_c0,L-Isoleucine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Isoleucine [c0] <=> L-Glutamate [c0] + 3MOP [c0],-0.0002689488310228703
+294,rxn01602_c0,dihydrofolate:NADP+ oxidoreductase [c0],NADP [c0] + Dihydrofolate [c0] <=> NADPH [c0] + H+ [c0] + Folate [c0],0.0
+295,rxn01603_c0,"7,8-dihydropteroate:L-glutamate ligase (ADP-forming) [c0]",ATP [c0] + L-Glutamate [c0] + Dihydropteroate [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Dihydrofolate [c0],5.484225235078888e-06
+296,rxn01607_c0,ATP:(R)-mevalonate 5-phosphotransferase [c0],ATP [c0] + Mevalonic acid [c0] --> ADP [c0] + H+ [c0] + 5-phosphomevalonate [c0],0.0005091271238801198
+297,rxn01629_c0,"(S)-4-Amino-5-oxopentanoate 4,5-aminomutase [c0]",5-Aminolevulinate [c0] <=> L-Glutamate1-semialdehyde [c0],0.0
+298,rxn01636_c0,N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase [c0],L-Glutamate [c0] + N-Acetylornithine [c0] <=> Ornithine [c0] + N-Acetyl-L-glutamate [c0],0.0004894751510873518
+299,rxn01637_c0,N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + N-Acetylornithine [c0] <=> L-Glutamate [c0] + 2-Acetamido-5-oxopentanoate [c0],-0.0004894751510873518
+300,rxn01639_c0,N-Formimino-L-glutamate formiminohydrolase [c0],H2O [c0] + N-Formimino-L-glutamate [c0] <-- L-Glutamate [c0] + Formamide [c0],0.0
+301,rxn01642_c0,4-imidazolone-5-propanoate amidohydrolase [c0],H2O [c0] + H+ [c0] + 4-Imidazolone-5-propanoate [c0] --> N-Formimino-L-glutamate [c0],0.0
+302,rxn01643_c0,L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating) [c0],NADP [c0] + Phosphate [c0] + L-Aspartate4-semialdehyde [c0] <-- NADPH [c0] + H+ [c0] + 4-Phospho-L-aspartate [c0],-0.0009097171265575785
+303,rxn01644_c0,L-Aspartate-4-semialdehyde hydro-lyase (adding pyruvate and cyclizing) [c0],Pyruvate [c0] + L-Aspartate4-semialdehyde [c0] --> 2 H2O [c0] + H+ [c0] + Dihydrodipicolinate [c0],0.0
+304,rxn01652_c0,S-Aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming) [c0],H2O [c0] + 5-10-Methenyltetrahydrofolate [c0] <=> H+ [c0] + 5-Formyltetrahydrofolate [c0],0.0
+305,rxn01669_c0,Nicotinamide-D-ribonucleotide amidohydrolase [c0],H2O [c0] + Nicotinamide ribonucleotide [c0] <=> NH3 [c0] + Nicotinate ribonucleotide [c0],-2.1936901021035737e-05
+306,rxn01670_c0,Nicotinamide ribonucleotide phosphohydrolase [c0],H2O [c0] + Nicotinamide ribonucleotide [c0] --> Phosphate [c0] + N-Ribosylnicotinamide [c0],0.0
+307,rxn01673_c0,ATP:dCDP phosphotransferase [c0],ATP [c0] + dCDP [c0] <=> ADP [c0] + dCTP [c0],-1.7152370195729083e-05
+308,rxn01675_c0,dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase [c0],Glucose-1-phosphate [c0] + TTP [c0] --> PPi [c0] + dTDPglucose [c0],0.0
+309,rxn01678_c0,ATP:dUDP phosphotransferase [c0],ATP [c0] + dUDP [c0] <=> ADP [c0] + dUTP [c0],0.0
+310,rxn01682_c0,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase [c0]",Indoleglycerol phosphate [c0] <=> Glyceraldehyde3-phosphate [c0] + indol [c0],0.0
+311,rxn01739_c0,ATP:shikimate 3-phosphotransferase [c0],ATP [c0] + Shikimate [c0] --> ADP [c0] + H+ [c0] + 3-phosphoshikimate [c0],0.00036822596044658833
+312,rxn01740_c0,Shikimate:NADP+ 3-oxidoreductase [c0],NADP [c0] + Shikimate [c0] <=> NADPH [c0] + H+ [c0] + 3-Dehydroshikimate [c0],-0.00036822596044658833
+313,rxn01757_c0,L-cysteate:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-Cysteate [c0] <=> L-Glutamate [c0] + 3-Sulfopyruvate [c0],5.484225235052875e-06
+314,rxn01790_c0,(R)-Pantoate:NADP+ 2-oxidoreductase [c0],NADP [c0] + Pantoate [c0] <=> NADPH [c0] + H+ [c0] + 2-Dehydropantoate [c0],-2.1936900940315585e-05
+315,rxn01816_c0,R02508 [c0],Succinate [c0] + H+ [c0] + Cystathionine [c0] <=> L-Cysteine [c0] + O-Succinyl-L-homoserine [c0],0.0002744330562579492
+316,rxn01851_c0,4-aminobutanal:NAD+ 1-oxidoreductase [c0],H2O [c0] + NAD [c0] + 4-Aminobutanal [c0] --> NADH [c0] + 2 H+ [c0] + GABA [c0],0.0
+317,rxn01917_c0,ATP:N-acetyl-L-glutamate 5-phosphotransferase [c0],ATP [c0] + N-Acetyl-L-glutamate [c0] <=> ADP [c0] + n-acetylglutamyl-phosphate [c0],0.0004894751510873518
+318,rxn01923_c0,"2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase [c0]",O2 [c0] + 2 Isobutyryl-CoA [c0] --> 2 H2O [c0] + 2 Methacrylyl-CoA [c0],0.0
+319,rxn01961_c0,Xanthosine 5'-phosphate phosphohydrolase [c0],H2O [c0] + XMP [c0] --> Phosphate [c0] + Xanthosine [c0],0.0
+320,rxn01964_c0,L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming] [c0],L-Serine [c0] + Indoleglycerol phosphate [c0] --> H2O [c0] + L-Tryptophan [c0] + Glyceraldehyde3-phosphate [c0],5.2621821846239544e-05
+321,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase [c0]","H2O [c0] + N-acetyl-LL-2,6-diaminopimelate [c0] <=> Acetate [c0] + LL-2,6-Diaminopimelate [c0]",0.0003176789294068704
+322,rxn01974_c0,"LL-2,6-Diaminoheptanedioate 2-epimerase [c0]","LL-2,6-Diaminopimelate [c0] <=> meso-2,6-Diaminopimelate [c0]",0.0003176789294068704
+323,rxn02008_c0,UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming) [c0],ATP [c0] + D-Glutamate [c0] + UDP-N-acetylmuramoyl-L-alanine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate [c0],0.0
+324,rxn02085_c0,"4,5-Dihydro-4-oxo-5-imidazolepropanoate hydro-lyase [c0]",H+ [c0] + 4-Imidazolone-5-propanoate [c0] <=> H2O [c0] + Urocanate [c0],0.0
+325,rxn02159_c0,L-Histidinol:NAD+ oxidoreductase [c0],NAD [c0] + L-Histidinol [c0] <=> NADH [c0] + H+ [c0] + L-Histidinal [c0],8.773218789700776e-05
+326,rxn02160_c0,L-Histidinol-phosphate phosphohydrolase [c0],H2O [c0] + L-histidinol-phosphate [c0] --> Phosphate [c0] + L-Histidinol [c0],8.773218789700776e-05
+327,rxn02175_c0,ATP:pantetheine-4'-phosphate adenylyltransferase [c0],ATP [c0] + Phosphopantetheine [c0] --> PPi [c0] + Dephospho-CoA [c0],2.1936900940315585e-05
+328,rxn02186_c0,"2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing) [c0]","NADPH [c0] + H+ [c0] + ALCTT [c0] <=> NADP [c0] + 2,3-Dihydroxy-isovalerate [c0]",0.0
+329,rxn02200_c0,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase [c0]",ABEE [c0] + 6-hydroxymethyl dihydropterin [c0] <=> H2O [c0] + Dihydropteroate [c0],5.484225235078888e-06
+330,rxn02212_c0,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing) [c0],DAHP [c0] --> Phosphate [c0] + 5-Dehydroquinate [c0],0.00036822596044658833
+331,rxn02213_c0,3-Dehydroquinate hydro-lyase [c0],5-Dehydroquinate [c0] --> H2O [c0] + 3-Dehydroshikimate [c0],0.00036822596044658833
+332,rxn02264_c0,Hydroxymethylbilane hydro-lyase(cyclizing) [c0],Hydroxymethylbilane [c0] <=> H2O [c0] + UroporphyrinogenIII [c0],0.0
+333,rxn02268_c0,"(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase [c0]",O2 [c0] + 2 2-Methylbutyryl-CoA [c0] --> 2 H2O [c0] + 2 Tiglyl-CoA [c0],0.0
+334,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine) [c0],L-Cysteine [c0] + O-Acetyl-L-homoserine [c0] <=> Acetate [c0] + H+ [c0] + Cystathionine [c0],0.0002744330562579492
+335,rxn02320_c0,5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + L-histidinol-phosphate [c0] <=> L-Glutamate [c0] + imidazole acetol-phosphate [c0],-8.773218789700776e-05
+336,rxn02322_c0,ATP:(R)-5-phosphomevalonate phosphotransferase [c0],ATP [c0] + H+ [c0] + 5-phosphomevalonate [c0] --> ADP [c0] + 5-diphosphomevalonate [c0],0.0005091271238801198
+337,rxn02341_c0,N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase [c0],H+ [c0] + (R)-4'-Phosphopantothenoyl-L-cysteine [c0] --> CO2 [c0] + Phosphopantetheine [c0],2.1936900940315585e-05
+338,rxn02374_c0,R03314 [c0],L-Glutamate5-semialdehyde [c0] --> H2O [c0] + H+ [c0] + 1-Pyrroline-5-carboxylate [c0],0.0
+339,rxn02400_c0,Nicotinate D-ribonucleotide phosphohydrolase [c0],H2O [c0] + Nicotinate ribonucleotide [c0] --> Phosphate [c0] + Nicotinate D-ribonucleoside [c0],0.0
+340,rxn02402_c0,Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating) [c0],CO2 [c0] + PPi [c0] + Nicotinate ribonucleotide [c0] <-- H+ [c0] + PRPP [c0] + Quinolinate [c0],-2.1936901021035737e-05
+341,rxn02431_c0,Ftr [c0],H+ [c0] + Formylmethanofuran [c0] + H4MPT [c0] <-- Methanofuran [c0] + 5-Formyl-H4MPT [c0],-0.9873984878242482
+342,rxn02465_c0,N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating) [c0],NADP [c0] + Phosphate [c0] + 2-Acetamido-5-oxopentanoate [c0] <-- NADPH [c0] + H+ [c0] + n-acetylglutamyl-phosphate [c0],-0.0004894751510873518
+343,rxn02466_c0,"2-Hydroxybutane-1,2,4-tricarboxylate hydro-lyase [c0]",Homocitrate [c0] <=> H2O [c0] + cis-Homoaconitate [c0],5.484225235052875e-06
+344,rxn02473_c0,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase [c0],D-erythro-imidazol-glycerol-phosphate [c0] --> H2O [c0] + imidazole acetol-phosphate [c0],8.773218789700776e-05
+345,rxn02474_c0,5-amino-6-(5-phosphoribitylamino)uracil:NADP+ 1'-oxidoreductase [c0],NADP [c0] + 5-Amino-6--5-phosphoribitylaminouracil [c0] <=> NADPH [c0] + H+ [c0] + 5-Amino-6--5-phosphoribosylaminouracil [c0],-5.484225235078905e-06
+346,rxn02475_c0,"2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase [c0]","H2O [c0] + H+ [c0] + 2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone [c0] --> NH3 [c0] + 5-Amino-6--5-phosphoribosylaminouracil [c0]",5.484225235078905e-06
+347,rxn02476_c0,Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase [c0],Phosphoenolpyruvate [c0] + 3-phosphoshikimate [c0] <=> Phosphate [c0] + 5-O--1-Carboxyvinyl-3-phosphoshikimate [c0],0.00036822596044658833
+348,rxn02480_c0,Mch [c0],"H2O [c0] + 5,10-Methenyltetrahydromethanopterin [c0] <=> H+ [c0] + 5-Formyl-H4MPT [c0]",0.9873984878242482
+349,rxn02504_c0,"2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine glycolaldehyde-lyase [c0]",Dihydroneopterin [c0] --> Glycolaldehyde [c0] + 6-hydroxymethyl dihydropterin [c0],5.484225235078888e-06
+350,rxn02507_c0,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing) [c0],H+ [c0] + 1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate [c0] --> H2O [c0] + CO2 [c0] + Indoleglycerol phosphate [c0],5.2621821846239544e-05
+351,rxn02508_c0,N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase [c0],N-5-phosphoribosyl-anthranilate [c0] <=> 1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate [c0],5.2621821846239544e-05
+352,rxn02517_c0,ATP:dIDP phosphotransferase [c0],ATP [c0] + dIDP [c0] <=> ADP [c0] + dITP [c0],0.0
+353,rxn02666_c0,R03758 [c0],CO2 [c0] + Aminoacetone [c0] <-- H+ [c0] + L-2-Amino-acetoacetate [c0],0.0
+354,rxn02789_c0,2-Isopropylmalate hydro-lyase [c0],2-Isopropylmalate [c0] <=> H2O [c0] + 2-Isopropylmaleate [c0],0.00041708542119067715
+355,rxn02811_c0,3-Isopropylmalate hydro-lyase [c0],3-Isopropylmalate [c0] <=> H2O [c0] + 2-Isopropylmaleate [c0],-0.00041708542119067715
+356,rxn02834_c0,Phosphoribosyl-ATP pyrophosphohydrolase [c0],H2O [c0] + Phosphoribosyl-ATP [c0] --> PPi [c0] + 2 H+ [c0] + Phosphoribosyl-AMP [c0],8.773218789700776e-05
+357,rxn02835_c0,"1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase [c0]",H2O [c0] + Phosphoribosyl-AMP [c0] <=> phosphoribosylformiminoaicar-phosphate [c0],8.773218789700776e-05
+358,rxn02853_c0,Imidazole acetaldehyde:NAD+ oxidoreductase [c0],H2O [c0] + NAD [c0] + Imidazole acetaldehyde [c0] --> NADH [c0] + 2 H+ [c0] + 4-Imidazoleacetate [c0],0.0
+359,rxn02895_c0,5-Phospho-D-ribosylamine:glycine ligase (ADP-forming) [c0],ATP [c0] + Glycine [c0] + 5-Phosphoribosylamine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + GAR [c0],0.0003521119518434116
+360,rxn02897_c0,Nicotinate-nucleotide:dimethylbenzimidazole phospho-D-ribosyltransferase [c0],Nicotinate ribonucleotide [c0] + Dimethylbenzimidazole [c0] <=> H+ [c0] + Niacin [c0] + alpha-Ribazole 5'-phosphate [c0],5.484225235078905e-06
+361,rxn02914_c0,3-Phosphoserine:2-oxoglutarate aminotransferase [c0],2-Oxoglutarate [c0] + phosphoserine [c0] <-- L-Glutamate [c0] + 3-Phosphonooxypyruvate [c0],-0.0013858140879099083
+362,rxn02916_c0,R04175 [c0],2-Oxo-6-aminocaproate [c0] --> H2O [c0] + H+ [c0] + delta1-Piperideine-2-carboxylate [c0],0.0
+363,rxn02929_c0,"2,3,4,5-Tetrahydrodipicolinate:NADP+ oxidoreductase [c0]",NADP [c0] + tetrahydrodipicolinate [c0] <=> NADPH [c0] + H+ [c0] + Dihydrodipicolinate [c0],0.0
+364,rxn02937_c0,2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming) [c0],ATP [c0] + 5'-Phosphoribosylformylglycinamidine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + AIR [c0],0.0003521119518434116
+365,rxn02988_c0,glycerone phosphate:iminosuccinate alkyltransferase (cyclizing) [c0],2 H2O [c0] + Phosphate [c0] + Quinolinate [c0] <-- Glycerone-phosphate [c0] + Iminoaspartate [c0],-2.1936901021035737e-05
+366,rxn02989_c0,R04293 [c0],H2O [c0] + Quinolinate [c0] <-- 2-Amino-3-carboxymuconate semialdehyde [c0],0.0
+367,rxn03004_c0,10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase [c0],10-Formyltetrahydrofolate [c0] + GAR [c0] <=> H+ [c0] + Tetrahydrofolate [c0] + N-Formyl-GAR [c0],-0.0004398441397404194
+368,rxn03005_c0,R04326 [c0],2 H+ [c0] + Tetrahydrofolate [c0] + N-Formyl-GAR [c0] <=> H2O [c0] + 5-10-Methenyltetrahydrofolate [c0] + GAR [c0],-0.0007919560915838309
+369,rxn03012_c0,R04336 [c0],L-2-Amino-6-oxopimelate [c0] --> H2O [c0] + H+ [c0] + tetrahydrodipicolinate [c0],0.0
+370,rxn03020_c0,Mtr [c0],2 Na+ [e0] + CoM [c0] + 5-Methyl-H4MPT [c0] <=> H4MPT [c0] + 2 Na+ [c0] + Methyl CoM [c0],-1.0
+371,rxn03030_c0,"Acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase [c0]",H2O [c0] + Acetyl-CoA [c0] + tetrahydrodipicolinate [c0] --> CoA [c0] + L-2-Acetamido-6-oxopimelate [c0],0.0003176789294068704
+372,rxn03034_c0,Homoisocitrate hydro-lyase [c0],Homoisocitrate [c0] <=> H2O [c0] + cis-Homoaconitate [c0],-5.484225235052875e-06
+373,rxn03039_c0,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase [c0],PPi [c0] + H+ [c0] + AICAR [c0] <=> PRPP [c0] + 5-Amino-4-imidazolecarboxyamide [c0],0.0
+374,rxn03052_c0,5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase [c0],Homocysteine [c0] + 5-Methyltetrahydropteroyltri-L-glutamate [c0] <=> L-Methionine [c0] + Tetrahydropteroyltri-L-glutamate [c0],0.0
+375,rxn03057_c0,5-Methylthio-5-deoxy-D-ribose-1-phosphate ketol-isomerase [c0],methylthioribose-1-phosphate [c0] <=> methylthioribulose-1-phosphate [c0],0.0
+376,rxn03062_c0,3-Isopropylmalate:NAD+ oxidoreductase [c0],NAD [c0] + 3-Isopropylmalate [c0] <=> NADH [c0] + H+ [c0] + 2-isopropyl-3-oxosuccinate [c0],0.0004170854211675258
+377,rxn03068_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing) [c0]","NADP [c0] + 2,3-Dihydroxy-isovalerate [c0] <=> NADPH [c0] + H+ [c0] + 2-Oxo-3-hydroxyisovalerate [c0]",0.0
+378,rxn03079_c0,Mtd [c0],"H+ [c0] + F420 [c0] + 5,10-Methylenetetrahydromethanopterin [c0] <=> F420H2 [c0] + 5,10-Methenyltetrahydromethanopterin [c0]",0.9873984878242482
+379,rxn03080_c0,5-amino-6-(D-ribitylamino)uracil butanedionetransferase [c0],4--1-D-Ribitylamino-5-aminouracil [c0] + 3-4-dihydroxy-2-butanone4-phosphate [c0] --> 2 H2O [c0] + Phosphate [c0] + H+ [c0] + 6-7-Dimethyl-8--1-D-ribityllumazine [c0],0.0
+380,rxn03084_c0,5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming) [c0],H2O [c0] + ATP [c0] + L-Glutamine [c0] + N-Formyl-GAR [c0] --> ADP [c0] + Phosphate [c0] + L-Glutamate [c0] + H+ [c0] + 5'-Phosphoribosylformylglycinamidine [c0],0.0003521119518434116
+381,rxn03085_c0,Mer [c0],"F420H2 [c0] + 5,10-Methylenetetrahydromethanopterin [c0] <=> F420 [c0] + 5-Methyl-H4MPT [c0]",-0.9864595451166177
+382,rxn03086_c0,R04467 [c0],"2-Oxoglutarate [c0] + N-acetyl-LL-2,6-diaminopimelate [c0] <-- L-Glutamate [c0] + L-2-Acetamido-6-oxopimelate [c0]",-0.0003176789294068704
+383,rxn03126_c0,HdrDE [c0],H+ [e0] + CoM-S-S-CoB [c0] + MPH2 [c0] <=> CoM [c0] + HTP [c0] + MP [c0],0.37470479940168655
+384,rxn03127_c0,Mcr [c0],Methyl CoM [c0] + HTP [c0] <=> H+ [c0] + Methane [c0] + CoM-S-S-CoB [c0],-1.0
+385,rxn03135_c0,R04558 [c0],L-Glutamate [c0] + 2 H+ [c0] + D-erythro-imidazol-glycerol-phosphate [c0] + AICAR [c0] <-- L-Glutamine [c0] + phosphoribulosylformimino-AICAR-phosphate [c0],-8.773218789700776e-05
+386,rxn03136_c0,1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase [c0],SAICAR [c0] <=> H+ [c0] + Fumarate [c0] + AICAR [c0],0.0003521119518434116
+387,rxn03137_c0,10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase [c0],10-Formyltetrahydrofolate [c0] + AICAR [c0] <=> Tetrahydrofolate [c0] + FAICAR [c0],0.0004398441397404194
+388,rxn03147_c0,1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming) [c0],ATP [c0] + L-Aspartate [c0] + 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + SAICAR [c0],0.0003521119518434116
+389,rxn03150_c0,R04594 [c0],H2O [c0] + alpha-Ribazole 5'-phosphate [c0] --> Phosphate [c0] + alpha-Ribazole [c0],5.484225235078905e-06
+390,rxn03167_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum) [c0]","3 H2O [c0] + 7,8-Dihydroneopterin 3'-triphosphate [c0] --> 3 Phosphate [c0] + 3 H+ [c0] + Dihydroneopterin [c0]",5.484225235078888e-06
+391,rxn03174_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate hydrolase [c0]","H2O [c0] + 7,8-Dihydroneopterin 3'-triphosphate [c0] <-- 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine [c0]",0.0
+392,rxn03175_c0,N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase [c0],H+ [c0] + phosphoribosylformiminoaicar-phosphate [c0] <=> phosphoribulosylformimino-AICAR-phosphate [c0],8.773218789700776e-05
+393,rxn03264_c0,ATP:L-selenomethione S-adenosyltransferase [c0],H2O [c0] + ATP [c0] + Selenomethionine [c0] --> Phosphate [c0] + PPi [c0] + H+ [c0] + Se-Adenosylselenomethionine [c0],0.0
+394,rxn03394_c0,R04987 [c0],NADPH [c0] + O2 [c0] + H+ [c0] + 2-Octaprenylphenol [c0] --> H2O [c0] + NADP [c0] + 2-Octaprenyl-6-hydroxyphenol [c0],0.0
+395,rxn03406_c0,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)- [c0],ATP [c0] + NH3 [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-L-lysyl-D-alanyl-D-alanine [c0],0.0
+396,rxn03407_c0,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine:ammonia ligase (ADP-forming) [c0],ATP [c0] + NH3 [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine [c0],0.0
+397,rxn03409_c0,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)- [c0],"ATP [c0] + NH3 [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl--N-acetylglucosamine-L-ala-D-glu-meso-2-6-diaminopimeloyl-D-ala-D-ala [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine [c0]",0.0
+398,rxn03421_c0,"2,5-Diaminopyrimidine nucleoside triphosphate mutase [c0]","2,5-Diaminopyrimidine nucleoside triphosphate [c0] <=> 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine [c0]",0.0
+399,rxn03435_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing) [c0]","NADP [c0] + 2,3-Dihydroxy-3-methylvalerate [c0] <=> NADPH [c0] + H+ [c0] + (R)-3-Hydroxy-3-methyl-2-oxopentanoate [c0]",-0.0002689488310228703
+400,rxn03436_c0,(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing) [c0],2-Aceto-2-hydroxybutanoate [c0] <=> (R)-3-Hydroxy-3-methyl-2-oxopentanoate [c0],0.0002689488310228703
+401,rxn03437_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase [c0]","2,3-Dihydroxy-3-methylvalerate [c0] --> H2O [c0] + 3MOP [c0]",0.0002689488310228703
+402,rxn03446_c0,O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water) [c0],H2O [c0] + 4-(Phosphonooxy)-threonine [c0] --> Phosphate [c0] + 4-Hydroxy-L-threonine [c0],0.0
+403,rxn03537_c0,R05222 [c0],GTP [c0] + Adenosyl cobinamide phosphate [c0] --> PPi [c0] + H+ [c0] + Adenosylcobinamide-GDP [c0],5.484225235078905e-06
+404,rxn03538_c0,R05223 [c0],alpha-Ribazole [c0] + Adenosylcobinamide-GDP [c0] <=> H+ [c0] + GMP [c0] + Calomide [c0],5.484225235078905e-06
+405,rxn03540_c0,R05225 [c0],4 H2O [c0] + 4 ATP [c0] + 4 L-Glutamine [c0] + Adenosyl cobyrinate diamide [c0] --> 4 ADP [c0] + 4 Phosphate [c0] + 4 L-Glutamate [c0] + 4 H+ [c0] + Adenosylcobyric acid [c0],0.0
+406,rxn03541_c0,adenosylcobinamide amidohydrolase [c0],1-Aminopropan-2-ol [c0] + Adenosylcobyric acid [c0] <=> H2O [c0] + Adenosyl cobinamide [c0],0.0
+407,rxn03542_c0,"hydrogenobyrinic-acid-a,c-diamide:cobalt cobalt-ligase (ADP-forming) [c0]",H2O [c0] + ATP [c0] + Co2+ [c0] + Hydrogenobyrinate diamide [c0] <=> ADP [c0] + Phosphate [c0] + 5 H+ [c0] + Cob(II)yrinate diamide [c0],0.0
+408,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase [c0],Acetyl-CoA [c0] + D-Glucosamine1-phosphate [c0] --> CoA [c0] + H+ [c0] + N-Acetyl-D-glucosamine1-phosphate [c0],4.326810752083873e-06
+409,rxn03643_c0,D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming) [c0],Formaldehyde [c0] + D-Ribulose5-phosphate [c0] <=> D-arabino-6-Phospho-hex-3-ulose [c0],-0.0009389427076304988
+410,rxn03644_c0,D-arabino-hex-3-ulose-6-phosphate isomerase [c0],D-arabino-6-Phospho-hex-3-ulose [c0] <=> D-fructose-6-phosphate [c0],-0.0009389427076304988
+411,rxn03841_c0,4-amino-4-deoxychorismate pyruvate-lyase [c0],ADC [c0] --> Pyruvate [c0] + H+ [c0] + ABEE [c0],5.484225235078888e-06
+412,rxn03843_c0,Farnesyl diphosphate:Isopentenyl diphosphate farnesyl cistransferase [c0],"Isopentenyldiphosphate [c0] + Farnesyldiphosphate [c0] --> PPi [c0] + H+ [c0] + trans,trans,cis-Geranylgeranyl diphosphate [c0]",0.0
+413,rxn04026_c0,sulfopyruvate carboxy-lyase [c0],H+ [c0] + 3-Sulfopyruvate [c0] --> CO2 [c0] + Sulfoacetaldehyde [c0],5.484225235052875e-06
+414,rxn04045_c0,sirohydrochlorin cobalt-lyase [c0],Co2+ [c0] + Sirohydrochlorin [c0] <=> 2 H+ [c0] + Cobalt-precorrin 2 [c0],0.0
+415,rxn04046_c0,Cobalt-precorrin-2 C(20)-methyltransferase [c0],S-Adenosyl-L-methionine [c0] + 2 H+ [c0] + Cobalt-precorrin 2 [c0] <=> S-Adenosyl-homocysteine [c0] + Cobalt-precorrin 3 [c0],0.0
+416,rxn04047_c0,R05809 [c0],S-Adenosyl-L-methionine [c0] + Cobalt-precorrin 3 [c0] <=> S-Adenosyl-homocysteine [c0] + Cobalt-precorrin 4 [c0],0.0
+417,rxn04048_c0,cobalt-precorrin-4 methyltransferase [c0],S-Adenosyl-L-methionine [c0] + Cobalt-precorrin 4 [c0] <=> S-Adenosyl-homocysteine [c0] + H+ [c0] + Cobalt-precorrin 5 [c0],0.0
+418,rxn04052_c0,R05814 [c0],2 H+ [c0] + Cobalt-precorrin 8 [c0] <=> Cobyrinate [c0],0.0
+419,rxn04132_c0,R06063 [c0],H2O [c0] + 5-Hydroxyisourate [c0] --> CO2 [c0] + H+ [c0] + (R)-Allantoin [c0],0.0
+420,rxn04133_c0,R06064 [c0],H2O [c0] + 5-Hydroxyisourate [c0] --> CO2 [c0] + H+ [c0] + Allantoin [c0],0.0
+421,rxn04384_c0,adenosylcobyric acid:(R)-1-aminopropan-2-yl phosphate ligase [c0],ATP [c0] + (R)-1-Aminopropan-2-yl phosphate [c0] + Adenosylcobyric acid [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Adenosyl cobinamide phosphate [c0],0.0
+422,rxn04385_c0,L-threonine-O-3-phosphate carboxy-lyase [c0],H+ [c0] + L-Threonine phosphate [c0] --> CO2 [c0] + (R)-1-Aminopropan-2-yl phosphate [c0],0.0
+423,rxn04413_c0,R06558 [c0],GTP [c0] + Adenosyl cobinamide [c0] --> GDP [c0] + H+ [c0] + Adenosyl cobinamide phosphate [c0],5.484225235078905e-06
+424,rxn04457_c0,R06605 [c0],"5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate [c0] --> CO2 [c0] + (R)-Allantoin [c0]",0.0
+425,rxn04791_c0,S-(hydroxymethyl)glutathione synthase [c0],GSH [c0] + Formaldehyde [c0] <=> S-(Hydroxymethyl)glutathione [c0],0.0
+426,rxn04954_c0,5-methyltetrahydrofolate:NAD+ oxidoreductase [c0],NAD [c0] + 5-Methyltetrahydrofolate [c0] <=> NADH [c0] + H+ [c0] + 5-10-Methylenetetrahydrofolate [c0],-0.002402915577536988
+427,rxn05005_c0,S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase [c0],S-Adenosyl-L-methionine [c0] + UroporphyrinogenIII [c0] <=> S-Adenosyl-homocysteine [c0] + H+ [c0] + Precorrin 1 [c0],0.0
+428,rxn05006_c0,S-adenosyl-L-methionine:precorrin-1 C-methyltransferase [c0],S-Adenosyl-L-methionine [c0] + Precorrin 1 [c0] <=> S-Adenosyl-homocysteine [c0] + Precorrin 2 [c0],0.0
+429,rxn05029_c0,ATP:cobinamide Cobeta-adenosyltransferase [c0],ATP [c0] + H+ [c0] + Cobinamide [c0] --> Triphosphate [c0] + Adenosyl cobinamide [c0],5.484225235078905e-06
+430,rxn05030_c0,"di-trans,poly-cis-decaprenyl-diphosphate:isopentenyl-diphosphate undecaprenylcistransferase [c0]",Isopentenyldiphosphate [c0] + all trans Decaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + Bactoprenyl diphosphate [c0],0.0
+431,rxn05039_c0,R07280 [c0],H2O [c0] + 5-Amino-6--5-phosphoribitylaminouracil [c0] --> Phosphate [c0] + 4--1-D-Ribitylamino-5-aminouracil [c0],5.484225235078905e-06
+432,rxn05040_c0,"D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming) [c0]",D-Ribulose5-phosphate [c0] --> Formate [c0] + H+ [c0] + 3-4-dihydroxy-2-butanone4-phosphate [c0],0.0
+433,rxn05054_c0,adenosylcobyric acid:(R)-1-aminopropan-2-ol ligase (ADP-forming) [c0],ATP [c0] + 1-Aminopropan-2-ol [c0] + Adenosylcobyric acid [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Adenosyl cobinamide [c0],0.0
+434,rxn05064_c0,carbamate hydro-lyase [c0],2 H+ [c0] + Carbamate [c0] --> CO2 [c0] + NH3 [c0],0.0
+435,rxn05072_c0,1D-myo-inositol-3-phosphate lyase (isomerizing) [c0],D-glucose-6-phosphate [c0] <=> Inositol 3-phosphate [c0],2.121363016167166e-05
+436,rxn05109_c0,R07399 [c0],H2O [c0] + Pyruvate [c0] + Acetyl-CoA [c0] --> CoA [c0] + H+ [c0] + D-Citramalate [c0],0.0
+437,rxn05115_c0,5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase [c0],5-phosphoribosyl-5-carboxyaminoimidazole [c0] <=> 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole [c0],0.0
+438,rxn05117_c0,L-aspartate:NADP+ oxidoreductase (deaminating) [c0],NADP [c0] + L-Aspartate [c0] --> NADPH [c0] + 2 H+ [c0] + Iminoaspartate [c0],0.0
+439,rxn05119_c0,L-aspartate:NAD+ oxidoreductase (deaminating) [c0],NAD [c0] + L-Aspartate [c0] --> NADH [c0] + 2 H+ [c0] + Iminoaspartate [c0],2.1936901021035737e-05
+440,rxn05129_c0,R07420 [c0],Phosphocreatine [c0] --> Phosphate [c0] + Creatinine [c0],0.0
+441,rxn05144_c0,Pyridoxal 5-phosphate synthase [c0],L-Glutamine [c0] + Glyceraldehyde3-phosphate [c0] + D-Ribulose5-phosphate [c0] --> 3 H2O [c0] + Phosphate [c0] + Pyridoxal phosphate [c0] + L-Glutamate [c0] + H+ [c0],0.0
+442,rxn05145_c0,phosphate-transporting ATPase [c0],H2O [c0] + ATP [c0] + Phosphate [e0] --> ADP [c0] + 2 Phosphate [c0] + H+ [c0],0.006220679268991572
+443,rxn05148_c0,Heme transport via ABC system [c0],H2O [c0] + ATP [c0] + Heme [e0] --> ADP [c0] + Phosphate [c0] + Heme [c0] + H+ [c0],0.0
+444,rxn05150_c0,zinc transport via ABC system [c0],H2O [c0] + ATP [c0] + Zn2+ [e0] --> ADP [c0] + Phosphate [c0] + Zn2+ [c0] + H+ [c0],0.0
+445,rxn05187_c0,Vitamin ABC transport [c0],H2O [c0] + ATP [c0] + Vitamin B12 [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Vitamin B12 [c0],0.0
+446,rxn05195_c0,ATP phosphohydrolase (ferric-ion-transporting) [c0],H2O [c0] + ATP [c0] + fe3 [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + fe3 [c0],0.0
+447,rxn05206_c0,TRANS-RXN-187.ce [c0],K+ [e0] --> K+ [c0],0.0
+448,rxn05209_c0,Na+/H+ Antiport [c0],H+ [c0] + Na+ [e0] <=> H+ [e0] + Na+ [c0],0.7381061054072688
+449,rxn05223_c0,Biotin ABC transporter [c0],H2O [c0] + ATP [c0] + BIOT [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + BIOT [c0],0.0
+450,rxn05229_c0,NCAIR synthetase and NCAIR mutase [c0],ATP [c0] + H2CO3 [c0] + AIR [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole [c0],0.0003521119518434116
+451,rxn05232_c0,2'-Deoxyadenosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase [c0],ATP [c0] + trdrd [c0] --> H2O [c0] + dATP [c0] + trdox [c0],1.7152370195729083e-05
+452,rxn05233_c0,2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase [c0],GDP [c0] + trdrd [c0] --> H2O [c0] + dGDP [c0] + trdox [c0],1.7152370195729083e-05
+453,rxn05234_c0,2'-Deoxyguanosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase [c0],GTP [c0] + trdrd [c0] --> H2O [c0] + dGTP [c0] + trdox [c0],0.0
+454,rxn05235_c0,2'-Deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase [c0],CTP [c0] + trdrd [c0] --> H2O [c0] + dCTP [c0] + trdox [c0],3.430474039145817e-05
+455,rxn05236_c0,2'-Deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase [c0],UTP [c0] + trdrd [c0] --> H2O [c0] + dUTP [c0] + trdox [c0],0.0
+456,rxn05239_c0,"adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming) [c0]",3-phosphoadenylylsulfate [c0] + trdrd [c0] --> Adenosine 3-5-bisphosphate [c0] + H+ [c0] + Sulfite [c0] + trdox [c0],0.0
+457,rxn05256_c0,"AMP,sulfite:thioredoxin-disulfide oxidoreductase(adenosine-5'-phosphosulfate-forming) [c0]",APS [c0] + trdrd [c0] --> AMP [c0] + H+ [c0] + Sulfite [c0] + trdox [c0],5.484225235052875e-06
+458,rxn05289_c0,NADPH:oxidized-thioredoxin oxidoreductase [c0],NADPH [c0] + H+ [c0] + trdox [c0] <=> NADP [c0] + trdrd [c0],7.957793125304812e-05
+459,rxn05294_c0,DNA synthesis,0.516637656497864 dATP [c0] + 0.516637656497864 dGTP [c0] + 0.516637656497864 dCTP [c0] + 0.516637656497864 TTP [c0] --> 2.066550625991456 PPi [c0] + DNA [c0],3.32e-05
+460,rxn05295_c0,mRNA synthesis,0.5242706708389441 ATP [c0] + 0.6450332973053453 GTP [c0] + 0.40031598736564245 CTP [c0] + 0.43224830039383694 UTP [c0] --> 2.001868255903769 PPi [c0] + mRNA [c0],0.0002202
+461,rxn05296_c0,Protein synthesis,27.702144249914628 H2O [c0] + 35.61704260703309 ATP [c0] + 0.38946966114862774 L-Glutamate [c0] + 0.9066003164533654 Glycine [c0] + 0.7601426655459378 L-Alanine [c0] + 0.507798800202798 L-Lysine [c0] + 0.35674442961549696 L-Aspartate [c0] + 0.43774889473163364 L-Arginine [c0] + 0.38946966114862774 L-Glutamine [c0] + 0.3192840705751986 L-Serine [c0] + 0.22746073883125284 L-Methionine [c0] + 0.08411416535524223 L-Tryptophan [c0] + 0.27411728370102273 L-Phenylalanine [c0] + 0.2040660010375469 L-Tyrosine [c0] + 0.1355030991773537 L-Cysteine [c0] + 0.666696645088756 L-Leucine [c0] + 0.14023687323690498 L-Histidine [c0] + 0.3271275448738555 L-Proline [c0] + 0.35674442961549696 L-Asparagine [c0] + 0.62626225508182 L-Valine [c0] + 0.37540540126455 L-Threonine [c0] + 0.4299054204329768 L-Isoleucine [c0] --> 35.61704260703309 ADP [c0] + 35.61704260703309 Phosphate [c0] + 35.61704260703309 H+ [c0] + Protein [c0],0.0006256
+462,rxn05312_c0,Inorganic phosphate transporter [c0],Phosphate [e0] + H+ [e0] <-- Phosphate [c0] + H+ [c0],0.0
+463,rxn05315_c0,ZN2t4 [c0],Zn2+ [c0] + H+ [e0] + K+ [e0] --> Zn2+ [e0] + H+ [c0] + K+ [c0],0.0
+464,rxn05319_c0,H2O Diffusion [c0],H2O [e0] <=> H2O [c0],1.93783539590373
+465,rxn05466_c0,TRANS-RXN-173.ce [c0],NH3 [e0] <=> NH3 [c0],0.009332752017323576
+466,rxn05467_c0,CO2 Diffusion [c0],CO2 [e0] <=> CO2 [c0],-0.9648025139162838
+467,rxn05468_c0,TRANS-RXNAVI-26568.ce [c0],O2 [e0] --> O2 [c0],0.0
+468,rxn05469_c0,Pyruvate Transport [c0],Pyruvate [e0] + H+ [e0] <=> Pyruvate [c0] + H+ [c0],0.0
+469,rxn05488_c0,acetate reversible transport via proton symport [c0],Acetate [e0] + H+ [e0] <=> Acetate [c0] + H+ [c0],-0.0008520875141334251
+470,rxn05514_c0,calcium transport in/out via proton antiporter [c0],Ca2+ [c0] + H+ [e0] <=> Ca2+ [e0] + H+ [c0],0.0
+471,rxn05516_c0,Cadmium-translocating P-type ATPase [c0],H2O [c0] + ATP [c0] + Cd2+ [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Cd2+ [e0],0.0
+472,rxn05517_c0,cadminum transport out via antiport [c0],H+ [e0] + K+ [e0] + Cd2+ [c0] <=> H+ [c0] + K+ [c0] + Cd2+ [e0],0.0
+473,rxn05528_c0,Copper-transporting ATPase [c0],H2O [c0] + ATP [c0] + Cu2+ [c0] --> ADP [c0] + Phosphate [c0] + Cu2+ [e0] + H+ [c0],0.0
+474,rxn05533_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + ala-L-asp-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + ala-L-asp-L [c0],0.0
+475,rxn05534_c0,Dipeptide transport via ABC system (gly-glu) [c0],H2O [c0] + ATP [c0] + gly-glu-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + gly-glu-L [c0],0.0
+476,rxn05535_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Gly-Met [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Met [c0],0.0
+477,rxn05536_c0,Dipeptide transport via ABC system (met-ala) [c0],H2O [c0] + ATP [c0] + met-L-ala-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + met-L-ala-L [c0],0.0
+478,rxn05537_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + gly-asp-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + gly-asp-L [c0],0.0
+479,rxn05538_c0,Dipeptide transport via ABC system (gly-pro-L) [c0],H2O [c0] + ATP [c0] + gly-pro-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + gly-pro-L [c0],0.0
+480,rxn05539_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Cys-Gly [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Cys-Gly [c0],0.0
+481,rxn05540_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Ala-Gln [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Ala-Gln [c0],0.0
+482,rxn05541_c0,Dipeptide transport via ABC system (ala-glu) [c0],H2O [c0] + ATP [c0] + ala-L-glu-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + ala-L-glu-L [c0],0.0
+483,rxn05542_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + L-alanylglycine [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + L-alanylglycine [c0],0.0
+484,rxn05543_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Ala-His [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Ala-His [c0],0.0
+485,rxn05544_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Ala-Leu [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Ala-Leu [c0],0.0
+486,rxn05545_c0,Dipeptide transport via ABC system (ala-thr) [c0],H2O [c0] + ATP [c0] + ala-L-Thr-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + ala-L-Thr-L [c0],0.0
+487,rxn05546_c0,Dipeptide transport via ABC system (gly-asn) [c0],H2O [c0] + ATP [c0] + gly-asn-L [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + gly-asn-L [c0],0.0
+488,rxn05547_c0,oligopeptide-transporting ATPase [c0],H2O [c0] + ATP [c0] + Gly-Gln [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Gln [c0],0.0
+489,rxn05559_c0,formate transport in via proton symport [c0],Formate [e0] + H+ [e0] <=> Formate [c0] + H+ [c0],-1.0968450470157792e-05
+490,rxn05595_c0,TRANS-RXN-3.ce [c0],H+ [e0] + K+ [e0] --> H+ [c0] + K+ [c0],0.0
+491,rxn05651_c0,sulfate transport in via proton symport [c0],Sulfate [e0] + H+ [e0] <=> Sulfate [c0] + H+ [c0],5.484225235052875e-06
+492,rxn05730_c0,Tetrathionate transport in via proton symport [c0],H+ [e0] + Tetrathionate [e0] <=> H+ [c0] + Tetrathionate [c0],0.0
+493,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming) [c0]",H2S2O3 [c0] + O-Acetyl-L-serine [c0] + trdrd [c0] --> Acetate [c0] + H+ [c0] + Sulfite [c0] + L-Cysteine [c0] + trdox [c0],0.0
+494,rxn05734_c0,"aldehyde dehydrogenase (glyoxylate, NAD) [c0]",H2O [c0] + NAD [c0] + Glyoxalate [c0] <=> NADH [c0] + 2 H+ [c0] + Oxalate [c0],-5.484225235078905e-06
+495,rxn05735_c0,"aldehyde dehydrogenase (aminoacetaldehyde, NAD) [c0]",H2O [c0] + NAD [c0] + Aminoacetaldehyde [c0] --> NADH [c0] + Glycine [c0] + 2 H+ [c0],0.0
+496,rxn06023_c0,CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase [c0],CoA [c0] + apo-ACP [c0] <=> Adenosine 3-5-bisphosphate [c0] + ACP [c0],5.484225235078905e-06
+497,rxn06672_c0,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming) [c0],ATP [c0] + H2CO3 [c0] + Holo-[carboxylase] [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Carboxybiotin-carboxyl-carrier protein [c0],0.0
+498,rxn06864_c0,Biotinyl-5'-AMP:apo-[carboxylase] ligase (AMP-forming) [c0],Biotinyl-5-AMP [c0] + Apo-[carboxylase] [c0] <=> AMP [c0] + H+ [c0] + Holo-[carboxylase] [c0],0.0
+499,rxn06874_c0,reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing) [c0],16 H2O [c0] + 16 ATP [c0] + N2 [c0] + 8 FD (red) [c0] --> 16 ADP [c0] + 16 Phosphate [c0] + 2 NH3 [c0] + 6 H+ [c0] + 8 FD (ox) [c0] + H2 [c0],0.0
+500,rxn06979_c0,cobyrinate:L-glutamine amido-ligase (ADP-forming) [c0],2 H2O [c0] + 2 ATP [c0] + 2 L-Glutamine [c0] + Cobyrinate [c0] --> 2 ADP [c0] + 2 Phosphate [c0] + 2 L-Glutamate [c0] + 2 H+ [c0] + Cob(II)yrinate diamide [c0],0.0
+501,rxn07193_c0,"3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating) [c0]",CoA [c0] + Indolepyruvate [c0] + FD (ox) [c0] <=> CO2 [c0] + S-2-(Indol-3-yl)acetyl-CoA [c0] + FD (red) [c0],0.0
+502,rxn07438_c0,peptide-methionine:thioredoxin-disulfide S-oxidoreductase [c0],H2O [c0] + trdox [c0] + Peptide-L-methionine [c0] <=> trdrd [c0] + Peptide-L-methionine (R)-S-oxide [c0],0.0
+503,rxn07441_c0,"LL-2,6-diaminoheptanedioate:2-oxoglutarate aminotransferase [c0]","2-Oxoglutarate [c0] + LL-2,6-Diaminopimelate [c0] --> H2O [c0] + L-Glutamate [c0] + H+ [c0] + tetrahydrodipicolinate [c0]",0.0
+504,rxn07586_c0,cobalt-precorrin 5A acylhydrolase [c0],H2O [c0] + Cobalt-precorrin 5 [c0] <=> Acetaldehyde [c0] + Cobalt-precorrin 5B [c0],0.0
+505,rxn07588_c0,R07774 [c0],S-Adenosyl-L-methionine [c0] + Cobalt-precorrin 6B [c0] <=> S-Adenosyl-homocysteine [c0] + H+ [c0] + Cobalt-precorrin 7 [c0],0.0
+506,rxn07847_c0,R08058 [c0],"Formaldehyde [c0] + H4MPT [c0] <=> H2O [c0] + 5,10-Methylenetetrahydromethanopterin [c0]",0.0009389427076304988
+507,rxn07919_c0,"(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm) [c0]","(R)-1,2-Propanediol [c0] <=> (R)-1,2-Propanediol [e0]",0.0
+508,rxn08032_c0,acetaldehyde transport via diffusion (extracellular to periplasm) [c0],Acetaldehyde [c0] <=> Acetaldehyde [e0],0.0
+509,rxn08043_c0,pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating) [c0],Pyruvate [c0] + H+ [c0] + 2-Oxobutyrate [c0] --> CO2 [c0] + 2-Aceto-2-hydroxybutanoate [c0],0.0002689488310228703
+510,rxn08070_c0,Adenosylcobalamin transport via ABC system (periplasm) [c0],H2O [c0] + ATP [c0] + Calomide [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Calomide [c0],0.0
+511,rxn08098_c0,D-alanyl-D-alanine (DalaDala) transport via ABC system (periplasm) [c0],H2O [c0] + ATP [c0] + Ala-Ala [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Ala-Ala [c0],0.0
+512,rxn08122_c0,aldose reductase (acetol) [c0],"NADH [c0] + H+ [c0] + Acetol [c0] <=> NAD [c0] + (R)-1,2-Propanediol [c0]",0.0
+513,rxn08131_c0,4-amino-2-methyl-5-phosphomethylpyrimidine synthetase [c0],H2O [c0] + NAD [c0] + AIR [c0] <=> NADH [c0] + 2 Formate [c0] + 4 H+ [c0] + 4-Amino-5-phosphomethyl-2-methylpyrimidine [c0],0.0
+514,rxn08173_c0,ATPS [c0],ADP [c0] + Phosphate [c0] + 4 H+ [e0] <=> H2O [c0] + ATP [c0] + 3 H+ [c0],0.09028780579689331
+515,rxn08192_c0,ABC-5-RXN.cp [c0],H2O [c0] + ATP [c0] + Cbl [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Cbl [c0],0.0
+516,rxn08234_c0,chloride (Cl-1) transport via diffusion (extracellular to periplasm) [c0],Cl- [e0] <=> Cl- [c0],0.0
+517,rxn08350_c0,D-lactate transport via proton symport (periplasm) [c0],H+ [e0] + D-Lactate [e0] <=> H+ [c0] + D-Lactate [c0],0.0
+518,rxn08475_c0,iron (II) transport via diffusion (extracellular to periplasm) [c0],Fe2+ [c0] <=> Fe2+ [e0],0.0
+519,rxn08502_e0,enterobactin Fe(III) binding (spontaneous) [e0],Enterobactin [e0] + fe3 [e0] <=> Fe-enterochlin [e0],0.0
+520,rxn08527_c0,fumarate reductase [c0],Fumarate [c0] + Menaquinol 8 [c0] <=> Succinate [c0] + Menaquinone 8 [c0],0.0
+521,rxn08528_c0,fumarate reductase [c0],Fumarate [c0] + 2-Demethylmenaquinol 8 [c0] <=> Succinate [c0] + 2-Demethylmenaquinone 8 [c0],5.484225235078888e-06
+522,rxn08657_c0,Glycolate oxidase [c0],Glycolate [c0] + 2-Demethylmenaquinone 8 [c0] --> Glyoxalate [c0] + 2-Demethylmenaquinol 8 [c0],5.484225235078888e-06
+523,rxn08689_c0,h2s transport (periplasm) [c0],H2S [c0] <=> H2S [e0],-0.0002599755284686056
+524,rxn08691_c0,hydrogen transport via diffusion (extracellular to periplasm) [c0],H2 [c0] <=> H2 [e0],0.0
+525,rxn08715_c0,Mercury (Hg+2) ABC transporter (periplasm) [c0],H2O [c0] + ATP [c0] + Hg2+ [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Hg2+ [e0],0.0
+526,rxn09167_c0,pyruvic (cytochrome b1) dehydrogenase [c0],H2O [c0] + Pyruvate [c0] + Ubiquinone-8 [c0] --> CO2 [c0] + Acetate [c0] + Ubiquinol-8 [c0],0.0
+527,rxn09177_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase [c0],CTP [c0] + L-Cysteine [c0] + 4-phosphopantothenate [c0] --> PPi [c0] + CMP [c0] + 2 H+ [c0] + (R)-4'-Phosphopantothenoyl-L-cysteine [c0],0.0
+528,rxn09188_c0,Proline dehydrogenase [c0],FAD [c0] + L-Proline [c0] --> FADH2 [c0] + 1-Pyrroline-5-carboxylate [c0],0.0
+529,rxn09197_c0,Phosphatidylserine decarboxylase (n-C12:0) [c0],2 H+ [c0] + phosphatidylserine didodecanoyl [c0] --> CO2 [c0] + phosphatidylethanolamine didodecanoyl [c0],0.0
+530,rxn09198_c0,Phosphatidylserine decarboxylase (n-C14:0) [c0],2 H+ [c0] + phosphatidylserine ditetradecanoyl [c0] --> CO2 [c0] + phosphatidylethanolamine ditetradecanoyl [c0],0.0
+531,rxn09199_c0,Phosphatidylserine decarboxylase (n-C14:1) [c0],2 H+ [c0] + phosphatidylserine ditetradec-7-enoyl [c0] --> CO2 [c0] + phosphatidylethanolamine ditetradec-7-enoyl [c0],0.0
+532,rxn09200_c0,Phosphatidylserine decarboxylase (n-C16:0) [c0],2 H+ [c0] + phosphatidylserine dihexadecanoyl [c0] --> CO2 [c0] + phosphatidylethanolamine dihexadecanoyl [c0],0.0
+533,rxn09201_c0,Phosphatidylserine decarboxylase (n-C16:1) [c0],2 H+ [c0] + phosphatidylserine dihexadec-9-enoyl [c0] --> CO2 [c0] + phosphatidylethanolamine dihexadec-9enoyl [c0],0.0
+534,rxn09202_c0,Phosphatidylserine decarboxylase (n-C18:0) [c0],2 H+ [c0] + phosphatidylserine dioctadecanoyl [c0] --> CO2 [c0] + phosphatidylethanolamine dioctadecanoyl [c0],0.0
+535,rxn09203_c0,Phosphatidylserine decarboxylase (n-C18:1) [c0],2 H+ [c0] + phosphatidylserine dioctadec-11-enoyl [c0] --> CO2 [c0] + phosphatidylethanolamine dioctadec-11-enoyl [c0],0.0
+536,rxn09205_c0,Phosphatidylserine syntase (n-C12:0) [c0],"L-Serine [c0] + CDP-1,2-didodecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine didodecanoyl [c0]",0.0
+537,rxn09206_c0,Phosphatidylserine syntase (n-C14:0) [c0],"L-Serine [c0] + CDP-1,2-ditetradecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine ditetradecanoyl [c0]",0.0
+538,rxn09207_c0,Phosphatidylserine syntase (n-C14:1) [c0],"L-Serine [c0] + CDP-1,2-ditetradec-7-enoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine ditetradec-7-enoyl [c0]",0.0
+539,rxn09208_c0,Phosphatidylserine syntase (n-C16:0) [c0],"L-Serine [c0] + CDP-1,2-dihexadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine dihexadecanoyl [c0]",0.0
+540,rxn09209_c0,Phosphatidylserine syntase (n-C16:1) [c0],"L-Serine [c0] + CDP-1,2-dihexadec-9-enoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine dihexadec-9-enoyl [c0]",0.0
+541,rxn09210_c0,Phosphatidylserine syntase (n-C18:0) [c0],"L-Serine [c0] + CDP-1,2-dioctadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine dioctadecanoyl [c0]",0.0
+542,rxn09211_c0,Phosphatidylserine syntase (n-C18:1) [c0],"L-Serine [c0] + CDP-1,2-dioctadec-11-enoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + phosphatidylserine dioctadec-11-enoyl [c0]",0.0
+543,rxn09260_c0,sulfite transport via diffusion (extracellular to periplasm) [c0],Sulfite [c0] <=> Sulfite [e0],0.0
+544,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration) [c0]",Succinate [c0] + Ubiquinone-8 [c0] --> Fumarate [c0] + Ubiquinol-8 [c0],0.0
+545,rxn09296_c0,hydrogen peroxide reductase (thioredoxin) [c0],H2O2 [c0] + trdrd [c0] --> 2 H2O [c0] + trdox [c0],5.484225235078905e-06
+546,rxn09330_c0,thiosulfate transport via diffusion (extracellular to periplasm) [c0],H2S2O3 [c0] <=> H2S2O3 [e0],0.0
+547,rxn09333_c0,tungstate transport via ABC system (periplasm) [c0],H2O [c0] + ATP [c0] + tungstate [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + tungstate [c0],0.0
+548,rxn10052_c0,adenylate kinase (Inorganic triphosphate) [c0],AMP [c0] + Triphosphate [c0] <=> ADP [c0] + PPi [c0],5.484225235078905e-06
+549,rxn10060_c0,NAD kinase (dTTP) [c0],NAD [c0] + TTP [c0] --> NADP [c0] + H+ [c0] + dTDP [c0],0.0
+550,rxn10122_c0,NADH dehydrogenase (ubiquinone-8 & 3.5 protons) [c0],NADH [c0] + 4.5 H+ [c0] + Ubiquinone-8 [c0] --> NAD [c0] + 3.5 H+ [e0] + Ubiquinol-8 [c0],0.0
+551,rxn10126_c0,succinate dehyrdogenase [c0],FADH2 [c0] + Ubiquinone-8 [c0] --> FAD [c0] + H+ [c0] + Ubiquinol-8 [c0],0.0
+552,rxn10226_c0,isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-diisoheptadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Diisoheptadecanoylphosphatidylserine [c0]",0.0
+553,rxn10227_c0,anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-dianteisoheptadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Dianteisoheptadecanoylphosphatidylserine [c0]",0.0
+554,rxn10228_c0,isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-diisotetradecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Diisotetradecanoylphosphatidylserine [c0]",0.0
+555,rxn10229_c0,isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-diisopentadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Diisopentadecanoylphosphatidylserine [c0]",0.0
+556,rxn10230_c0,anteisopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-dianteisopentadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Dianteisopentadecanoylphosphatidylserine [c0]",0.0
+557,rxn10231_c0,isohexadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase [c0],"L-Serine [c0] + CDP-1,2-diisohexadecanoylglycerol [c0] --> CMP [c0] + 2 H+ [c0] + Diisohexadecanoylphosphatidylserine [c0]",0.0
+558,rxn10232_c0,isoheptadecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Diisoheptadecanoylphosphatidylserine [c0] --> CO2 [c0] + Diisoheptadecanoylphosphatidylethanolamine [c0],0.0
+559,rxn10233_c0,anteisoheptadecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Dianteisoheptadecanoylphosphatidylserine [c0] --> CO2 [c0] + Dianteisoheptadecanoylphosphatidylethanolamine [c0],0.0
+560,rxn10234_c0,isotetradecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Diisotetradecanoylphosphatidylserine [c0] --> CO2 [c0] + Diisotetradecanoylphosphatidylethanolamine [c0],0.0
+561,rxn10235_c0,isopentadecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Diisopentadecanoylphosphatidylserine [c0] --> CO2 [c0] + Diisopentadecanoylphosphatidylethanolamine [c0],0.0
+562,rxn10236_c0,anteisopentadecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Dianteisopentadecanoylphosphatidylserine [c0] --> CO2 [c0] + Dianteisopentadecanoylphosphatidylethanolamine [c0],0.0
+563,rxn10237_c0,isohexadecanoyl-phosphatidylserine decarboxylase [c0],2 H+ [c0] + Diisohexadecanoylphosphatidylserine [c0] --> CO2 [c0] + Diisohexadecanoylphosphatidylethanolamine [c0],0.0
+564,rxn10344_c0,Lead (Pb+2) ABC transporter [c0],H2O [c0] + ATP [c0] + Pb [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Pb [e0],0.0
+565,rxn10420_c0,2-phospho-L-lactate synthase [c0],GTP [c0] + L-Lactate [c0] --> GDP [c0] + H+ [c0] + 2-phospho-L-lactate [c0],5.484225235078905e-06
+566,rxn10424_c0,7-mercaptoheptanoate synthase [c0],NADH [c0] + H+ [c0] + L-Cysteine [c0] + 7-oxoheptanoic acid [c0] --> NAD [c0] + L-Serine [c0] + 7-mercaptoheptanoic acid [c0],5.484225235052875e-06
+567,rxn10425_c0,R08323 [c0],ATP [c0] + L-Threonine [c0] + 7-mercaptoheptanoic acid [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + 7-mercaptoheptanoylthreonine [c0],5.484225235052875e-06
+568,rxn10468_c0,R213-RXN.c [c0],H2O [c0] + cis-(homo)2aconitate [c0] <=> (-)threo-iso(homo)2citrate [c0],5.484225235052875e-06
+569,rxn10469_c0,R217-RXN.c [c0],H2O [c0] + cis-(homo)3aconitate [c0] --> (-)threo-iso(homo)3citrate [c0],5.484225235052875e-06
+570,rxn10471_c0,Methane Transport [c0],Methane [e0] <=> Methane [c0],1.0
+571,rxn10475_c0,R08217 [c0],ATP [c0] + 7-mercaptoheptanoylthreonine [c0] --> ADP [c0] + HTP [c0],5.484225235052875e-06
+572,rxn10479_c0,coenzyme M synthase [c0],H2O [c0] + sulfoethylcysteine [c0] --> NH3 [c0] + Pyruvate [c0] + CoM [c0],5.484225235052875e-06
+573,rxn10481_c0,Copper transport via ABC system [c0],H2O [c0] + ATP [c0] + Cu2+ [e0] --> ADP [c0] + Phosphate [c0] + Cu2+ [c0] + H+ [c0],0.0
+574,rxn10499_c0,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthetase [c0]","H2O [c0] + 2 NADP [c0] + p-hydroxyphenylpyruvate [c0] + 4--1-D-Ribitylamino-5-aminouracil [c0] --> 2 NADPH [c0] + NH3 [c0] + 2 H+ [c0] + Oxalate [c0] + 7,8-didemethyl-8-hydroxy-5-deazariboflavin [c0]",5.484225235078905e-06
+575,rxn10504_c0,"2,5-diamino-6-(5-phospho-D-ribitylamino)pyrimidin-4(3H)-one:NAD+ 1'-oxidoreductase [c0]","NADH [c0] + H+ [c0] + 2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone [c0] <=> NAD [c0] + 2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate [c0]",0.0
+576,rxn10567_c0,LPPG synthetase [c0],GTP [c0] + 2-phospho-L-lactate [c0] --> PPi [c0] + lactyl-(2)-diphospho-(5')-guanosine [c0],5.484225235078905e-06
+577,rxn10577_c0,"Nitrogen exchange, diffusion [c0]",N2 [e0] --> N2 [c0],0.0
+578,rxn10594_c0,"ribose 1,5-bisphosphate isomerase [c0]","Ribose 1,5-bisphosphate [c0] <=> 2 H+ [c0] + D-Ribulose 1,5-bisphosphate [c0]",0.0
+579,rxn10595_c0,R212-RXN.c [c0],(R)-(homo)2citrate [c0] <=> H2O [c0] + cis-(homo)2aconitate [c0],5.484225235052875e-06
+580,rxn10596_c0,R216-RXN.c [c0],(R)-(homo)3citrate [c0] <=> H2O [c0] + cis-(homo)3aconitate [c0],5.484225235052875e-06
+581,rxn10598_c0,sulfoethylcysteine synthase [c0],NADH [c0] + H+ [c0] + 2-(sulfomethyl)thiazolidine-4-carboxylic acid [c0] --> NAD [c0] + sulfoethylcysteine [c0],5.484225235052875e-06
+582,rxn10603_c0,R232-RXN.c [c0],L-Cysteine [c0] + Sulfoacetaldehyde [c0] --> H2O [c0] + 2-(sulfomethyl)thiazolidine-4-carboxylic acid [c0],5.484225235052875e-06
+583,rxn11268_c0,phosphate ABC transporter permease protein [c0],PPi [e0] + H+ [e0] <-- PPi [c0] + H+ [c0],-0.0027299031751071273
+584,rxn11855_c0,R08328 [c0],H+ [c0] + 2-Oxosuberate [c0] --> CO2 [c0] + 7-oxoheptanoic acid [c0],5.484225235052875e-06
+585,rxn11858_c0,R08331 [c0],H2O [c0] + Acetyl-CoA [c0] + 2-Oxoadipate [c0] --> CoA [c0] + H+ [c0] + (R)-(homo)2citrate [c0],5.484225235052875e-06
+586,rxn11859_c0,R08332 [c0],H2O [c0] + Acetyl-CoA [c0] + 2-Oxopimelate [c0] --> CoA [c0] + H+ [c0] + (R)-(homo)3citrate [c0],5.484225235052875e-06
+587,rxn11938_c0,Formylmethanofuran:(NAD) oxidoreductase [c0],H2O [c0] + NAD [c0] + Formylmethanofuran [c0] --> NADH [c0] + CO2 [c0] + Methanofuran [c0],0.010152580406714155
+588,rxn11944_c0,Methyltransferase [c0],S-Adenosyl-homocysteine [c0] + H+ [c0] + 5-Methyltetrahydropteroyltri-L-glutamate [c0] <-- S-Adenosyl-L-methionine [c0] + Tetrahydropteroyltri-L-glutamate [c0],0.0
+589,rxn12512_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase [c0],ATP [c0] + L-Cysteine [c0] + 4-phosphopantothenate [c0] --> PPi [c0] + AMP [c0] + 2 H+ [c0] + (R)-4'-Phosphopantothenoyl-L-cysteine [c0],2.1936900940315585e-05
+590,rxn12633_c0,RXN0-6975.c [c0],H2O [c0] + ala-L-asp-L [c0] <=> L-Alanine [c0] + L-Aspartate [c0],0.0
+591,rxn12634_c0,methionyl aminopeptidase [c0],H2O [c0] + gly-glu-L [c0] <=> L-Glutamate [c0] + Glycine [c0],0.0
+592,rxn12635_c0,RXN0-6974.c [c0],H2O [c0] + Gly-Met [c0] <=> Glycine [c0] + L-Methionine [c0],0.0
+593,rxn12636_c0,methionyl aminopeptidase [c0],H2O [c0] + H+ [c0] + met-L-ala-L [c0] <=> L-Alanine [c0] + L-Methionine [c0],0.0
+594,rxn12637_c0,RXN0-6987.c [c0],H2O [c0] + gly-asp-L [c0] <=> Glycine [c0] + L-Aspartate [c0],0.0
+595,rxn12638_c0,methionyl aminopeptidase [c0],H2O [c0] + gly-pro-L [c0] --> Glycine [c0] + L-Proline [c0],0.0
+596,rxn12639_c0,RXN0-6976.c [c0],H2O [c0] + Ala-Gln [c0] <=> L-Alanine [c0] + L-Glutamine [c0],0.0
+597,rxn12640_c0,methionyl aminopeptidase [c0],H2O [c0] + ala-L-glu-L [c0] <=> L-Glutamate [c0] + L-Alanine [c0],0.0
+598,rxn12641_c0,RXN0-6977.c [c0],H2O [c0] + L-alanylglycine [c0] <=> Glycine [c0] + L-Alanine [c0],0.0
+599,rxn12642_c0,RXN0-6978.c [c0],H2O [c0] + Ala-His [c0] <=> L-Alanine [c0] + L-Histidine [c0],0.0
+600,rxn12643_c0,RXN0-6979.c [c0],H2O [c0] + Ala-Leu [c0] --> L-Alanine [c0] + L-Leucine [c0],0.0
+601,rxn12644_c0,methionyl aminopeptidase [c0],H2O [c0] + ala-L-Thr-L [c0] <=> L-Alanine [c0] + L-Threonine [c0],0.0
+602,rxn12645_c0,methionyl aminopeptidase [c0],H2O [c0] + gly-asn-L [c0] <=> Glycine [c0] + L-Asparagine [c0],0.0
+603,rxn12646_c0,RXN0-6983.c [c0],H2O [c0] + Gly-Gln [c0] <=> Glycine [c0] + L-Glutamine [c0],0.0
+604,rxn12844_c0,Gly-Cys aminopeptidase [c0],H2O [c0] + Gly-Cys [c0] <=> Glycine [c0] + L-Cysteine [c0],0.0
+605,rxn12845_c0,Gly-Leu aminopeptidase [c0],H2O [c0] + Gly-Leu [c0] <=> Glycine [c0] + L-Leucine [c0],0.0
+606,rxn12846_c0,Gly-Phe aminopeptidase [c0],H2O [c0] + Gly-Phe [c0] <=> Glycine [c0] + L-Phenylalanine [c0],0.0
+607,rxn12847_c0,Gly-Try aminopeptidase [c0],H2O [c0] + Gly-Tyr [c0] <=> Glycine [c0] + L-Tyrosine [c0],0.0
+608,rxn12848_c0,Gly-Cys ABC transporters [c0],H2O [c0] + ATP [c0] + Gly-Cys [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Cys [c0],0.0
+609,rxn12849_c0,Gly-Leu ABC transporters [c0],H2O [c0] + ATP [c0] + Gly-Leu [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Leu [c0],0.0
+610,rxn12850_c0,Gly-Phe ABC transporters [c0],H2O [c0] + ATP [c0] + Gly-Phe [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Phe [c0],0.0
+611,rxn12851_c0,Gly-Try ABC transporters [c0],H2O [c0] + ATP [c0] + Gly-Tyr [e0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Gly-Tyr [c0],0.0
+612,rxn13957_c0,"ditrans,hexacis-nonaprenyl-diphosphate:isopentenyl-diphosphate nonaprenylcistransferase [c0]","Isopentenyldiphosphate [c0] + ditrans,hexacis-Nonaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + all trans Decaprenyl diphosphate [c0]",0.0
+613,rxn13974_c0,pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating) [c0],CO2 [c0] + Acetyl-CoA [c0] + H+ [c0] + 2 FD (red) [c0] <=> CoA [c0] + Pyruvate [c0] + 2 FD (ox) [c0],0.009631951330142175
+614,rxn14011_c0,"ditrans,pentacis-octaprenyl-diphosphate:isopentenyl-diphosphate octaprenylcistransferase [c0]","Isopentenyldiphosphate [c0] + ditrans,pentacis-Octaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + ditrans,hexacis-Nonaprenyl diphosphate [c0]",0.0
+615,rxn14039_c0,CTP:riboflavin 5'-phosphotransferase [c0],CTP [c0] + Riboflavin [c0] --> FMN [c0] + H+ [c0] + CDP [c0],0.0
+616,rxn14040_c0,"ditrans,tetracis-heptaprenyl-diphosphate:isopentenyl-diphosphate heptaprenylcistransferase [c0]","Isopentenyldiphosphate [c0] + ditrans,tetracis-Heptaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + ditrans,pentacis-Octaprenyl diphosphate [c0]",0.0
+617,rxn14048_c0,2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) [c0],CO2 [c0] + H+ [c0] + Succinyl-CoA [c0] + 2 FD (red) [c0] <-- CoA [c0] + 2-Oxoglutarate [c0] + 2 FD (ox) [c0],-1.6940658945086007e-20
+618,rxn14061_c0,"trans,trans,cis-geranylgeranyl-diphosphate:isopentenyl-diphosphate geranylgeranylcistransferase [c0]","Isopentenyldiphosphate [c0] + trans,trans,cis-Geranylgeranyl diphosphate [c0] --> PPi [c0] + H+ [c0] + ditrans,dicis-Pentaprenyl diphosphate [c0]",0.0
+619,rxn14178_c0,2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating) [c0],CoA [c0] + 2-Oxobutyrate [c0] + 2 FD (ox) [c0] --> CO2 [c0] + H+ [c0] + Propionyl-CoA [c0] + 2 FD (red) [c0],0.0
+620,rxn14270_c0,S-adenosyl-L-methionine:cobalt-factor-II C20-methyltransferase [c0],S-Adenosyl-L-methionine [c0] + Cobalt-precorrin 2 [c0] <=> S-Adenosyl-homocysteine [c0] + H+ [c0] + Cobalt-factor III [c0],0.0
+621,rxn14333_c0,"ditrans,dicis-pentaprenyl-diphosphate:isopentenyl-diphosphate pentaprenylcistransferase [c0]","Isopentenyldiphosphate [c0] + ditrans,dicis-Pentaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + ditrans,tricis-Hexaprenyl diphosphate [c0]",0.0
+622,rxn14334_c0,"ditrans,tricis-hexaprenyl-diphosphate:isopentenyl-diphosphate hexaprenylcistransferase [c0]","Isopentenyldiphosphate [c0] + ditrans,tricis-Hexaprenyl diphosphate [c0] --> PPi [c0] + H+ [c0] + ditrans,tetracis-Heptaprenyl diphosphate [c0]",0.0
+623,rxn14345_c0,"CTP:2,3-bis-O-(geranylgeranyl)-sn-glycerol-1-phosphate cytidylyltransferase [c0]","CTP [c0] + 2,3-Bis-O-(geranylgeranyl)glycerol 1-phosphate [c0] <=> PPi [c0] + CDP-2,3-bis-O-(geranylgeranyl)-sn-glycerol [c0]",2.121363016167166e-05
+624,rxn15021_c0,pyruvate:pyruvate acetaldehydetransferase (decarboxylating) [c0],CO2 [c0] + (S)-2-Acetolactate [c0] <-- 2 Pyruvate [c0] + H+ [c0],-0.0008308119889101793
+625,rxn15466_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing) [c0]","NADP [c0] + (R)-2,3-Dihydroxy-3-methylbutanoate [c0] <=> NADPH [c0] + H+ [c0] + (S)-2-Acetolactate [c0]",-0.0008308119889101793
+626,rxn15467_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase [c0]","(R)-2,3-Dihydroxy-3-methylbutanoate [c0] --> H2O [c0] + 3-Methyl-2-oxobutanoate [c0]",0.0008308119889101793
+627,rxn15546_c0,sn-Glycerol-1-phosphate:NADP 2-oxidoreductase [c0],NADP [c0] + DL-Glyceryl 1-phosphate [c0] <=> NADPH [c0] + H+ [c0] + Glycerone-phosphate [c0],-6.364089048501497e-05
+628,rxn15748_c0,R08568 [c0],"L-Aspartate4-semialdehyde [c0] + 6-deoxy-5-ketofructose 1-phosphate [c0] <=> Hydroxypyruvaldehyde phosphate [c0] + 2-Amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid [c0]",0.0
+629,rxn15749_c0,R08569 [c0],"H2O [c0] + NAD [c0] + 2-Amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid [c0] --> NADH [c0] + NH3 [c0] + H+ [c0] + 5-Dehydroquinate [c0]",0.0
+630,rxn15962_c0,CODH/ACS [c0],Acetyl-CoA [c0] + H+ [c0] + H4MPT [c0] <-- CoA [c0] + CO [c0] + 5-Methyl-H4MPT [c0],-0.013540454883382307
+631,rxn16217_c0,ATP:(R)-pantoate 4-phosphotransferase [c0],ATP [c0] + Pantoate [c0] <=> ADP [c0] + H+ [c0] + (R)-4-Phosphopantoate [c0],2.1936900940315585e-05
+632,rxn16218_c0,(R)-4-phosphopantoate:beta-alanine ligase (AMP-forming) [c0],ATP [c0] + beta-Alanine [c0] + (R)-4-Phosphopantoate [c0] --> PPi [c0] + AMP [c0] + 2 H+ [c0] + 4-phosphopantothenate [c0],2.1936900940315585e-05
+633,rxn16235_c0,"(2S)-lactyl-2-diphospho-5'-guanosine:7,8-didemethyl-8-hydroxy-5-deazariboflavin lactylphosphotransferase [c0]","7,8-didemethyl-8-hydroxy-5-deazariboflavin [c0] + lactyl-(2)-diphospho-(5')-guanosine [c0] --> H+ [c0] + GMP [c0] + Coenzyme F420-0 [c0]",5.484225235078905e-06
+634,rxn16236_c0,L-glutamate:coenzyme F420-0 ligase (GDP-forming) [c0],L-Glutamate [c0] + GTP [c0] + Coenzyme F420-0 [c0] --> Phosphate [c0] + GDP [c0] + H+ [c0] + Coenzyme F420-1 [c0],5.484225235078905e-06
+635,rxn16237_c0,L-glutamate:coenzyme F420-1 ligase (GDP-forming) [c0],L-Glutamate [c0] + GTP [c0] + Coenzyme F420-1 [c0] --> Phosphate [c0] + GDP [c0] + H+ [c0] + F420 [c0],5.484225235078905e-06
+636,rxn16238_c0,L-glutamate:coenzyme gamma-F420-2 (ADP-forming) [c0],ATP [c0] + L-Glutamate [c0] + F420 [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + Coenzyme F420-3 [c0],5.484225235078905e-06
+637,rxn16371_c0,"sulfite:O-phospho-L-serine sulfotransferase (phosphate-hydrolysing, L-cysteate-forming) [c0]",Sulfite [c0] + phosphoserine [c0] --> Phosphate [c0] + L-Cysteate [c0],5.484225235052875e-06
+638,rxn16503_c0,S-methyl-5'-thioadenosine amidohydrolase [c0],H2O [c0] + H+ [c0] + 5-Methylthioadenosine [c0] <=> NH3 [c0] + 5'-S-Methyl-5'-thioinosine [c0],0.0
+639,rxn16507_c0,alpha-D-glucosyl-3-phospho-D-glycerate phosphohydrolase [c0],H2O [c0] + 2-O-(alpha-D-Glucopyranosyl)-3-phospho-D-glycerate [c0] --> Phosphate [c0] + 2-O-(alpha-D-Glucopyranosyl)-D-glycerate [c0],0.0
+640,rxn16578_c0,geranylgeranyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 7 isopentenyl units) [c0],"7 Isopentenyldiphosphate [c0] + Geranylgeranyl diphosphate [c0] --> 7 PPi [c0] + 7 H+ [c0] + tritrans,heptacis-Undecaprenyl diphosphate [c0]",0.0
+641,rxn16583_c0,adenylyl-molybdopterin:molybdate molybdate transferase (AMP-forming) [c0],H+ [c0] + Molybdate [c0] + Adenylated molybdopterin [c0] --> H2O [c0] + AMP [c0] + Molybdoenzyme molybdenum cofactor [c0],0.0
+642,rxn16806_c0,"7,8-dihydroneopterin 3'-triphosphate acetaldehyde-lyase (6-carboxy-5,6,7,8-tetrahydropterin and triphosphate-forming) [c0]","H2O [c0] + 7,8-Dihydroneopterin 3'-triphosphate [c0] <=> H+ [c0] + Acetaldehyde [c0] + Triphosphate [c0] + 6-Carboxy-5,6,7,8-tetrahydropterin [c0]",0.0
+643,rxn17445_c0,formylmethanofuran-tetrahydromethanopterin formyltransferase [c0],H+ [c0] + H4MPT [c0] + Formyl-methanofurans [c0] <=> 5-Formyl-H4MPT [c0] + Methanofurans [c0],0.0
+644,rxn17641_c0,prenyltransferase [c0],Geranylgeranyl diphosphate [c0] + DL-Glyceryl 1-phosphate [c0] --> PPi [c0] + H+ [c0] + sn-3-O-(geranylgeranyl)glyceryl 1-phosphate [c0],6.364089048501497e-05
+645,rxn17642_c0,geranylgeranyloxyglycerol phosphate geranylgeranyltransferase [c0],"Geranylgeranyl diphosphate [c0] + sn-3-O-(geranylgeranyl)glyceryl 1-phosphate [c0] --> PPi [c0] + H+ [c0] + 2,3-Bis-O-(geranylgeranyl)glycerol 1-phosphate [c0]",6.364089048501497e-05
+646,rxn19033_c0,acetyl-CoA:corrinoid protein O-acetyltransferase [c0],Acetyl-CoA [c0] + Corrinoid-Fe-S-proteins [c0] <=> CoA [c0] + CO [c0] + Methylated-corrinoid-Fe-S-Proteins [c0],0.0
+647,rxn19735_c0,FTRMBARK-RXN.c [c0],5-formyl-H4SPT [c0] + Methanofurans [c0] --> H+ [c0] + tetrahydrosarcinapterin [c0] + Formyl-methanofurans [c0],0.0
+648,rxn20187_c0,MERMBARK-RXN.c [c0],"H+ [c0] + F420 [c0] + 5-Methyl-H4SPT [c0] <=> F420H2 [c0] + 5,10-Methylene-H4SPT [c0]",0.0
+649,rxn20214_c0,MTDMBARK-RXN.c [c0],"2 H+ [c0] + F420 [c0] + 5,10-Methylene-H4SPT [c0] <=> F420H2 [c0] + methenyl-tetrahydrosarcinapterin [c0]",0.0
+650,rxn20643_c0,thiC (gene name) [c0],S-Adenosyl-L-methionine [c0] + AIR [c0] --> Formate [c0] + L-Methionine [c0] + H+ [c0] + CO [c0] + 4-Amino-5-phosphomethyl-2-methylpyrimidine [c0] + 5'-Deoxyadenosine [c0],0.0
+651,rxn20834_c0,GTP cyclohydrolase IV [c0],"H2O [c0] + GTP [c0] --> PPi [c0] + Formate [c0] + 2 H+ [c0] + 7,8-dihydroneopterin 2',3'-cyclic phosphate [c0]",0.0
+652,rxn20839_c0,isopentenyl phosphate kinase [c0],ATP [c0] + H+ [c0] + Isopentenyl phosphate [c0] <=> ADP [c0] + Isopentenyldiphosphate [c0],0.0
+653,rxn21234_c0,archaetidylserine decarboxylase [c0],H+ [c0] + archaetidylserine [c0] --> CO2 [c0] + archaetidylethanolamine [c0],1.060681508083583e-05
+654,rxn21729_c0,adenylyltransferase and sulfurtransferase MOCS3 [c0],ATP [c0] + MPT-Synthases [c0] <-- PPi [c0] + Carboxyadenylated-MPT-synthases [c0],0.0
+655,rxn23239_c0,5-methyltetrahydrosarcinapterin:corrinoid/iron-sulfur protein Co-methyltransferase [c0],tetrahydrosarcinapterin [c0] + Methylated-corrinoid-Fe-S-Proteins [c0] <-- 5-Methyl-H4SPT [c0] + Corrinoid-Fe-S-proteins [c0],0.0
+656,rxn23589_c0,RXN-13329.c [c0],H2O [c0] + Iminoglycine [c0] <-- NH3 [c0] + Glyoxalate [c0],0.0
+657,rxn23850_c0,RXN-3443.c [c0],H2O [c0] + NAD [c0] + Glyceraldehyde3-phosphate [c0] --> NADH [c0] + 2 H+ [c0] + 3-Phosphoglycerate [c0],0.0
+658,rxn24594_c0,RXN-8075.c [c0],Glyceraldehyde3-phosphate [c0] --> Phosphate [c0] + enolaldehyde [c0],0.0
+659,rxn24614_c0,RXN-8106.c [c0],F420H2 [c0] + MP [c0] --> H+ [c0] + F420 [c0] + MPH2 [c0],0.0
+660,rxn24718_c0,RXN-8243.c [c0],H2O2 [c0] + 2-Oxo-6-aminocaproate [c0] --> H2O [c0] + CO2 [c0] + 5-Aminopentanoate [c0],0.0
+661,rxn24830_c0,thiocarboxylated molybdopterin synthase:cyclic pyranopterin monophosphate sulfurtransferase [c0],H2O [c0] + Precursor Z [c0] + 2 Thiocarboxylated-MPT-synthases [c0] <-- Molybdopterin [c0] + 2 MPT-Synthases [c0],0.0
+662,rxn25163_c0,RXN-8800.c [c0],"Phosphate [c0] + AMP [c0] <=> Adenine [c0] + Ribose 1,5-bisphosphate [c0]",0.0
+663,rxn25829_c0,RXN-9771.c [c0],H2O [c0] + Iminoaspartate [c0] --> NH3 [c0] + Oxaloacetate [c0],0.0
+664,rxn25971_c0,RXN-9996.c [c0],"L-Serine [c0] + CDP-2,3-bis-O-(geranylgeranyl)-sn-glycerol [c0] --> CMP [c0] + H+ [c0] + archaetidylserine [c0]",2.121363016167166e-05
+665,rxn26021_c0,MobA [c0],GTP [c0] + Molybdoenzyme molybdenum cofactor [c0] <=> PPi [c0] + MGD [c0],0.0
+666,rxn26457_c0,RXN0-6733.c [c0],H2O [c0] + RPnTP [c0] --> PPi [c0] + 2 H+ [c0] + PRPn [c0],0.0
+667,rxn27318_c0,NADPH-thioredoxin reductase [c0],NADP [c0] + Red-Thioredoxin [c0] <=> NADPH [c0] + H+ [c0] + Ox-Thioredoxin [c0],0.0
+668,rxn39451_c0,"2,3,4,5-tetrahydrodipicolinate:NAD+ 4-oxidoreductase [c0]","H2O [c0] + NAD [c0] + tetrahydrodipicolinate [c0] <=> NADH [c0] + H+ [c0] + (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate [c0]",-0.0003176789294068704
+669,rxn39452_c0,"2,3,4,5-tetrahydrodipicolinate:NADP+ 4-oxidoreductase [c0]","H2O [c0] + NADP [c0] + tetrahydrodipicolinate [c0] <=> NADPH [c0] + H+ [c0] + (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate [c0]",0.0
+670,rxn39886_c0,(-)-threo-iso(homo)2-citrate:NAD+ oxidoreductase (decarboxylating) [c0],NAD [c0] + (-)threo-iso(homo)2citrate [c0] --> NADH [c0] + CO2 [c0] + 2-Oxopimelate [c0],5.484225235052875e-06
+671,rxn39887_c0,(-)-threo-iso(homo)3-citrate:NAD+ oxidoreductase (decarboxylating) [c0],NAD [c0] + (-)threo-iso(homo)3citrate [c0] --> NADH [c0] + CO2 [c0] + 2-Oxosuberate [c0],5.484225235052875e-06
+672,rxn39964_c0,"6-carboxy-5,6,7,8-tetrahydropterin ammonia-lyase [c0]","H+ [c0] + 6-Carboxy-5,6,7,8-tetrahydropterin [c0] --> NH3 [c0] + 7-Carboxy-7-carbaguanine [c0]",0.0
+673,rxn40037_c0,"L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing; (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate-forming] [c0]","Pyruvate [c0] + L-Aspartate4-semialdehyde [c0] --> H2O [c0] + H+ [c0] + (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate [c0]",0.0003176789294068704
+674,rxn40157_c0,"2,3-bis-(O-phytany)l-sn-glycerol 1-phosphate:NAD+ oxidoreductase [c0]","8 NAD [c0] + 2,3-Bis-(O-phytanyl)-sn-glycerol 1-phosphate [c0] <-- 8 NADH [c0] + 8 H+ [c0] + 2,3-Bis-O-(geranylgeranyl)glycerol 1-phosphate [c0]",-4.242726032334332e-05
+675,rxn40158_c0,"2,3-bis-(O-phytany)l-sn-glycerol 1-phosphate:NADP+ oxidoreductase [c0]","8 NADP [c0] + 2,3-Bis-(O-phytanyl)-sn-glycerol 1-phosphate [c0] <-- 8 NADPH [c0] + 8 H+ [c0] + 2,3-Bis-O-(geranylgeranyl)glycerol 1-phosphate [c0]",0.0
+676,rxn40505_c0,cdh [c0],H2O [c0] + CO [c0] + 2 FD (ox) [c0] <=> CO2 [c0] + 3 H+ [c0] + 2 FD (red) [c0],-0.013540454883354869
+677,rxn40752_c0, [c0],"H4MPT [c0] + Acceptor [c0] <=> 7,8-Dihydromethanopterin [c0] + Donor-H2 [c0]",0.0
+678,rxn41413_c0, [c0],"L-Serine [c0] + CDP-2,3-bis-O-(phytanyl)-sn-glycerol [c0] --> CMP [c0] + H+ [c0] + 2,3-O-phytanyl-sn-glycero-1-phosphoserine [c0]",2.121363016167166e-05
+679,rxn41683_c0, [c0],H+ [c0] + Molybdopterin [c0] + Molybdoenzyme molybdenum cofactor [c0] <=> H2O [c0] + bis(molybdenum cofactor) [c0],0.0
+680,rxn41725_c0, [c0],gamma-glutamyltyramine [c0] + 5-(aminomethyl)-3-furanmethanol diphosphate [c0] --> PPi [c0] + H+ [c0] + 4-[N-gamma-L-glutamyl-)-p-(beta-aminoethyl)phenoxy-methyl]-2-(aminomethyl)furan [c0],5.484225235078905e-06
+681,rxn41896_c0, [c0],H2O [c0] + Precursor Z [c0] + 2 Thiocarboxylated-MPT-synthases [c0] <=> 4 H+ [c0] + Molybdopterin [c0] + 2 Thi-S [c0],0.0
+682,rxn42355_c0, [c0],"S-Adenosyl-L-methionine [c0] + L-Tyrosine [c0] + 4--1-D-Ribitylamino-5-aminouracil [c0] --> L-Methionine [c0] + H+ [c0] + 5'-Deoxyadenosine [c0] + Iminoglycine [c0] + 5-amino-5-(4-hydroxybenzyl)-6-(D-ribitylimino)-5,6-dihydrouracil [c0]",0.0
+683,rxn42669_c0, [c0],3 H2O [c0] + 3 H+ [c0] + H2S [c0] + 3 F420 [c0] <-- Sulfite [c0] + 3 F420H2 [c0],0.0
+684,rxn42902_c0, [c0],2 L-Glutamate [c0] + 4-[N-gamma-L-glutamyl-)-p-(beta-aminoethyl)phenoxy-methyl]-2-(aminomethyl)furan [c0] --> 2 H2O [c0] + methanofuran b [c0],5.484225235078905e-06
+685,rxn43076_c0,HdrA [c0],H+ [c0] + 2 F420 [c0] + CoM [c0] + HTP [c0] + 2 FD (red) [c0] --> 2 F420H2 [c0] + CoM-S-S-CoB [c0] + 2 FD (ox) [c0],1.3747047994016866
+686,rxn43368_c0, [c0],"S-Adenosyl-L-methionine [c0] + 5-amino-5-(4-hydroxybenzyl)-6-(D-ribitylimino)-5,6-dihydrouracil [c0] --> NH3 [c0] + L-Methionine [c0] + H+ [c0] + 5'-Deoxyadenosine [c0] + 7,8-didemethyl-8-hydroxy-5-deazariboflavin [c0]",0.0
+687,rxn43837_c0, [c0],2 FD (red) [c0] + C15812 [c0] + Adenylated-ThiS-Proteins [c0] --> AMP [c0] + 2 FD (ox) [c0] + Sulfur-Carrier-Proteins-ThiI [c0] + Thiocarboxyadenylated-ThiS-Proteins [c0],0.0
+688,rxn43971_c0, [c0],2 Glyceraldehyde3-phosphate [c0] --> 2 H2O [c0] + Phosphate [c0] + 2-furaldehyde phosphate [c0],5.484225235078905e-06
+689,rxn44084_c0, [c0],"CTP [c0] + 2,3-Bis-(O-phytanyl)-sn-glycerol 1-phosphate [c0] <=> PPi [c0] + CDP-2,3-bis-O-(phytanyl)-sn-glycerol [c0]",4.242726032334332e-05
+690,rxn44539_c0, [c0],2 GTP [c0] + bis(molybdenum cofactor) [c0] <=> 2 PPi [c0] + Mo(Dtpp-mGDP)2 [c0],0.0
+691,rxn44994_c0, [c0],"Inositol 3-phosphate [c0] + CDP-2,3-bis-O-(phytanyl)-sn-glycerol [c0] --> CMP [c0] + H+ [c0] + 1-saturated archaetidyl-1D-myo-inositol 3-phosphate [c0]",2.121363016167166e-05
+692,rxn45692_c0,cysteine:[ThiI sulfur-carrier protein]-L-cysteine sulfurtransferase desulfurase [c0],L-Cysteine [c0] + Sulfur-Carrier-Proteins-ThiI [c0] --> L-Alanine [c0] + C15812 [c0],0.0
+693,rxn45744_c0, [c0],"16 Oxidized-ferredoxins [c0] + 2,3-Bis-(O-phytanyl)-sn-glycerol 1-phosphate [c0] <-- 16 H+ [c0] + 2,3-Bis-O-(geranylgeranyl)glycerol 1-phosphate [c0] + 16 Reduced-ferredoxins [c0]",0.0
+694,rxn45996_c0, [c0],"H2O [c0] + (8S)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate [c0] <=> PPi [c0] + Precursor Z [c0]",0.0
+695,rxn45998_c0, [c0],"H+ [c0] + 2,3-O-phytanyl-sn-glycero-1-phosphoserine [c0] --> CO2 [c0] + 2,3-O-phytanyl-sn-glycero-1-phosphoethanolamine [c0]",1.060681508083583e-05
+696,rxn46184_c0,Fwd/Fmd [c0],H2O [c0] + Formylmethanofuran [c0] + 2 FD (ox) [c0] <=> CO2 [c0] + H+ [c0] + Methanofuran [c0] + 2 FD (red) [c0],0.977245907417534
+697,rxn46469_c0, [c0],4-(beta-D-ribofuranosyl)-N-succinylaminobenzene 5'-phosphate [c0] <=> Fumarate [c0] + 4-(beta-D-ribofuranosyl)aminobenzene-5'-phosphate [c0],0.0
+698,rxn46694_c0, [c0],"FMNH2 [c0] + DMAP [c0] <=> Phosphate [c0] + 3,3,4,5-tetramethyl-7-[(2S,3S,4R)-2,3,4-trihydroxy-5-(phosphonatooxy)pentyl]-2,3-dihydro-1H,7H-naphtho[1,8-fg]pteridine-9,11(8H,10H)-dione [c0]",0.0
+699,rxn47122_c0, [c0],L-Alanine [c0] + 2-furaldehyde phosphate [c0] --> Pyruvate [c0] + 2-methylamine-furan phosphate [c0],5.484225235078905e-06
+700,rxn47256_c0, [c0],"H2O [c0] + 1-saturated archaetidyl-1D-myo-inositol 3-phosphate [c0] --> Phosphate [c0] + 2,3-O-diphytanyl-sn-glycero-1-phospho-myo-inositol [c0]",1.060681508083583e-05
+701,rxn47516_c0, [c0],ATP [c0] + L-Glutamate [c0] + Tyramine [c0] --> ADP [c0] + Phosphate [c0] + H+ [c0] + gamma-glutamyltyramine [c0],5.484225235078905e-06
+702,rxn48557_c0, [c0],ATP [c0] + H+ [c0] + 2-methylamine-furan phosphate [c0] <=> ADP [c0] + 5-(aminomethyl)-3-furanmethanol diphosphate [c0],5.484225235078905e-06
+703,rxnAQDS_c0,AQDS [c0],MPH2 [c0] + AQDS [e0] --> MP [c0] + AQH2DS [e0],3.9279315341449754
+704,rxnMatMephen_c0,ANME Matrix [c0],MPH2 [c0] + 2 ETC matrix (uncharged) [e0] --> 2 H+ [e0] + MP [c0] + 2 ETC matrix (charged) [e0],0.0

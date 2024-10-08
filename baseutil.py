@@ -40,7 +40,6 @@ class BaseUtil(KBDevUtils):
         self.kbdevutil = self
         self.annoapi = self.anno_client(native_python_api=True)
         self.obs_ec = None
-        self.msseedrecon()
         #self.media={"auxo":self.msrecon.get_media("94026/Auxotrophy_media")}
         self.msrecon.util = self
 
